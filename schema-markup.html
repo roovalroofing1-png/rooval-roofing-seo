@@ -1,0 +1,257 @@
+<!--
+  ============================================================
+  ROOVAL ROOFING - Schema Markup (Structured Data)
+  ============================================================
+  HOW TO ADD THIS TO YOUR WORDPRESS SITE:
+
+  Step 1: Log into your WordPress dashboard
+  Step 2: Install the free plugin "Insert Headers and Footers"
+          (Plugins → Add New → Search "Insert Headers and Footers")
+  Step 3: Go to Settings → Insert Headers and Footers
+  Step 4: Paste the code below into the "Scripts in Footer" box
+  Step 5: Click Save
+
+  That's it! Google will now fully understand your business.
+  ============================================================
+-->
+
+<!-- SCHEMA 1: Local Business (RoofingContractor) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "@id": "https://rooval-roofing.com/#business",
+  "name": "Rooval Roofing",
+  "url": "https://rooval-roofing.com",
+  "logo": "https://rooval-roofing.com/wp-content/uploads/logo.png",
+  "image": "https://rooval-roofing.com/wp-content/uploads/logo.png",
+  "description": "Utah's trusted roofing company offering expert roof installation, repair, replacement, maintenance, inspections, gutter services, and metal roofing solutions.",
+  "telephone": "+18014714062",
+  "email": "info@rooval-roofing.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2526 N Elm Dr",
+    "addressLocality": "Lehi",
+    "addressRegion": "UT",
+    "postalCode": "84043",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "40.3916",
+    "longitude": "-111.8507"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Lehi",
+      "sameAs": "https://en.wikipedia.org/wiki/Lehi,_Utah"
+    },
+    {
+      "@type": "City",
+      "name": "Provo",
+      "sameAs": "https://en.wikipedia.org/wiki/Provo,_Utah"
+    },
+    {
+      "@type": "City",
+      "name": "Orem",
+      "sameAs": "https://en.wikipedia.org/wiki/Orem,_Utah"
+    },
+    {
+      "@type": "City",
+      "name": "Salt Lake City",
+      "sameAs": "https://en.wikipedia.org/wiki/Salt_Lake_City"
+    },
+    {
+      "@type": "City",
+      "name": "Sandy",
+      "sameAs": "https://en.wikipedia.org/wiki/Sandy,_Utah"
+    },
+    {
+      "@type": "City",
+      "name": "Murray",
+      "sameAs": "https://en.wikipedia.org/wiki/Murray,_Utah"
+    },
+    {
+      "@type": "City",
+      "name": "Draper",
+      "sameAs": "https://en.wikipedia.org/wiki/Draper,_Utah"
+    },
+    {
+      "@type": "City",
+      "name": "American Fork",
+      "sameAs": "https://en.wikipedia.org/wiki/American_Fork,_Utah"
+    },
+    {
+      "@type": "City",
+      "name": "Pleasant Grove",
+      "sameAs": "https://en.wikipedia.org/wiki/Pleasant_Grove,_Utah"
+    },
+    {
+      "@type": "City",
+      "name": "Springville",
+      "sameAs": "https://en.wikipedia.org/wiki/Springville,_Utah"
+    }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "16:00"
+    }
+  ],
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "17",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Roofing Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Roof Installation",
+          "description": "Professional new roof installation for residential and commercial properties in Utah."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Roof Repair",
+          "description": "Fast and reliable roof repair services for leaks, storm damage, and general wear in Utah."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Roof Replacement",
+          "description": "Full roof replacement services with quality materials and 15-year workmanship guarantee."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Roof Inspection",
+          "description": "Thorough roof inspections to identify damage, leaks, and maintenance needs."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Roof Maintenance",
+          "description": "Preventative roof maintenance to extend the life of your roof and prevent costly repairs."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gutter Services",
+          "description": "Gutter installation, repair, and cleaning services to protect your home from water damage."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Metal Roofing",
+          "description": "Durable metal roofing installation and repair for long-lasting protection."
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://www.google.com/maps?cid=YOUR_GOOGLE_MAPS_CID"
+  ]
+}
+</script>
+
+<!-- SCHEMA 2: FAQ Schema (helps appear in Google featured snippets) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a roof replacement cost in Utah?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of a roof replacement in Utah typically ranges from $8,000 to $25,000 depending on the size of your home, materials chosen, and complexity of the job. At Rooval Roofing, we offer free estimates so you know exactly what to expect. Call us at (801) 471-4062."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer free roof inspections?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Rooval Roofing offers free roof inspections and estimates throughout Utah. We'll assess your roof's condition, identify any damage, and provide a detailed quote at no charge. Contact us at (801) 471-4062 or visit rooval-roofing.com to schedule."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a roof replacement take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most residential roof replacements in Utah take 1-3 days to complete, depending on the size and complexity of the roof. Our team works efficiently to minimize disruption to your daily life."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you handle insurance claims for roof damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Rooval Roofing has experience working with insurance companies for storm damage and other covered roof repairs. We can help guide you through the claims process to make it as smooth as possible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranty do you offer on roofing work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rooval Roofing offers a 15-year workmanship guarantee on our roofing work, in addition to manufacturer warranties on materials. We stand behind every job we complete."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What areas in Utah do you serve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rooval Roofing serves the entire Utah County and Salt Lake County area including Lehi, Provo, Orem, American Fork, Pleasant Grove, Sandy, Draper, Murray, Salt Lake City, and surrounding communities."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- SCHEMA 3: Website Search Box (helps with Google site search) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://rooval-roofing.com/#website",
+  "url": "https://rooval-roofing.com",
+  "name": "Rooval Roofing",
+  "description": "Utah's trusted roofing company - expert roofing solutions for residential and commercial properties",
+  "publisher": {
+    "@id": "https://rooval-roofing.com/#business"
+  }
+}
+</script>
