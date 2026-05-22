@@ -56,5 +56,5 @@ Remote: https://github.com/roovalroofing1-png/rooval-roofing-seo
 
 - Google Search Console DNS verification: TXT record `google-site-verification=K5OcOIDQkM6KiDf0XVKt_vi-x6uCLwBBzX6mnBhEqsc` added to Hostinger DNS Zone Editor on May 22 2026 — pending propagation. Once live, click Verify in GSC.
 - Submit sitemap `https://rooval-roofing.com/sitemap_index.xml` to GSC after verification
-- Build remaining city service area pages: Provo, Orem, Salt Lake City, Sandy, Murray, Draper, Springville
-- Add service area pages to WordPress navigation menu
+- ~~Build remaining city service area pages~~ — all 11 live (see service-area-pages.md)
+- ~~Add service area pages to WordPress navigation menu~~ — done May 22 2026 (menu ID 6)

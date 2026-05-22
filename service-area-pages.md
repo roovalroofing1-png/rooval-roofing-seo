@@ -52,6 +52,26 @@ All pages created via WordPress REST API and published live.
 
 All titles verified live via curl. Focus keywords set to "roofing company [city] utah" for each.
 
+## WordPress Navigation Menu (Menu ID 6)
+
+Added May 22, 2026. Structure: "Service Areas" parent → 11 city children (dropdown).
+
+| Menu Item ID | City            | Links To                              |
+|--------------|-----------------|---------------------------------------|
+| 2336         | Service Areas   | (parent, href = Alpine as placeholder)|
+| 2337         | Alpine          | /roofing-alpine-utah/                 |
+| 2338         | Highland        | /roofing-highland-utah/               |
+| 2339         | Lindon          | /roofing-lindon-utah/                 |
+| 2340         | Pleasant Grove  | /roofing-pleasant-grove-utah/         |
+| 2341         | Springville     | /roofing-springville-utah/            |
+| 2342         | Salt Lake City  | /roofing-salt-lake-city-utah/         |
+| 2343         | Murray          | /roofing-murray-utah/                 |
+| 2344         | Sandy           | /roofing-sandy-utah/                  |
+| 2345         | Orem            | /roofing-orem-utah/                   |
+| 2346         | Draper          | /roofing-draper-utah/                 |
+| 2347         | Provo           | /roofing-provo-utah/                  |
+
+Note: Provo page had auto-slug `roofing-provo-utah-3` (WP dedup) — fixed to `roofing-provo-utah` via REST API on May 22, 2026.
+
 ## TODO
-- Add all 11 pages to the WordPress navigation menu
 - Build internal links between city pages
