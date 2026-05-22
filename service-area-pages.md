@@ -34,7 +34,24 @@ All pages created via WordPress REST API and published live.
 - H2: Serving [City] and Nearby Areas
 - H2: CTA with phone (801) 471-4062
 
+## Rank Math SEO Titles (set via Gutenberg editor saves — May 22, 2026)
+
+| ID   | City            | SEO Title (`rank_math_title`)                                    |
+|------|-----------------|------------------------------------------------------------------|
+| 2296 | Alpine          | Alpine, UT Roofing Company \| Free Estimates \| Rooval Roofing  |
+| 2298 | Highland        | Highland, UT Roofing Company \| Free Estimates \| Rooval Roofing |
+| 2299 | Lindon          | Lindon, UT Roofing Company \| Free Estimates \| Rooval Roofing  |
+| 2300 | Pleasant Grove  | Pleasant Grove UT Roofing \| Free Estimates \| Rooval Roofing   |
+| 2301 | Springville     | Springville UT Roofing \| Free Estimates \| Rooval Roofing      |
+| 2302 | Salt Lake City  | Salt Lake City UT Roofing \| Free Estimates \| Rooval Roofing   |
+| 2303 | Murray          | Murray, UT Roofing Company \| Free Estimates \| Rooval Roofing  |
+| 2304 | Sandy           | Sandy, UT Roofing Company \| Free Estimates \| Rooval Roofing   |
+| 2306 | Orem            | Orem, UT Roofing Company \| Free Estimates \| Rooval Roofing    |
+| 2308 | Draper          | Draper, UT Roofing Company \| Free Estimates \| Rooval Roofing  |
+| 2310 | Provo           | Provo, UT Roofing Company \| Free Estimates \| Rooval Roofing   |
+
+All titles verified live via curl. Focus keywords set to "roofing company [city] utah" for each.
+
 ## TODO
 - Add all 11 pages to the WordPress navigation menu
-- Add Rank Math SEO titles/meta descriptions to each page
 - Build internal links between city pages
