@@ -29,7 +29,7 @@ Changes go live through one of two paths:
 
 - **URL**: https://rooval-roofing.com
 - **Plugins in use**: WPCode (code injection), Rank Math SEO (meta/sitemap), LiteSpeed Cache
-- **Domain registrar**: Squarespace Domains LLC (formerly Google Domains) — DNS is managed at account.squarespace.com, NOT in Hostinger
+- **Domain registrar**: Squarespace Domains LLC (formerly Google Domains) — domain is registered there but **DNS is managed in Hostinger hPanel**, NOT Squarespace. The domain NS records point to `ns1.dns-parking.com` / `ns2.dns-parking.com` (Hostinger's nameservers). DNS Zone Editor: https://hpanel.hostinger.com/external-domain/rooval-roofing.com/dns
 - **Hosting**: Hostinger (LiteSpeed server)
 
 ## Business Details (used in copy and schema)
@@ -54,7 +54,7 @@ Remote: https://github.com/roovalroofing1-png/rooval-roofing-seo
 
 ## Pending Work
 
-- Google Search Console DNS verification: add TXT record `google-site-verification=K5OcOIDQkM6KiDf0XVKt_vi-x6uCLwBBzX6mn...` (get full value from GSC DNS dialog) at Squarespace Domains
+- Google Search Console DNS verification: TXT record `google-site-verification=K5OcOIDQkM6KiDf0XVKt_vi-x6uCLwBBzX6mnBhEqsc` added to Hostinger DNS Zone Editor on May 22 2026 — pending propagation. Once live, click Verify in GSC.
 - Submit sitemap `https://rooval-roofing.com/sitemap_index.xml` to GSC after verification
 - Build remaining city service area pages: Provo, Orem, Salt Lake City, Sandy, Murray, Draper, Springville
 - Add service area pages to WordPress navigation menu
