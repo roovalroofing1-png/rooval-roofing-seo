@@ -1,0 +1,26 @@
+{
+  "applied": "2026-05-29",
+  "note": "Set via WordPress REST API (wp/v2/media POST with alt_text field). All 20 images updated.",
+  "images": [
+    { "post_id": 2279, "file": "quote.svg", "alt_text": "Request a free roofing quote — Rooval Roofing Utah" },
+    { "post_id": 2205, "file": "gutter.webp", "alt_text": "Professional gutter installation and repair in Utah — Rooval Roofing" },
+    { "post_id": 2201, "file": "roof-ser.webp", "alt_text": "Roofing services including repair and replacement — Rooval Roofing Utah" },
+    { "post_id": 2136, "file": "refer.svg", "alt_text": "Rooval Roofing referral program icon" },
+    { "post_id": 2132, "file": "referral-svgrepo-com.svg", "alt_text": "Refer a friend to Rooval Roofing Utah" },
+    { "post_id": 2104, "file": "roof-about.webp", "alt_text": "Rooval Roofing team working on a Utah home roof" },
+    { "post_id": 2097, "file": "ab.webp", "alt_text": "About Rooval Roofing — licensed Utah roofing contractor" },
+    { "post_id": 2027, "file": "footer-scaled.webp", "alt_text": "Rooval Roofing completed roof replacement in Utah" },
+    { "post_id": 1989, "file": "handshake.svg", "alt_text": "Rooval Roofing customer satisfaction guarantee" },
+    { "post_id": 1988, "file": "housekeeping.svg", "alt_text": "Professional roofing crew — Rooval Roofing Utah" },
+    { "post_id": 1987, "file": "Installation.svg", "alt_text": "Roof installation service — Rooval Roofing Utah" },
+    { "post_id": 1986, "file": "Inspection.svg", "alt_text": "Free roof inspection — Rooval Roofing Utah" },
+    { "post_id": 1985, "file": "headset-help.svg", "alt_text": "Rooval Roofing customer support and free estimates" },
+    { "post_id": 1961, "file": "Metal-Roof.webp", "alt_text": "Metal roof installation in Utah — Rooval Roofing" },
+    { "post_id": 1960, "file": "Gutter-Services.webp", "alt_text": "Gutter services and gutter guard installation in Utah — Rooval Roofing" },
+    { "post_id": 1959, "file": "Roofing-Services.webp", "alt_text": "Roofing services — repair, replacement, and installation in Utah" },
+    { "post_id": 1922, "file": "roofing-hero.webp", "alt_text": "Utah roofing contractor installing shingles — Rooval Roofing" },
+    { "post_id": 1918, "file": "rooval-roofing-main.webp", "alt_text": "Rooval Roofing main — licensed and insured Utah roofing contractor" },
+    { "post_id": 1896, "file": "rooval-roofing-thumnail.webp", "alt_text": "Rooval Roofing — trusted Utah roofing company" },
+    { "post_id": 1773, "file": "roofing-quote.webp", "alt_text": "Get a free roofing quote in Utah — Rooval Roofing" }
+  ]
+}
