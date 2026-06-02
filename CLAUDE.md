@@ -74,7 +74,7 @@ Remote: https://github.com/roovalroofing1-png/rooval-roofing-seo
 ### 2026-06-01
 - **Phone changed site-wide** to (385) 424-8810 (was 801-471-4062) for NAP consistency with the Google Business Profile — header, footer, page content, `tel:` links, WhatsApp/Chaty, and schema updated on the live site.
 - **Dropped all "15-year" warranty claims** in favor of "workmanship warranty."
-- **Rebuilding all 12 city pages** with a professional, conversion-focused flow (intro → local expertise → services → trust → CTA), unique local content per city, and 2 small photos each (Pexels → Media Library). Provo, Orem, Salt Lake City, and Lehi done; remaining cities in progress.
+- **Rebuilt all 12 city pages** (Provo, Orem, Salt Lake City, Lehi, Alpine, Highland, Lindon, Pleasant Grove, Springville, Murray, Sandy, Draper) with a professional, conversion-focused flow (intro → local-expertise H3 → services list → "Why … Choose" trust list → CTA), unique local content per city (neighborhoods + local roof challenges), and 2 small unique photos each (Pexels → Media Library, max-width 300px). All live and verified; "workmanship warranty," no "15-year."
 - **Homepage SEO title** set to "Lehi & Utah County Roofing Contractor | Rooval Roofing."
 - **Crawlable-links fix:** footer Facebook icon linked to the FB page; removed dead Twitter/YouTube icons.
 - **Performance:** installed/configured Autoptimize and Flying Scripts (delay FB Pixel / GTM / Google Maps).
