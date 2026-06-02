@@ -4,7 +4,7 @@
 **Status:** Published  
 **Post ID:** 2358  
 **URL:** https://rooval-roofing.com/signs-roof-needs-replacing-utah/  
-**Meta Description:** 6 warning signs your Utah roof needs replacing — from curling shingles to hail damage. Rooval Roofing offers free inspections across Utah County. Call (801) 471-4062.
+**Meta Description:** 6 warning signs your Utah roof needs replacing — from curling shingles to hail damage. Rooval Roofing offers free inspections across Utah County. Call (385) 424-8810.
 
 ---
 
@@ -40,4 +40,4 @@ Utah gets hit with hailstorms regularly, especially along the Wasatch Front. Hai
 
 If you recognize any of these signs, don't wait. Rooval Roofing offers free, no-obligation roof inspections throughout Utah County and Salt Lake County. Our team will give you an honest assessment — no pressure, no upselling.
 
-[Call us at (801) 471-4062 or request your free inspection online.](https://rooval-roofing.com/contact-us/)
+[Call us at (385) 424-8810 or request your free inspection online.](https://rooval-roofing.com/contact-us/)

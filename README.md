@@ -1,7 +1,7 @@
 # Rooval Roofing — SEO Project
 
 WordPress site: https://rooval-roofing.com  
-Business: Rooval Roofing | 2526 N Elm Dr, Lehi, UT 84043 | (801) 471-4062
+Business: Rooval Roofing | 2526 N Elm Dr, Lehi, UT 84043 | (385) 424-8810
 
 ## Project Structure
 

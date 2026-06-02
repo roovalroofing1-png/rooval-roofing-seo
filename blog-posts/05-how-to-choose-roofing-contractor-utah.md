@@ -32,7 +32,7 @@ Google, Yelp, and the Better Business Bureau are your friends. Look for contract
 
 ## 6. Understand the Warranty
 
-There are two types: manufacturer warranties (on the shingles) and workmanship warranties (on the installation). Rooval Roofing backs every job with a 15-year workmanship guarantee.
+There are two types: manufacturer warranties (on the shingles) and workmanship warranties (on the installation). Rooval Roofing backs every job with a workmanship warranty.
 
 ## 7. Don't Just Pick the Lowest Bid
 

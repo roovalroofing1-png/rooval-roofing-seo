@@ -9,7 +9,7 @@
  */
 
 $blog_descriptions = [
-  2358 => "6 warning signs your Utah roof needs replacing — from curling shingles to hail damage. Rooval Roofing offers free inspections across Utah County. Call (801) 471-4062.",
+  2358 => "6 warning signs your Utah roof needs replacing — from curling shingles to hail damage. Rooval Roofing offers free inspections across Utah County. Call (385) 424-8810.",
   2359 => "Learn how to file a hail damage roof insurance claim in Utah. Rooval Roofing assists homeowners through the full process. Free storm damage inspection available.",
   2360 => "Is metal roofing worth the cost in Utah? We break down lifespan, energy savings, and cost vs. asphalt. Get a free estimate from Rooval Roofing today.",
   2361 => "5 reasons Utah homeowners should clean and inspect gutters before winter. Rooval Roofing offers gutter cleaning, repair, and gutter guard installation.",

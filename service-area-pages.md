@@ -32,7 +32,7 @@ All pages created via WordPress REST API and published live.
 - H2: Services list (7 services)
 - H2: Why Choose Rooval Roofing (5 trust bullets)
 - H2: Serving [City] and Nearby Areas
-- H2: CTA with phone (801) 471-4062
+- H2: CTA with phone (385) 424-8810
 
 ## Rank Math SEO Titles (set via Gutenberg editor saves — May 22, 2026)
 
