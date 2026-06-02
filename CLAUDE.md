@@ -63,8 +63,9 @@ Remote: https://github.com/roovalroofing1-png/rooval-roofing-seo
 
 ## Pending Work
 
-- Google Search Console DNS verification: TXT record `google-site-verification=K5OcOIDQkM6KiDf0XVKt_vi-x6uCLwBBzX6mnBhEqsc` added to Hostinger DNS Zone Editor on May 22 2026 — pending propagation. Once live, click Verify in GSC.
-- Submit sitemap `https://rooval-roofing.com/sitemap_index.xml` to GSC after verification
+- ~~Google Search Console DNS verification~~ — DONE (verified, collecting data; URL-prefix property https://rooval-roofing.com/).
+- ~~Submit sitemap `sitemap_index.xml`~~ — DONE (re-submitted 2026-06-02 so Google re-reads after the June-1 city-page rebuild; 16 pages discovered, only 6 indexed as of 06-02).
+- **Indexing (2026-06-02):** the 12 city pages were "unknown to Google" (new/never crawled). Requested **priority indexing** for the top 4 (Lehi, Provo, Orem, Salt Lake City) via URL Inspection. Remaining 8 cities will be crawled via the sitemap (GSC rate-limits manual requests ~10/day). Watch GSC → Pages; indexed count should climb 6 → 16+ over ~2 weeks.
 - ~~Build remaining city service area pages~~ — all live; **Lehi page added 2026-06-01** (now 12; see service-area-pages.md)
 - ~~Add service area pages to WordPress navigation menu~~ — done May 22 2026 (menu ID 6)
 - **Repo sync TODO (2026-06-01):** the `schema/` and `meta/` files still contain the OLD phone (801) 471-4062 and "15-year" wording. Update them to (385) 424-8810 / "workmanship warranty" so this canonical source matches the live site.
