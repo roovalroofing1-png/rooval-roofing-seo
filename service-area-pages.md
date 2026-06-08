@@ -23,7 +23,12 @@ All pages created via WordPress REST API and published live.
 | 2308 | Draper, UT      | /roofing-draper-utah/                        |
 | 2301 | Springville, UT | /roofing-springville-utah/                   |
 
-## Total: 11 service area pages live
+### Added later (2026-06-01)
+| ID   | City            | URL                                          |
+|------|-----------------|----------------------------------------------|
+| 2391 | Lehi, UT        | /roofing-lehi-utah/                          |
+
+## Total: 12 service area pages live
 
 ## Page Structure (used on all pages)
 - H1: "Roofing Services in [City], UT – Rooval Roofing"
@@ -74,4 +79,8 @@ Added May 22, 2026. Structure: "Service Areas" parent → 11 city children (drop
 Note: Provo page had auto-slug `roofing-provo-utah-3` (WP dedup) — fixed to `roofing-provo-utah` via REST API on May 22, 2026.
 
 ## TODO
-- Build internal links between city pages
+- Build internal links between city pages — geo-clustered "Nearby Cities We Serve" block; map in `seo-upgrade-plan.md`.
+- Build central Service Areas hub page (`/service-areas/`) — content drafted in `service-areas-hub-page.md`; repoint nav item 2336 to it.
+- Add FAQ + FAQPage schema to each city page (see `seo-upgrade-plan.md` P2).
+
+See **`seo-upgrade-plan.md`** for the full AYS-teardown → Utah upgrade roadmap.
