@@ -78,9 +78,13 @@ Added May 22, 2026. Structure: "Service Areas" parent → 11 city children (drop
 
 Note: Provo page had auto-slug `roofing-provo-utah-3` (WP dedup) — fixed to `roofing-provo-utah` via REST API on May 22, 2026.
 
+## DONE (2026-06-08)
+- ✅ Internal links between city pages — geo-clustered "Nearby Cities We Serve" block live on all 12 pages (map in `seo-upgrade-plan.md`).
+- ✅ Central Service Areas hub page **live at `/service-areas/` (page id 2534)**; nav item 2336 repointed from Alpine placeholder → `/service-areas/`.
+- ✅ Standardized CTA band live on all 12 city pages (→ `/contact-us/` + tel:(385) 424-8810).
+
 ## TODO
-- Build internal links between city pages — geo-clustered "Nearby Cities We Serve" block; map in `seo-upgrade-plan.md`.
-- Build central Service Areas hub page (`/service-areas/`) — content drafted in `service-areas-hub-page.md`; repoint nav item 2336 to it.
-- Add FAQ + FAQPage schema to each city page (see `seo-upgrade-plan.md` P2).
+- Add FAQPage JSON-LD to each city page + the hub (content/FAQ copy ready in `seo-upgrade-plan.md` / `service-areas-hub-page.md` P2).
+- Instant-quote lead tool using the `rooval-roof-tool` repo (Roofle-style address → price; P3).
 
 See **`seo-upgrade-plan.md`** for the full AYS-teardown → Utah upgrade roadmap.
