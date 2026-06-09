@@ -24,6 +24,20 @@ Changes go live through one of two paths:
 ## Repository Structure
 
 - `schema-markup.html` — canonical reference for all JSON-LD structured data deployed to the site footer via WPCode. Contains three schema blocks: `RoofingContractor`, `FAQPage`, and `WebSite`.
+- `snippets/` — verbatim copies of the WPCode snippets running on the live site (one file per snippet, named `<slug>-<id>.php|html`). These are **restore references**: paste back into WordPress → Code Snippets to recover a snippet. Keep byte-faithful to live (verify with a length/charSum/rollHash fingerprint when in doubt).
+- `config/` — exported structure of DB-only objects kept as a rebuild reference (e.g. `nav-menu-header-6.json` = the Header menu). Reference copies, **not** auto-restores.
+- `meta/`, `schema/` — Rank Math meta + JSON-LD reference text.
+- `blog-posts/`, `*.md` — content drafts and human-readable change/plan logs (`service-area-pages.md`, `service-areas-hub-page.md`, `city-page-cta-and-links.md`, `seo-upgrade-plan.md`).
+- **`RESTORE.md`** — the recovery runbook: how to undo each kind of change and each disaster class. **Read it before any risky edit or restore.**
+
+## Version control model (two tracks — IMPORTANT)
+
+The live site is **split-brain**: code-like artifacts vs. database content. Use the right track for each, and never let Git give false confidence.
+
+- **Track 1 — Git (this repo):** a readable history of the *diffable, code-like* pieces — WPCode snippet code, schema/meta text, menu structure, content drafts. Restoring from Git means a human/AI **pastes the saved text back into WordPress**. It is NOT a `git revert` of the running site.
+- **Track 2 — Backups (the real revert net for the live DB):** Hostinger native backups + UpdraftPlus off-site + built-in WordPress/Elementor **revisions**. These are the only things that restore page layouts, menus, plugin settings, and content. See `RESTORE.md` for setup status and the per-disaster playbook.
+- **Git captures NONE of the owner's day-to-day edits automatically** (editing a page, reordering the menu, changing a plugin setting are all DB writes with zero Git diff). The repo only reflects reality when an AI **deliberately re-snapshots after a change** — which is why the per-change routine below is mandatory.
+- **Full Elementor `_elementor_data` blobs are intentionally NOT committed** (1–2 MB each, poor diffs, lossy on re-import). Backups own full structural restore; the repo holds the human-readable content + the small code artifacts.
 
 ## WordPress Site Details
 
@@ -52,14 +66,24 @@ work and can always revert.
 - Write clean, descriptive messages stating what changed and why
   (e.g. `Rewrite Provo city page with unique local content + photos`).
 - Push to GitHub immediately after committing.
-- Never commit secrets (API keys, tokens, passwords).
+- Never commit secrets (API keys, tokens, passwords). Note: when pulling page data via `context=edit`/authenticated REST, scrub any embedded API keys, nonces, or draft/PII before committing.
 
 ```bash
 git add <file>
 git commit -m "descriptive message"
 git push
 ```
-Remote: https://github.com/roovalroofing1-png/rooval-roofing-seo
+Remote: https://github.com/roovalroofing1-png/rooval-roofing-seo (push over SSH — no `gh` CLI/token on this machine)
+
+### Per-change routine (run this on EVERY site change)
+
+1. **Classify:** is it CODE-like (a WPCode snippet, schema/meta, an Elementor *structural* rebuild) or pure CONTENT (text tweak, image swap, menu reorder, plugin setting)?
+2. **Pre-change backup for anything risky** (plugin/theme/core update, bulk edit, editing the PHP FAQ snippet, structural rebuild): hPanel → Files → Backups → Generate new backup, and WAIT for it. *Only one manual backup per 24 h — take it before a batch, not after each edit.*
+3. **Make the change** via the established path (REST for page content; admin-ajax `elementor_ajax` `save_builder` to force Elementor re-render; WPCode editor for snippets).
+4. **Elementor structural change?** finish with the `save_builder` call (re-renders) or Elementor → Tools → Regenerate CSS — writing `_elementor_data` alone leaves a STALE render.
+5. **Snapshot to Git:** if a snippet changed, overwrite its `snippets/*` file with the exact new code (verify byte-fidelity — length/charSum/rollHash — since WPCode/REST won't return code through some tool filters; reconstruct from the authored source and confirm the fingerprint matches live). If the menu changed, refresh `config/nav-menu-header-6.json`. Update the relevant `*.md` if content changed.
+6. **Commit with a descriptive message** (what + why), then **push immediately**.
+7. **Never commit secrets**; live DB, media, and `wp-config` stay OUT of Git (that's the backup layer's job).
 
 ## Pending Work
 
@@ -100,3 +124,14 @@ Remote: https://github.com/roovalroofing1-png/rooval-roofing-seo
 - **⚙️ REUSABLE DEPLOY TECHNIQUE for Elementor city pages:** content lives in ONE `text-editor` widget inside `_elementor_data`. Writing `_elementor_data` via REST **persists but Elementor serves a STALE cached render**. To regenerate render+CSS without opening the editor UI: `POST /wp-admin/admin-ajax.php` with `action=elementor_ajax`, `_nonce=elementorCommonConfig.ajax.nonce`, `editor_post_id=<id>`, `actions={"save_builder":{"action":"save_builder","data":{"status":"publish","elements":<full _elementor_data array>}}}`. Goes through Elementor's official save pipeline. (No Cloudflare/LiteSpeed page cache in front currently.)
 - New repo files: `seo-upgrade-plan.md`, `service-areas-hub-page.md`, `city-page-cta-and-links.md`.
 - **Not yet done:** FAQPage JSON-LD on city pages; instant-quote lead tool — will use the owner's **`rooval-roof-tool`** repo (github.com/roovalroofing1-png/rooval-roof-tool) as the measurement engine for a Roofle-style address→price lead magnet.
+
+### 2026-06-09 — Conversion features + version-control hardening
+- **Roof tool deployed live** at `/roof-quote/` (the `rooval-roof-tool` static app, base64-inlined single file) and wired into the site. Added a **"Free Quote"** nav item (menu id 6, item 2610 → `/roof-quote/`), repointed the homepage hero + all 12 city CTA bands to `/roof-quote/`, and added a site-wide sticky **"Free Roof Quote"** side tab.
+- **3 new WPCode snippets created (now mirrored in `snippets/`):**
+  - `sticky-free-roof-quote-tab-2611.html` (id 2611) — fixed right-edge quote tab, every page.
+  - `footer-legal-bar-2618.html` (id 2618) — site-wide Privacy | Sitemap | Terms bar (red `#cc0000`, white text).
+  - `city-pages-faq-faqpage-schema-2621.php` (id 2621) — **FAQPage JSON-LD + visible accordion FAQ on all 12 city pages** (closes the long-standing FAQPage TODO). Per-city Q1 (local cost range) + Q6 (local geography) + 4 shared Qs; CTA → `/roof-quote/`. *(This is the only PHP snippet that can white-screen the site if broken — pre-backup before editing it.)*
+- **Legal pages created:** Privacy Policy (2614), Terms & Conditions (2615), Sitemap (2616) — original Rooval wording, Utah/Lehi based.
+- **Footer fixes (Elementor template 2026):** shrank the giant "ROOVAL-ROOFING" heading (widget 29eb115) from `typography_font_size` 200px → 60px/48px/36px (the earlier 200px lived in `typography_font_size`, not `title_font_size`); legal bar restyled red for visibility.
+- **In progress (not yet saved live):** removing the stock-video section from the homepage (1723) + simplifying the mobile layout; building a **Free Roof Tune-Up** page (AYS-style multi-step form) so the site serves tune-up/repair leads, not only full replacements.
+- **Version control hardened (this is the "use Git for the project" directive, done right):** confirmed the canonical site repo is THIS repo (not a new one — avoids sprawl). Brought it current with the 3 new snippets (verified **byte-faithful** to live via length/charSum/rollHash fingerprints) + `config/nav-menu-header-6.json`. Added **`RESTORE.md`** (two-track recovery runbook) and the **per-change routine** + **version-control model** sections above. Backups (Hostinger native + UpdraftPlus off-site) are the live-DB revert net and need owner action — tracked as a checklist in RESTORE.md.
