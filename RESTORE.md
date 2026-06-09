@@ -63,14 +63,16 @@ Use **built-in revisions first** — granular, instant, touches nothing else.
 
 ---
 
-## Setup status of the backup layers (keep this current)
+## Setup status of the backup layers (verified 2026-06-09)
 
-- [ ] **Hostinger native backups** — confirm plan tier & frequency (Premium/Single = weekly; Business/Cloud = daily). hPanel → Files → Backups. *Needs owner: verify/enable.*
-- [ ] **One baseline manual backup taken** (hPanel → Files → Backups → Generate new backup). *Limit: one manual backup per 24 h.*
-- [ ] **UpdraftPlus Free installed** + scheduled (daily DB, weekly files) to the owner's Google Drive. *Needs owner: install + Google Drive auth (OAuth).*
-- [ ] **Restore test done once** (confirm a backup actually restores, ideally to a staging copy) — "a backup never test-restored is not a backup."
-- [x] **Built-in revisions** — on by default in WordPress + Elementor (free, already working).
+- [x] **Hostinger native backups — WEEKLY** (automated). Latest: **2026-06-05**, next: **2026-06-12**. Restore via hPanel → Files → Backups → Restore and download.
+- [ ] **Manual / on-demand backups — 🔒 LOCKED on the current plan.** You CANNOT force a backup before a risky change without upgrading (≈$2.09/mo adds **daily** + manual backups). Until then, the weekly auto-backup can be up to ~7 days stale, so the items below matter more.
+- [ ] **UpdraftPlus Free installed** + scheduled (daily DB, weekly files) to the owner's Google Drive. *Needs owner: install + Google Drive sign-in (OAuth).* **← highest-value free improvement: gives daily + on-demand off-site backups that the locked Hostinger feature won't.**
+- [ ] **Restore test done once** (confirm a backup actually restores) — "a backup never test-restored is not a backup."
+- [x] **Built-in revisions** — on by default in WordPress + Elementor (free, already working — this is your one-click undo for a single page).
 - [x] **Git history of code-like artifacts** — this repo (snippets, schema, meta, menu, content docs).
+
+> **Gap right now:** changes made since 2026-06-05 (this session's snippets, legal pages, FAQ) are NOT yet in a host backup — they'll be captured in the 2026-06-12 weekly run. The Git repo holds the *code* pieces; the *content/layout* pieces ride on the next weekly backup or Elementor revisions until then. Pick either the $2.09/mo daily upgrade OR free UpdraftPlus to close this.
 
 > **Media/images gap (be aware):** uploaded job photos and per-city images live in the WordPress Media Library (files on the host). They are covered by Hostinger backups and UpdraftPlus *weekly file* backups — so up to ~7 days of new photos could be missing from the off-site copy. Don't treat the off-site DB copy alone as a full restore of images.
 
