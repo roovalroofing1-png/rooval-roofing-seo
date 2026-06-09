@@ -67,7 +67,7 @@ Use **built-in revisions first** — granular, instant, touches nothing else.
 
 - [x] **Hostinger native backups — WEEKLY** (automated). Latest: **2026-06-05**, next: **2026-06-12**. Restore via hPanel → Files → Backups → Restore and download.
 - [ ] **Manual / on-demand backups — 🔒 LOCKED on the current plan.** You CANNOT force a backup before a risky change without upgrading (≈$2.09/mo adds **daily** + manual backups). Until then, the weekly auto-backup can be up to ~7 days stale, so the items below matter more.
-- [ ] **UpdraftPlus Free installed** + scheduled (daily DB, weekly files) to the owner's Google Drive. *Needs owner: install + Google Drive sign-in (OAuth).* **← highest-value free improvement: gives daily + on-demand off-site backups that the locked Hostinger feature won't.**
+- [~] **UpdraftPlus Free off-site backups — CONSCIOUSLY DEFERRED (2026-06-09).** Owner reviewed and chose to skip for now: the site is already covered for common failures by weekly Hostinger backups + Elementor/WP revisions + GitHub (code). The only gap this leaves is the rare "entire Hostinger account lost/compromised" case. **Revisit once form leads are flowing steadily** — at that point a restore could lose up to ~7 days of leads, so free UpdraftPlus (→ Google Drive) or Hostinger's ~$2/mo daily-backup upgrade becomes worth it. Setup = ~5 min + a Google sign-in.
 - [ ] **Restore test done once** (confirm a backup actually restores) — "a backup never test-restored is not a backup."
 - [x] **Built-in revisions** — on by default in WordPress + Elementor (free, already working — this is your one-click undo for a single page).
 - [x] **Git history of code-like artifacts** — this repo (snippets, schema, meta, menu, content docs).
