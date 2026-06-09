@@ -1,0 +1,15 @@
+<!-- Rooval Sticky Quote Tab — fixed right edge, every page -->
+<style>
+#rrq-tab{position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:99999}
+#rrq-tab a{display:flex;flex-direction:column;align-items:center;justify-content:center;background:#cc0000;color:#fff!important;text-decoration:none!important;padding:20px 12px;border-radius:10px 0 0 10px;gap:14px;box-shadow:-4px 2px 20px rgba(0,0,0,.30);transition:background .2s,transform .25s}
+#rrq-tab a:hover{background:#a80000;transform:translateX(-6px)}
+#rrq-tab .rrq-icon{font-size:22px;line-height:1}
+#rrq-tab .rrq-text{writing-mode:vertical-rl;transform:rotate(180deg);font-size:12px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase;white-space:nowrap;font-family:inherit}
+@media(max-width:480px){#rrq-tab a{padding:15px 10px;gap:10px}#rrq-tab .rrq-icon{font-size:18px}#rrq-tab .rrq-text{font-size:11px;letter-spacing:1.2px}}
+</style>
+<div id="rrq-tab">
+  <a href="/roof-quote/" aria-label="Get a free roof quote — Rooval Roofing">
+    <span class="rrq-icon">&#x1F3E0;</span>
+    <span class="rrq-text">Free Roof Quote</span>
+  </a>
+</div>

@@ -1,0 +1,29 @@
+{
+  "_comment": "Snapshot of WordPress nav menu 'Header Menu' (menu id 6) on rooval-roofing.com. Reference copy for rebuilding the menu in Appearance > Menus if it gets clobbered. Menus are DB-only — this is NOT an auto-restore. Captured via /wp-json/wp/v2/menu-items?menus=6.",
+  "menu_id": 6,
+  "menu_name": "Header Menu",
+  "captured": "2026-06-08",
+  "top_level_order": [
+    { "title": "Rooval Roofing", "url": "/", "object_id": 1723, "item_id": 2082 },
+    { "title": "About Us", "url": "/about-us/", "object_id": 40, "item_id": 59 },
+    { "title": "Our Services", "url": "/our-services/", "object_id": 51, "item_id": 57 },
+    { "title": "Contact Us", "url": "/contact-us/", "object_id": 42, "item_id": 58 },
+    { "title": "Free Quote", "url": "/roof-quote/", "object_id": 2610, "item_id": 2610 },
+    { "title": "Service Areas", "url": "/service-areas/", "object_id": 2336, "item_id": 2336 }
+  ],
+  "service_areas_submenu_parent_item": 2336,
+  "service_areas_children": [
+    { "title": "Alpine", "url": "/roofing-alpine-utah/", "object_id": 2296, "item_id": 2337 },
+    { "title": "Highland", "url": "/roofing-highland-utah/", "object_id": 2298, "item_id": 2338 },
+    { "title": "Lindon", "url": "/roofing-lindon-utah/", "object_id": 2299, "item_id": 2339 },
+    { "title": "Pleasant Grove", "url": "/roofing-pleasant-grove-utah/", "object_id": 2300, "item_id": 2340 },
+    { "title": "Springville", "url": "/roofing-springville-utah/", "object_id": 2301, "item_id": 2341 },
+    { "title": "Salt Lake City", "url": "/roofing-salt-lake-city-utah/", "object_id": 2302, "item_id": 2342 },
+    { "title": "Murray", "url": "/roofing-murray-utah/", "object_id": 2303, "item_id": 2343 },
+    { "title": "Sandy", "url": "/roofing-sandy-utah/", "object_id": 2304, "item_id": 2344 },
+    { "title": "Orem", "url": "/roofing-orem-utah/", "object_id": 2306, "item_id": 2345 },
+    { "title": "Draper", "url": "/roofing-draper-utah/", "object_id": 2308, "item_id": 2346 },
+    { "title": "Provo", "url": "/roofing-provo-utah/", "object_id": 2310, "item_id": 2347 },
+    { "title": "Lehi", "url": "/roofing-lehi-utah/", "object_id": 2391, "item_id": 2474 }
+  ]
+}
