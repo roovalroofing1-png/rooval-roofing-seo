@@ -88,3 +88,13 @@ Note: Provo page had auto-slug `roofing-provo-utah-3` (WP dedup) — fixed to `r
 - Instant-quote lead tool using the `rooval-roof-tool` repo (Roofle-style address → price; P3).
 
 See **`seo-upgrade-plan.md`** for the full AYS-teardown → Utah upgrade roadmap.
+
+---
+
+## 2026-07-02 — ALL 12 city pages DEEPENED (adopt-list #3)
+Every page rewritten from ~600 to ~1,100–1,300 words of uniquely-localized content:
+real neighborhoods, local weather (bench snow/ice dams, canyon wind, high-UV, freeze-thaw),
+honest cost-range FAQs, rotated section headings (anti-fingerprint), links to
+/metal-roofing-utah/ and /roof-tune-up/, preserved CTA band + Nearby Cities block.
+No insurance-claims positioning, no warranty-year wording. Full source HTML for each page
+is committed under `city-pages/roofing-{city}-utah-{id}.html`. All verified live (HTTP 200).
