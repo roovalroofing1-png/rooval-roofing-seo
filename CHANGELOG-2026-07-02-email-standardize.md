@@ -20,3 +20,17 @@ admin SPA that did not render/save reliably via automation.
 **15-second manual fix:** WP Admin → **Chaty** → open the widget → **Email** channel →
 change `roovalroofing@gmail.com` to `info@rooval-roofing.com` → Save.
 (Alternatively, ask Claude to retry the Chaty UI automation.)
+
+## UPDATE 2026-07-03 — Chaty widget FIXED programmatically ✅
+
+The remaining Chaty floating-widget Email channel was fixed without the manual step. Method:
+Chaty's React admin wouldn't render for automation, but Chaty stores each channel in a WP option
+(`cht_social_Email`). Created a **run-once WPCode PHP snippet** (id 2774, admin-only, flag-guarded)
+that searched wp_options for the gmail, changed ONLY Chaty options via get_option/update_option
+(serialization-safe), and logged the result. Run log: `changed:cht_social_Email=1` — the only other
+match (`wpcode_snippets`, the snippet's own code) was correctly skipped, and critically
+**admin_email / WP Mail SMTP settings were never touched** (outgoing mail unaffected).
+Snippet deactivated after verification.
+
+**Final verification:** all 30 sitemap pages scanned — **zero** gmail references sitewide.
+Every email link and the Chaty floating Email button now use **info@rooval-roofing.com**.
