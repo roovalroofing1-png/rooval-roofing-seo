@@ -11,15 +11,15 @@ retrieved the tracking code, and installed it.
   into `<head>` site-wide.
 - **Verified:** the script renders on every fresh page render (confirmed via logged-in fetch).
 
-## Caching note (important)
-The site is on **Hostinger LiteSpeed server cache** (no LiteSpeed WP plugin, no mu-plugin, no
-Hostinger purge function — `X-LSCACHE:y`). Anonymous visitors are served cached HTML; that cache
-only purges a URL when that page's **content** changes, so a global `<head>` injection isn't picked
-up by already-cached pages. Programmatic full-purge is restricted on Hostinger shared hosting
-(`do_action('litespeed_purge_all')` has no listener; `X-LiteSpeed-Purge` header from PHP was
-ignored). So Clarity goes live for anonymous visitors as the cache cycles (LiteSpeed TTL, typically
-≤1h) or instantly via a **Hostinger hPanel → Clear cache**. Clarity needs up to 2h to show data
-regardless, so data collection starts today either way.
+## CORRECTION — Clarity was live for anonymous visitors all along ✅
+The initial "stale LiteSpeed cache" theory was wrong. The **Flying Scripts** plugin rewrites
+scripts for anonymous visitors into `data:text/javascript;base64,...` URIs, delay-loaded on user
+interaction (with a timeout fallback) — same treatment as the site's GTM. A plain-text search for
+the script therefore false-negatives on anon HTML. Decoding the base64 blobs confirmed the Clarity
+loader (project xgs2383107) **live on all pages** for anonymous visitors. Performance-friendly and
+consistent with existing analytics; sub-second bounces may not fire Clarity (acceptable).
+Testing tip: send a `wordpress_logged_in_x=1` cookie to bypass page cache and render fresh as-anon;
+decode `data:text/javascript;base64,` blobs before concluding a script is missing.
 
 Experiment snippet 2774 (used for the purge tests + the earlier Chaty email fix) left in WPCode,
 **deactivated**.
