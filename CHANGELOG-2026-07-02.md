@@ -37,3 +37,15 @@ Header nav "Free Quote" -> "Instant Quote" now points to /roof-quote/. /service-
 
 ## IMPORTANT: this repo is source assets, NOT a live DB backup
 The live site content lives in the WordPress database on Hostinger. This repo backs up the source HTML/markdown/plans. For a true restore-capable backup of the live site, use a WordPress backup plugin or Hostinger's backups.
+
+## Phase C — blog content upgrades (all 8 published posts)
+Applied via WP REST API to live site, then snapshotted here:
+- **Key Takeaways** box (branded red-accent card) at top of each post — 4–5 bullets each
+- **Frequently Asked Questions** block — 4 Q&As per post
+- **FAQPage JSON-LD schema** injected inline (eligible for Google FAQ rich results)
+- **Keep reading** internal-link block (2–3 contextual links per post)
+- **Mike Sorensen author box** (persona byline) with phone + instant-quote CTA
+- Compliance guard refined: allows "free roof inspection" (legit offer) while still blocking "free roof" giveaway / deductible / adjuster / warranty-duration language
+- Live-verified: KeyTakeaways + FAQ + FAQPage schema render on public URLs for spot-checked posts (2657, 2360, 2358)
+
+Snapshot: `blog-posts/live-snapshot-2026-07-02/` (full live HTML of all 8 posts)
