@@ -1,0 +1,645 @@
+{
+ "agent-a41d5980b00f11a19.jsonl": {
+  "findings": [
+   {
+    "title": "Insurance-claims positioning in FAQ block on all 12 city pages (visible text + FAQPage JSON-LD schema)",
+    "url": "sitewide",
+    "severity": "critical",
+    "evidence": "\"Rooval Roofing works with all major insurance carriers to document damage, provide required estimates, and guide you through the claims process at no added cost.\" \u2014 appears twice per page (rendered FAQ answer and FAQPage JSON-LD, so it is eligible to surface verbatim in Google FAQ rich results) on /roofing-alpine-utah/, /roofing-draper-utah/, /roofing-highland-utah/, /roofing-lehi-utah/, /roofing-lindon-utah/, /roofing-murray-utah/, /roofing-orem-utah/, /roofing-pleasant-grove-utah/, /roofing-provo-utah/, /roofing-salt-lake-city-utah/, /roofing-sandy-utah/, /roofing-springville-utah/. It directly contradicts the approved wording used higher on the same pages (\"you keep the records and decide whether to involve your insurer\").",
+    "fix": "Edit the shared city-page FAQ template: replace the answer with the approved framing, e.g. \"Most Utah homeowner's policies cover sudden storm damage; age-related wear is not. We inspect and document any storm damage with photos and a written report \u2014 you keep the records and decide whether to involve your insurer.\" Update both the visible FAQ and the FAQPage JSON-LD (they are generated together by the rrq-faq block), then re-test one page with Google's Rich Results Test."
+   },
+   {
+    "title": "Hail-damage post meta description (and og:/twitter:description) still uses banned claims-assistance copy",
+    "url": "https://rooval-roofing.com/utah-hail-damage-roof-insurance-claim/",
+    "severity": "critical",
+    "evidence": "meta description = \"Learn how to file a hail damage roof insurance claim in Utah. Rooval Roofing assists homeowners through the full process. Free storm damage inspection available.\" The identical string is in og:description and twitter:description. The body content was rewritten to the approved educational framing (\"We don't file claims, we don't negotiate with insurance companies\"), but the SERP/social snippet still promises Rooval \"assists homeowners through the full process\" \u2014 the exact positioning the owner banned, shown to every searcher.",
+    "fix": "Replace the Rank Math meta description (and social descriptions) with compliant copy, e.g. \"Hail just hit your Utah roof? What insurance typically covers, the scams to avoid, and how our free inspection documents damage so you decide what to do next.\" (120-160 chars)."
+   },
+   {
+    "title": "Sandy city page has an additional unique claims-coordination promise",
+    "url": "https://rooval-roofing.com/roofing-sandy-utah/",
+    "severity": "critical",
+    "evidence": "Final FAQ answer (visible + JSON-LD): \"If a storm caused damage, we will help coordinate with your insurance carrier at no extra cost.\" This is page-specific copy on top of the shared FAQ violation, so fixing the shared template alone will not remove it.",
+    "fix": "Rewrite the Sandy-specific FAQ sentence to the approved framing: \"If a storm caused damage, we will document it with photos and a written report for your records at no extra cost.\""
+   },
+   {
+    "title": "About Us page advises homeowners to get help \"through the claims process\"",
+    "url": "https://rooval-roofing.com/about-us/",
+    "severity": "critical",
+    "evidence": "Icon-list item: \"Get Help with Claims: A professional can assist you with understanding the damage and help you through the claims process.\" This is marketing copy in a storm-damage services context, not the allowed educational scam-warning framing, and it sits on the same page as the approved wording (\"whether you file anything with your insurer is entirely your decision\").",
+    "fix": "Replace the bullet with documentation framing, e.g. \"Get It Documented: A professional inspection gives you dated photos and a written report, so you have the full picture before deciding anything.\""
+   },
+   {
+    "title": "Springville page positions Rooval as insurance-claims specialists",
+    "url": "https://rooval-roofing.com/roofing-springville-utah/",
+    "severity": "high",
+    "evidence": "Page-specific FAQ copy: \"We are experienced with insurance-backed storm damage replacements.\" Softer than the shared-FAQ violation but still insurance-claims positioning rather than inspect-and-document framing.",
+    "fix": "Rewrite to \"We are experienced with storm damage inspections and replacements, and we document everything so you have a complete record.\""
+   },
+   {
+    "title": "Homepage has two H1s and the first is the junk theme title \"Rooval Home\"",
+    "url": "https://rooval-roofing.com/",
+    "severity": "high",
+    "evidence": "<h1 class=\"page-title\" itemprop=\"headline\">Rooval Home</h1> (theme-generated WP page title) followed by <h1 class=\"elementor-heading-title...\">Utah's #1 Roofing Solutions</h1>. The first H1 Google sees on the most important page is \"Rooval Home\" \u2014 no keyword, marked up as the itemprop headline. The second H1 also carries no service keyword (\"Roofing Solutions\" is weak vs \"Roofing Contractor\").",
+    "fix": "Disable the Blocksy/theme page-title element on this page (same fix applies to /roof-tune-up/) so only one H1 remains, and make that H1 keyword-bearing, e.g. \"Lehi & Utah County Roofing Contractor\" to match the title tag."
+   },
+   {
+    "title": "Thin legacy post /rooval-roofing/ with brand-doubled title competes for brand queries",
+    "url": "https://rooval-roofing.com/rooval-roofing/",
+    "severity": "high",
+    "evidence": "Title = \"Rooval Roofing - Rooval Roofing\" (brand stuffed, zero keywords); 177 words of real copy; meta description is an auto-cut sentence fragment ending \"With over 15 years of\"; only H2s on the page are footer headings (\"Share Now\", \"Pages\", \"Phone\"). It is a Sept-2024 blog post duplicating About Us content, indexed and in the post sitemap, and can cannibalize the homepage for brand searches.",
+    "fix": "301-redirect /rooval-roofing/ to /about-us/ (preferred) or noindex it and remove it from the sitemap; if kept, give it a unique title/description and real content."
+   },
+   {
+    "title": "Contact page has no H1 and 58 words of copy",
+    "url": "https://rooval-roofing.com/contact-us/",
+    "severity": "medium",
+    "evidence": "Zero <h1> tags on the page; first heading is <h2>\u2a33 Contact Us \u2a33</h2> (with decorative \u2a33 glyphs in the heading text). Main content outside header/footer/nav is 58 words.",
+    "fix": "Promote \"Contact Us\" to an H1 (drop the \u2a33 glyphs, e.g. \"Contact Rooval Roofing \u2014 Lehi, UT\") and add a short paragraph with service area, hours, and response-time expectations (aim for 150+ words; NAP consistency also helps local SEO)."
+   },
+   {
+    "title": "Indexable category archive duplicates /blog/ with junk metadata",
+    "url": "https://rooval-roofing.com/category/blog/",
+    "severity": "medium",
+    "evidence": "Title = \"Blog - Rooval Roofing\", meta description = \"Your blog category\" (18 chars), H1 = \"Category Blog\". It is index,follow with a self-canonical, listed in category-sitemap.xml, and lists the same six posts as the curated /blog/ page \u2014 near-duplicate competing with it.",
+    "fix": "Set the blog category to noindex in Rank Math (or 301 /category/blog/ to /blog/) and drop the category sitemap; every post already lives in the single 'Blog' category so the archive adds nothing."
+   },
+   {
+    "title": "Roof Tune-Up page has two H1s and borderline-thin copy",
+    "url": "https://rooval-roofing.com/roof-tune-up/",
+    "severity": "medium",
+    "evidence": "<h1 class=\"page-title\">Free Roof Tune-Up &#038; Repair</h1> (theme-generated) plus a second <h1>Not Sure You Need a New Roof? Start With a Tune-Up.</h1>; main copy is 299 words \u2014 the thinnest of any service page (others run 1,400+).",
+    "fix": "Hide the theme page-title (same mechanism as the homepage fix) leaving one H1, and add 2-3 sections (what a tune-up includes, when a tune-up vs repair, service area) to bring it toward 600+ words. Pricing framing itself left alone per pending owner decision."
+   },
+   {
+    "title": "Three blog post titles exceed 60 characters due to auto-appended brand suffix",
+    "url": "https://rooval-roofing.com/signs-roof-needs-replacing-utah/",
+    "severity": "low",
+    "evidence": "\"How to Tell if Your Utah Roof Needs Replacing (Before It's Too Late) - Rooval Roofing\" = 85 chars; /how-to-choose-roofing-contractor-utah/ = 84 chars; /utah-gutters-before-winter/ = 73 chars. Google will truncate/rewrite these in SERPs; the working keyword phrase survives but the brand and hook get cut.",
+    "fix": "Write custom SEO titles in Rank Math under 60 chars, e.g. \"Signs Your Utah Roof Needs Replacing | Rooval Roofing\" (54) and \"How to Choose a Roofing Contractor in Utah | Rooval\" (52)."
+   },
+   {
+    "title": "Meta descriptions slightly over 160 chars on seven pages",
+    "url": "sitewide",
+    "severity": "low",
+    "evidence": "our-services (169), home (164), roofing-provo (164), about-us (163), roof-tune-up (162), service-areas (161), signs-roof-needs-replacing (166), roofing-highland (161), utah-hail-damage (161). All get tail-truncated in SERPs, usually clipping the phone-number CTA.",
+    "fix": "Trim each to 155-160 chars so the CTA (\"Call (385) 424-8810\") survives truncation."
+   },
+   {
+    "title": "Alpine meta description contains a botched-edit sentence fragment",
+    "url": "https://rooval-roofing.com/roofing-alpine-utah/",
+    "severity": "low",
+    "evidence": "\"...gutters, and metal roofing. workmanship warranty. Free estimate.\" \u2014 lowercase mid-description fragment, the artifact of stripping a duration from an earlier \"N-year workmanship warranty\" phrase.",
+    "fix": "Rewrite: \"...gutters, and metal roofing. Workmanship warranty on every install. Free estimate \u2014 call (385) 424-8810.\""
+   },
+   {
+    "title": "Privacy, Terms, and Sitemap pages have auto-generated or undersized meta descriptions",
+    "url": "https://rooval-roofing.com/privacy-policy/",
+    "severity": "low",
+    "evidence": "Privacy desc ends mid-sentence: \"...explains how we collect, use, and safeguard information\"; Terms desc ends: '...Rooval Roofing (\"Company,\" \"we,\"'; /sitemap/ desc is 72 chars (below 120). All are Rank Math auto-excerpts rather than written descriptions.",
+    "fix": "Write one-line descriptions for each utility page (or noindex /sitemap/, which is a 81-word HTML sitemap that offers users nothing the nav does not)."
+   }
+  ],
+  "healthScore": 62,
+  "summary": "On-page fundamentals across all 34 URLs are genuinely strong \u2014 unique titles and descriptions on every page, zero missing image alts site-wide, keyword-bearing single H1s on 30 of 34 pages, 1,400-1,700 words on the city and new service pages, and no warranty-duration violations anywhere. The score is dragged down by a compliance failure, not craft: a legacy FAQ block on all 12 city pages (in visible HTML and FAQPage JSON-LD, so rich-result eligible) promises Rooval will \"guide you through the claims process,\" and the hail-damage post's meta/OG description still says Rooval \"assists homeowners through the full process\" \u2014 banned insurance-claims positioning that contradicts the approved inspect-and-document framing used elsewhere on the very same pages. Fixing the shared FAQ template, one meta description, and three page-specific sentences clears every critical finding; the remaining work is structural cleanup (homepage/tune-up double H1s, contact page missing H1, the thin /rooval-roofing/ legacy post, and the junk /category/blog/ archive)."
+ },
+ "agent-a475baed90eead1ce.jsonl": {
+  "findings": [
+   {
+    "title": "Insurance-claims positioning in FAQ block on all 12 city pages (visible text + FAQPage JSON-LD schema)",
+    "url": "sitewide",
+    "severity": "critical",
+    "evidence": "VERIFIED LIVE: \"Rooval Roofing works with all major insurance carriers to document damage, provide required estimates, and guide you through the claims process at no added cost.\" appears exactly twice per page (once in rendered FAQ text, once in FAQPage JSON-LD, making it eligible for Google FAQ rich results verbatim) on all 12 and only these 12 pages: /roofing-alpine-utah/, /roofing-draper-utah/, /roofing-highland-utah/, /roofing-lehi-utah/, /roofing-lindon-utah/, /roofing-murray-utah/, /roofing-orem-utah/, /roofing-pleasant-grove-utah/, /roofing-provo-utah/, /roofing-salt-lake-city-utah/, /roofing-sandy-utah/, /roofing-springville-utah/. It directly contradicts the approved wording used elsewhere on the site (\"you keep the records and decide whether to involve your insurer\"). The four new service pages (/roof-repair-utah/ etc.) are clean.",
+    "fix": "Edit the shared city-page FAQ template (rrq-faq block, which generates the visible FAQ and JSON-LD together): replace the answer with the approved framing, e.g. \"Most Utah homeowner's policies cover sudden storm damage; age-related wear is not. We inspect and document any storm damage with photos and a written report \u2014 you keep the records and decide whether to involve your insurer.\" Then re-test one page with Google's Rich Results Test."
+   },
+   {
+    "title": "Hail-damage post meta description (and og:/twitter:description) still uses banned claims-assistance copy",
+    "url": "https://rooval-roofing.com/utah-hail-damage-roof-insurance-claim/",
+    "severity": "critical",
+    "evidence": "VERIFIED LIVE: meta name=description, og:description, and twitter:description all read exactly \"Learn how to file a hail damage roof insurance claim in Utah. Rooval Roofing assists homeowners through the full process. Free storm damage inspection available.\" The body was confirmed rewritten to the approved educational framing (\"We don't file claims...\" is present), but the SERP/social snippet still promises Rooval \"assists homeowners through the full process\" \u2014 the exact positioning the owner banned, shown to every searcher.",
+    "fix": "Replace the Rank Math meta description (and social descriptions) with compliant copy, e.g. \"Hail just hit your Utah roof? What insurance typically covers, the scams to avoid, and how our free inspection documents damage so you decide what to do next.\" (120-160 chars)."
+   },
+   {
+    "title": "Sandy city page has an additional unique claims-coordination promise",
+    "url": "https://rooval-roofing.com/roofing-sandy-utah/",
+    "severity": "critical",
+    "evidence": "VERIFIED LIVE: final FAQ answer (present once in visible text and once in FAQPage JSON-LD): \"Absolutely. We cover all of Sandy including Alta Canyon, Dimple Dell, and communities near Little Cottonwood Canyon. If a storm caused damage, we will help coordinate with your insurance carrier at no extra cost.\" This is page-specific copy on top of the shared FAQ violation, so fixing the shared template alone will not remove it.",
+    "fix": "Rewrite the Sandy-specific FAQ sentence to the approved framing: \"If a storm caused damage, we will document it with photos and a written report for your records at no extra cost.\""
+   },
+   {
+    "title": "About Us page advises homeowners to get help \"through the claims process\"",
+    "url": "https://rooval-roofing.com/about-us/",
+    "severity": "critical",
+    "evidence": "VERIFIED LIVE: Elementor icon-list item under the \"5 Things Homeowners Should Know Before Repairing Their Roof\" section: \"Get Help with Claims: A professional can assist you with understanding the damage and help you through the claims process.\" This is advisory marketing copy on Rooval's own About page (sibling bullets: \"Act Quickly After Storms\", \"Get a Professional Inspection\"), not the allowed educational scam-warning framing, and the same page elsewhere carries the approved wording (\"entirely your decision\").",
+    "fix": "Replace the bullet with documentation framing, e.g. \"Get It Documented: A professional inspection gives you dated photos and a written report, so you have the full picture before deciding anything.\""
+   },
+   {
+    "title": "Springville page positions Rooval as insurance-claims specialists",
+    "url": "https://rooval-roofing.com/roofing-springville-utah/",
+    "severity": "high",
+    "evidence": "VERIFIED LIVE: page-specific FAQ answer (visible text + FAQPage JSON-LD): \"Yes. We cover all of Springville including neighborhoods near Hobble Creek Canyon and the newer developments east of I-15. We are experienced with insurance-backed storm damage replacements.\" Softer than the shared-FAQ violation but still insurance-claims positioning rather than inspect-and-document framing, and it survives a shared-template fix because it is unique copy.",
+    "fix": "Rewrite to \"We are experienced with storm damage inspections and replacements, and we document everything so you have a complete record.\""
+   },
+   {
+    "title": "Homepage has two H1s and the first is the junk theme title \"Rooval Home\"",
+    "url": "https://rooval-roofing.com/",
+    "severity": "high",
+    "evidence": "VERIFIED LIVE: <h1 class=\"page-title\" itemprop=\"headline\">Rooval Home</h1> (theme-generated WP page title) followed by a second Elementor H1 \"Utah's #1 Roofing Solutions\". The first H1 on the most important page is \"Rooval Home\" \u2014 no keyword, marked up as the itemprop headline \u2014 while the title tag is \"Lehi & Utah County Roofing Contractor | Rooval Roofing\". The second H1 carries no service keyword either. /roof-tune-up/ confirmed to have the same duplicate-H1 problem (theme H1 \"Free Roof Tune-Up & Repair\" + Elementor H1).",
+    "fix": "Disable the Blocksy/theme page-title element on this page (same fix applies to /roof-tune-up/) so only one H1 remains, and make that H1 keyword-bearing, e.g. \"Lehi & Utah County Roofing Contractor\" to match the title tag."
+   },
+   {
+    "title": "Thin legacy post /rooval-roofing/ with brand-doubled title competes for brand queries",
+    "url": "https://rooval-roofing.com/rooval-roofing/",
+    "severity": "high",
+    "evidence": "VERIFIED LIVE: title tag = \"Rooval Roofing - Rooval Roofing\" (brand stuffed, zero keywords); entry-content is only ~226 words; meta description is an auto-cut sentence fragment ending \"With over 15 years of\"; the page has no content H2s \u2014 every H2 is boilerplate (\"Share Now\", \"Pages\", \"Services\", \"Phone\", footer/related headings). robots meta = \"index, follow\", canonical is self-referencing, and the URL is confirmed present in post-sitemap.xml. It is a legacy blog post duplicating About Us content and can cannibalize the homepage for brand searches.",
+    "fix": "301-redirect /rooval-roofing/ to /about-us/ (preferred) or noindex it and remove it from the sitemap; if kept, give it a unique title/description and real content."
+   }
+  ],
+  "healthScore": 62,
+  "summary": "Adversarial re-fetch of all 34 live URLs (sitemap index + sub-sitemaps + the 4 new service pages, which are now in the page sitemap) on 2026-07-03 confirmed every one of the 7 findings \u2014 none were refuted, and none fall under the known-intentional exclusions. Corrections to evidence: the /rooval-roofing/ post's real copy is ~226 words (not 177) and its non-content H2 list is longer than originally quoted; the About Us claims bullet sits in a \"5 Things Homeowners Should Know Before Repairing Their Roof\" icon list. A sitewide grep also confirmed the banned carrier/claims FAQ copy is limited to exactly the 12 city pages, \"claims process\" appears only there plus About Us, and no warranty-duration violations exist anywhere on the site."
+ },
+ "agent-adc131a98180e58b0.jsonl": {
+  "findings": [
+   {
+    "title": "Insurance-claims positioning on About page violates owner compliance rule",
+    "url": "https://rooval-roofing.com/about-us/",
+    "severity": "critical",
+    "evidence": "In the \"5 Things Homeowners Should Know Before Repairing Their Roof\" section: \"Get Help with Claims: A professional can assist you with understanding the damage and help you through the claims process.\" This is marketing copy on Rooval's own About page (directly below its service descriptions), not the allowed educational scam-warning content, and it positions the company as helping with insurance claims.",
+    "fix": "Rewrite the bullet to the approved framing, e.g. \"Get It Documented: a professional inspection with photos and a written report gives you records you keep \u2014 you decide whether to involve your insurer.\" (The hail-damage blog post and homepage FAQ already use the approved wording and are clean.)"
+   },
+   {
+    "title": "Header phone number is not tap-to-call on any page",
+    "url": "sitewide (34/34 pages)",
+    "severity": "high",
+    "evidence": "The top-bar element on every page is plain text: <div class=\"ct-header-text\">...<p>Call us today for a free estimate. <strong>+1 (385) 424-8810</strong></p> \u2014 no tel: link, in both the desktop and mobile header rows. The only tel: links are lower in the body and one in the footer, so the most prominent, always-above-the-fold phone display cannot be tapped on mobile.",
+    "fix": "In the Blocksy header text widget, wrap the number: <a href=\"tel:+13854248810\">+1 (385) 424-8810</a> (matches the format already used by the working body/footer tel: links)."
+   },
+   {
+    "title": "Primary CTA destination /roof-quote/ is a 1.97 MB monolithic HTML page",
+    "url": "https://rooval-roofing.com/roof-quote/",
+    "severity": "high",
+    "evidence": "GET /roof-quote/ returns 200 with 1,966,199 bytes of HTML: one 1.92 MB inline <script> containing ~1.86 MB of base64 data URIs (35 blobs). Every nav \"Instant Quote\" link and the sitewide floating side-tab point here, so the money page must fully download ~2 MB of HTML before anything renders \u2014 multi-second blank screen on 4G/mobile, where most storm-damage traffic arrives.",
+    "fix": "Split the base64-embedded assets into separate cacheable files (images as real .webp URLs, data as fetched JSON), defer non-critical script, and serve a lightweight shell that renders the address input immediately. Target <200 KB initial HTML."
+   },
+   {
+    "title": "Service Areas \"Schedule My Free Inspection\" button dead-ends at a form-less contact page",
+    "url": "https://rooval-roofing.com/service-areas/",
+    "severity": "medium",
+    "evidence": "On /service-areas/ the \"Schedule My Free Inspection\" button links to /contact-us/, while the identical button on all 16 other service/city pages links to https://rooval-crm-production.up.railway.app/quote. /contact-us/ contains no form and no scheduler (0 <form> elements), so the visitor lands on a page where they must find another CTA and click again.",
+    "fix": "Point the Service Areas button at the same CRM scheduling URL used by every other page."
+   },
+   {
+    "title": "Contact Us page has no contact form (and no H1)",
+    "url": "https://rooval-roofing.com/contact-us/",
+    "severity": "medium",
+    "evidence": "Page body is only: heading \"Ready to Help with All Your Roofing Needs\", the tagline \"You click. We climb. Deal?\", and phone/email text \u2014 0 <form> elements on the page (in fact, no page on the whole site has a form). Visitors with form-fill intent (evenings, at-work browsers who won't call) have nothing to submit. The page also has no <h1>.",
+    "fix": "Embed the CRM quote/schedule form (iframe or native embed) or a simple name/phone/message form on /contact-us/, and add an H1 (\"Contact Rooval Roofing\")."
+   },
+   {
+    "title": "Footer \"Subscribe to the newsletter\" heading has no newsletter signup under it",
+    "url": "sitewide (footer, all 34 pages)",
+    "severity": "medium",
+    "evidence": "Footer markup: <h2>Subscribe to the newsletter</h2> followed only by a \"Get a Free Estimate\" button (links to estimate.rooval-roofing.com/quote). There is no email input or signup mechanism anywhere \u2014 the heading promises something the page can't deliver and mislabels the estimate CTA.",
+    "fix": "Either delete/rename the heading (e.g. \"Ready to start?\") or add a real email-capture field wired to the CRM."
+   },
+   {
+    "title": "Visible placeholder heading \"Rooval Home\" is the homepage's first H1",
+    "url": "https://rooval-roofing.com/",
+    "severity": "medium",
+    "evidence": "<h1 class=\"page-title\" itemprop=\"headline\">Rooval Home</h1> renders at the top of the homepage content (no CSS hides .page-title/.entry-header), above the real hero H1 \"Utah's #1 Roofing Solutions\" \u2014 visitors see an internal page name, and the page has duplicate H1s. /roof-tune-up/ also has 2 H1s; /contact-us/ has 0.",
+    "fix": "Disable the Blocksy page-title element on the homepage (and /roof-tune-up/) so each page has exactly one intentional H1."
+   },
+   {
+    "title": "Header \"Get a Free Estimate\" button uses the estimate subdomain \u2014 a third, unaligned quote endpoint",
+    "url": "sitewide (header markup, all 34 pages)",
+    "severity": "low",
+    "evidence": "Inside <header> on every page, the \"Get a Free Estimate\" button links to https://estimate.rooval-roofing.com/quote. The known/deferred carve-out covers footer links only. The site now sends quote traffic to three different destinations: /roof-quote/ (nav + floating tab), rooval-crm-production.up.railway.app/quote (schedule buttons), and estimate.rooval-roofing.com/quote (header/footer buttons). Endpoint works (200, same app payload as the CRM), but attribution and funnel analytics are fragmented.",
+    "fix": "Standardize header/footer buttons on one canonical quote URL (ideally the branded estimate.rooval-roofing.com domain everywhere, or /roof-quote/), so funnel reporting is unified."
+   },
+   {
+    "title": "Floating side-tab CTA links to non-canonical /roof-quote/index.html?v=3",
+    "url": "sitewide (all 34 pages)",
+    "severity": "low",
+    "evidence": "The sticky \"Get Your Instant Roof Quote\" tab (#rrq-tab) on every page links to https://rooval-roofing.com/roof-quote/index.html?v=3 instead of /roof-quote/. It resolves (200) but splits analytics into two URLs for the same page and breaks silently if the static file is renamed.",
+    "fix": "Change the tab href to /roof-quote/ and handle cache-busting via asset versioning inside the page instead of the URL."
+   },
+   {
+    "title": "Review-count claim inconsistency: \"31 reviews\" vs \"30+ Google reviews\"",
+    "url": "https://rooval-roofing.com/service-areas/",
+    "severity": "low",
+    "evidence": "City pages (Lehi, Draper, Highland, Lindon, Provo, SLC, etc.) say \"5.0-star rating on Google across 31 reviews\" while /service-areas/ says \"rated 5.0 stars across 30+ Google reviews\". The 5.0 rating itself is consistent everywhere.",
+    "fix": "Use one phrasing sitewide \u2014 \"30+ Google reviews\" is safer because it stays true as the count grows; otherwise update all pages together when the count changes."
+   }
+  ],
+  "healthScore": 72,
+  "summary": "Fundamentals are solid across all 34 pages: viewport meta everywhere, zero dead href=\"#\" links, zero mixed content, zero internal 404s (82 unique links checked), phone (385) 424-8810 and info@rooval-roofing.com perfectly consistent, no warranty-duration violations anywhere, and every page has an above-fold CTA (header Instant Quote + floating quote tab) plus an end-of-page CTA block. The gaps are concentrated in the conversion path itself: one critical compliance slip on the About page (\"help you through the claims process\"), a header phone number that isn't tap-to-call on any page, a 1.97 MB Instant Quote page that every primary CTA funnels into, and a form-less Contact page that the Service Areas \"Schedule My Free Inspection\" button dead-ends into. Fixing the top four findings would materially lift mobile lead capture; the rest are polish and funnel-consistency items."
+ },
+ "agent-a53d467eb78e753ee.jsonl": {
+  "findings": [
+   {
+    "title": "Insurance-claims positioning in FAQ on all 12 city pages (visible text + FAQPage schema)",
+    "url": "sitewide",
+    "severity": "critical",
+    "evidence": "Identical FAQ answer on all 12 /roofing-{city}-utah/ pages: \"Rooval Roofing works with all major insurance carriers to document damage, provide required estimates, and guide you through the claims process at no added cost.\" The same text is embedded in each page's FAQPage JSON-LD schema (verified on all 12), so Google can surface it as a rich result. It directly contradicts the owner rule and even the same pages' own body copy (Alpine: \"We are roofers, not claims advisers\").",
+    "fix": "Replace the FAQ answer on all 12 city pages with the approved framing (\"we inspect and document storm damage with photos and a written report \u2014 you keep the records and decide whether to involve your insurer\") and regenerate/purge the FAQPage JSON-LD so the schema matches."
+   },
+   {
+    "title": "\"We will help coordinate with your insurance carrier\" on Sandy page",
+    "url": "https://rooval-roofing.com/roofing-sandy-utah/",
+    "severity": "critical",
+    "evidence": "Sandy-specific FAQ answer: \"If a storm caused damage, we will help coordinate with your insurance carrier at no extra cost.\" This is in addition to the shared insurance FAQ above.",
+    "fix": "Delete the sentence or replace with the approved inspect-and-document wording; update the page's FAQ schema."
+   },
+   {
+    "title": "\"Get Help with Claims\" advice bullet on About Us",
+    "url": "https://rooval-roofing.com/about-us/",
+    "severity": "critical",
+    "evidence": "\"5 Things Homeowners Should Know\" list includes: \"Get Help with Claims: A professional can assist you with understanding the damage and help you through the claims process.\" Not a scam-warning context, and it contradicts the approved framing that appears higher on the same page (\"whether you file anything with your insurer is entirely your decision\").",
+    "fix": "Remove the bullet or reword to the approved framing, e.g. \"Document Everything: keep dated photos and a written report so you can decide what to do next.\""
+   },
+   {
+    "title": "\"Experienced with insurance-backed storm damage replacements\" on Springville page",
+    "url": "https://rooval-roofing.com/roofing-springville-utah/",
+    "severity": "high",
+    "evidence": "Springville FAQ answer: \"We are experienced with insurance-backed storm damage replacements.\" Positions the company inside the insurance-claims workflow, against the owner directive.",
+    "fix": "Remove the sentence or replace with \"We document storm damage with photos and a written report \u2014 what you do with it is your call.\""
+   },
+   {
+    "title": "Conflicting roof-replacement price ranges on the same page (9 of 12 city pages)",
+    "url": "sitewide",
+    "severity": "medium",
+    "evidence": "Body copy and FAQ quote different ranges on the same page: Draper $9,000\u2013$18,000 vs FAQ $9,000\u2013$22,000; Lehi $9,000\u2013$20,000 vs $8,000\u2013$18,000; Lindon $9,000\u2013$18,000 vs $8,000\u2013$17,000; Murray $8,000\u2013$16,000 vs $7,000\u2013$15,000; Orem $9,000\u2013$16,000 vs $7,500\u2013$17,000; Provo $10,000\u2013$18,000 vs $7,500\u2013$16,000; Salt Lake City $8,000\u2013$22,000+ vs $7,500\u2013$25,000+; Sandy $9,000\u2013$20,000 vs $8,500\u2013$19,000; Springville $10,000\u2013$18,000 vs $7,500\u2013$16,000. The FAQ versions also feed the FAQPage schema. (Alpine, Highland, Pleasant Grove are internally consistent.)",
+    "fix": "Pick one range per city (the body-copy numbers read as the intentional, localized ones) and update each FAQ answer + JSON-LD to match."
+   },
+   {
+    "title": "Four FAQ answers duplicated verbatim across all 12 city pages",
+    "url": "sitewide",
+    "severity": "medium",
+    "evidence": "Identical paragraphs on all 12 city pages: \"Most single-family homes in Utah are completed in a single day...\", \"Utah's hot dry summers, cold winters, UV intensity, and occasional hail demand durable materials...\", \"Most homeowner's insurance policies in Utah cover sudden storm damage...\", and \"Repairs work for isolated damage: a few missing shingles...\". Body copy on these pages is otherwise well localized; the boilerplate FAQ block undercuts city-page uniqueness.",
+    "fix": "Rewrite the four shared FAQ answers with city-specific details (elevation, housing stock, timelines) while fixing the insurance answer per the critical finding."
+   },
+   {
+    "title": "Wind damage missing from homepage; older blog posts skew heavily to hail",
+    "url": "https://rooval-roofing.com/",
+    "severity": "medium",
+    "evidence": "Homepage mentions hail twice (\"Do you inspect for storm and hail damage?\") and wind zero times. Older posts also skew: /how-to-choose-roofing-contractor-utah/ hail 6 vs wind 1; /signs-roof-needs-replacing-utah/ hail 7 vs wind 2 (section titled \"You've Had Recent Storm or Hail Damage\"). By contrast, the new service pages and city pages give wind equal or greater billing (e.g., Provo wind 11 vs hail 3).",
+    "fix": "Change the homepage FAQ to \"Do you inspect for storm, wind, and hail damage?\" and add a wind reference in the hero/services copy; retitle the blog section to \"Recent Storm, Wind, or Hail Damage\" and add wind mentions to the two older posts."
+   },
+   {
+    "title": "Placeholder text \"Your blog category\" on blog category archive",
+    "url": "https://rooval-roofing.com/category/blog/",
+    "severity": "medium",
+    "evidence": "The indexed archive page renders heading \"Category Blog\" followed by the default WordPress category description \"Your blog category\".",
+    "fix": "Write a real category description (or remove it) and rename the archive heading, or noindex/redirect the category archive since /blog/ already exists."
+   },
+   {
+    "title": "Stub blog post duplicating About Us content",
+    "url": "https://rooval-roofing.com/rooval-roofing/",
+    "severity": "low",
+    "evidence": "Post titled \"Rooval Roofing\" (title tag renders \"Rooval Roofing - Rooval Roofing\"), dated September 21, 2024, contains only two paragraphs of company-intro boilerplate (\"Rooval Roofing was established with a single mission...\") that also appears as the category-page excerpt; it sits in the post sitemap and blog feed alongside real guides.",
+    "fix": "Unpublish and 301-redirect to /about-us/, or expand it into a real post."
+   },
+   {
+    "title": "Three newest blog posts missing from post-sitemap.xml",
+    "url": "https://rooval-roofing.com/post-sitemap.xml",
+    "severity": "low",
+    "evidence": "Posts live on the blog dated July 2, 2026 \u2014 /how-long-does-a-roof-last-in-utah/, /metal-roof-vs-asphalt-shingles-utah/, /utah-hail-damage-roof-checklist/ \u2014 are absent from post-sitemap.xml (it lists only 6 older posts). All three pages return 200 and their content passed the compliance sweep cleanly.",
+    "fix": "Regenerate the XML sitemap / purge the sitemap cache so the new posts get indexed promptly."
+   },
+   {
+    "title": "HTML sitemap page omits blog and all six service pages",
+    "url": "https://rooval-roofing.com/sitemap/",
+    "severity": "low",
+    "evidence": "\"Main Pages\" lists only Home, About Us, Our Services, Contact Us, Free Roof Quote plus city pages and legal pages \u2014 no Blog and none of Roof Repair, Roof Replacement, TPO & Flat Roofing, Gutters, Roof Tune-Up, or Metal Roofing, all of which are in the main nav.",
+    "fix": "Add the six service-page links and the blog to the HTML sitemap."
+   },
+   {
+    "title": "Homepage hero typo and lowercase sentence fragment",
+    "url": "https://rooval-roofing.com/",
+    "severity": "low",
+    "evidence": "Hero heading: \"Rooval Roofing -Trusted Roof Repairs & Replacements\" (no space after the hyphen). \"Commitment\" card copy begins mid-sentence in lowercase: \"workmanship warranty \u2014 plus manufacturer protection you can count on.\" \u2014 an apparent leftover from removing a warranty duration.",
+    "fix": "Change to \"Rooval Roofing \u2014 Trusted Roof Repairs & Replacements\" and reword the card, e.g. \"Every job is backed by our workmanship warranty \u2014 plus manufacturer protection you can count on.\""
+   },
+   {
+    "title": "Garbled subheading on About Us",
+    "url": "https://rooval-roofing.com/about-us/",
+    "severity": "low",
+    "evidence": "Heading reads \"Committed to Protecting Utah Homes with Over 15 Years of Roofing Expertise At Rooval Roofing.\" \u2014 mid-phrase capitalized \"At\", trailing period, and the sentence doesn't parse cleanly. The adjacent \"Choose Quality Materials\" bullet is also the only list item without a period.",
+    "fix": "Reword to \"At Rooval Roofing, we're committed to protecting Utah homes with over 15 years of roofing expertise\" and add the missing period."
+   },
+   {
+    "title": "\"Siding Repair\" advertised only on About Us \u2014 no supporting service anywhere else",
+    "url": "https://rooval-roofing.com/about-us/",
+    "severity": "low",
+    "evidence": "About Us has a service card \"Siding Repair \u2014 Repairing or replacing siding that has been compromised by storm conditions.\" Siding appears nowhere else: not in the nav, not on /our-services/, no siding page, and the footer lists only Roofing/Gutter/Metal Roof services.",
+    "fix": "Remove the siding card, or if siding is genuinely offered, add it to /our-services/ and the nav."
+   },
+   {
+    "title": "Metal roof lifespan stated inconsistently (40\u201360 vs 40\u201370 years)",
+    "url": "https://rooval-roofing.com/metal-roofing-utah/",
+    "severity": "low",
+    "evidence": "/metal-roofing-utah/ says \"A quality metal roof lasts 40 to 60 years\"; /metal-roofing-utah-worth-it/ says \"lasts 40-70 years\" (four times) and the 12 city-page FAQs also say \"can last 40-70 years\".",
+    "fix": "Standardize on one range (40\u201370 matches the majority of the site) across the metal roofing page."
+   },
+   {
+    "title": "Footer copyright still \"\u00a9 2025\" sitewide",
+    "url": "sitewide",
+    "severity": "low",
+    "evidence": "Every page footer reads \"\u00a9 2025 Rooval Roofing \u2014 Professional Roof Installation, Repair & Replacement Services.\" while the site is actively publishing content dated July 2026.",
+    "fix": "Use a dynamic year in the footer template (Elementor/Blocksy dynamic tag) or update to 2026."
+   }
+  ],
+  "healthScore": 55,
+  "summary": "The newer content (4 new service pages, 3 brand-new July blog posts, and most city-page body copy) is clean, well-localized, typo-free, and consistently uses the approved insurance framing and duration-free workmanship warranty. However, a boilerplate FAQ answer promising to \"work with all major insurance carriers... and guide you through the claims process\" sits on all 12 city pages \u2014 including inside their FAQPage schema \u2014 plus two extra claims-positioning sentences (Sandy, Springville) and a \"Get Help with Claims\" bullet on About Us, all direct violations of the owner's compliance rules. Secondary issues are contradictory price ranges (body vs FAQ) on 9 city pages, four verbatim-duplicated FAQ answers across all city pages, zero wind mentions on the hail-referencing homepage, a placeholder category description, and a handful of small typos and stale elements."
+ },
+ "agent-a7fc4f001730aafdc.jsonl": {
+  "findings": [
+   {
+    "title": "Insurance-claims positioning in FAQ copy and FAQPage schema on all 12 city pages (owner rule violation)",
+    "url": "https://rooval-roofing.com/roofing-lehi-utah/",
+    "severity": "critical",
+    "evidence": "Visible FAQ answer AND FAQPage JSON-LD on all 12 /roofing-{city}-utah/ pages (Lehi, Provo, Orem, Salt Lake City, Sandy, Murray, Draper, Alpine, Highland, Lindon, Pleasant Grove, Springville): Q 'Does homeowner's insurance cover roof storm damage in Utah?' A: '...Rooval Roofing works with all major insurance carriers to document damage, provide required estimates, and guide you through the claims process at no added cost.' This directly violates the no-claims-positioning rule ('work with your insurer', claims-process help) and is eligible to surface as an FAQ rich result in Google.",
+    "fix": "Rewrite the FAQ answer on all 12 city pages (both visible text and the FAQPage JSON-LD block) to the approved framing, e.g. 'We inspect and document storm damage with photos; you keep the records and decide whether to involve your insurer.' Remove 'works with all major insurance carriers' and 'guide you through the claims process' entirely."
+   },
+   {
+    "title": "Hail post meta description + og:description + BlogPosting schema still say Rooval 'assists homeowners through the full process' of an insurance claim (owner rule violation)",
+    "url": "https://rooval-roofing.com/utah-hail-damage-roof-insurance-claim/",
+    "severity": "critical",
+    "evidence": "meta name=description, og:description, and the BlogPosting JSON-LD description all read: 'Learn how to file a hail damage roof insurance claim in Utah. Rooval Roofing assists homeowners through the full process. Free storm damage inspection available.' The visible body copy was already corrected to the approved wording ('roofing contractors are not licensed to do it. So here is our role, plainly...'), but the SERP-facing snippet contradicts it and positions Rooval as a claims assistant.",
+    "fix": "Update the Rank Math SEO description (which feeds meta, og:description, and the schema description) to the approved framing, e.g. 'What Utah hail does to roofs and how to document it. We inspect and photograph the damage; you keep the records and decide whether to involve your insurer.'"
+   },
+   {
+    "title": "About Us page promises claims-process help (owner rule violation)",
+    "url": "https://rooval-roofing.com/about-us/",
+    "severity": "critical",
+    "evidence": "Visible copy under '5 Things Homeowners Should Know Before Repairing Their Roof': 'Get Help with Claims: A professional can assist you with understanding the damage and help you through the claims process.' On Rooval's own About page this reads as self-positioning for claims assistance, and it is not framed as educational scam-warning content.",
+    "fix": "Replace the bullet with the approved framing, e.g. 'Document Everything: Get a professional inspection with photos so you have a complete damage record \u2014 you decide whether to involve your insurer.'"
+   },
+   {
+    "title": "Duplicate/conflicting RoofingContractor entities in JSON-LD on every page",
+    "url": "sitewide",
+    "severity": "high",
+    "evidence": "All 34 pages output two separate RoofingContractor definitions: (1) Rank Math @graph node @id 'https://rooval-roofing.com/#organization' typed [RoofingContractor, Organization] with logo/openingHours but no address, phone, or rating; (2) a standalone RoofingContractor block with full NAP, geo, aggregateRating, and offer catalog but NO @id linking it to the graph. Google sees two unconnected business entities per page; the Article publisher references the Rank Math node, which lacks the NAP/rating data. Also, the openingHours value 'Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:00-17:00' is not valid schema.org format (should be 'Mo-Su 09:00-17:00').",
+    "fix": "Merge into one entity: add '@id': 'https://rooval-roofing.com/#organization' to the standalone block and strip the duplicate name/logo/url fields from it (or move NAP, geo, and services into Rank Math Local SEO settings and delete the standalone block). Fix openingHours to 'Mo-Su 09:00-17:00'."
+   },
+   {
+    "title": "Schema logo/image URL returns 404 on every page",
+    "url": "sitewide",
+    "severity": "high",
+    "evidence": "The standalone RoofingContractor block on all 34 pages sets both 'image' and 'logo' to https://rooval-roofing.com/rooval-roofing-logo.webp, which returns HTTP 404. The real logo is at https://rooval-roofing.com/wp-content/uploads/2025/10/rooval-roofing-logo.webp (used correctly by the Rank Math graph).",
+    "fix": "Point image/logo in the standalone block to https://rooval-roofing.com/wp-content/uploads/2025/10/rooval-roofing-logo.webp, or reference the existing '@id': 'https://rooval-roofing.com/#logo' node after merging the entities."
+   },
+   {
+    "title": "Sitewide aggregateRating reviewCount (17) contradicts on-page claim of 31 Google reviews",
+    "url": "sitewide",
+    "severity": "high",
+    "evidence": "The RoofingContractor JSON-LD on all 34 pages declares aggregateRating ratingValue 5.0 / reviewCount 17, while visible copy on 11 city pages says '5.0-star Google rating across 31 reviews' and /service-areas/ says '30+ Google reviews'. Additionally, the on-page copy states the source is Google reviews \u2014 Google's self-serving structured-data policy prohibits LocalBusiness aggregateRating sourced from third-party review sites (including Google itself), so this markup risks a manual action or being ignored.",
+    "fix": "Update reviewCount to the current true count in one place (after merging the duplicate entities). Better: remove aggregateRating from the LocalBusiness markup entirely unless the site displays first-party reviews it collected itself, since Google-review-sourced ratings are non-compliant markup."
+   },
+   {
+    "title": "Three substantial indexable blog posts missing from post-sitemap.xml",
+    "url": "https://rooval-roofing.com/post-sitemap.xml",
+    "severity": "high",
+    "evidence": "/how-long-does-a-roof-last-in-utah/ (~3,458 words), /metal-roof-vs-asphalt-shingles-utah/ (~3,411 words), and /utah-hail-damage-roof-checklist/ (~3,463 words) all return 200, are 'index, follow' with self-canonicals, and are internally linked from only 3-5 pages each \u2014 yet none appear in post-sitemap.xml (which lists just 6 posts). Discovery of these long-form posts relies solely on sparse internal links.",
+    "fix": "Check each post in WP: Rank Math 'Exclude from sitemap' setting, post type, or sitemap cache (flush Rank Math sitemap cache). Confirm all three appear in post-sitemap.xml, and add more internal links to them from the blog index and related service pages."
+   },
+   {
+    "title": "Stale thin placeholder post /rooval-roofing/ in sitemap duplicating About Us",
+    "url": "https://rooval-roofing.com/rooval-roofing/",
+    "severity": "medium",
+    "evidence": "post-sitemap.xml includes /rooval-roofing/ \u2014 a 229-word post from September 2024 titled 'Rooval Roofing - Rooval Roofing' whose content ('Rooval Roofing was established with a single mission...') duplicates the About Us story. It is indexable with BlogPosting schema and is linked from 2 pages.",
+    "fix": "Delete the post and 301-redirect /rooval-roofing/ to /about-us/, then remove the internal links pointing at it."
+   },
+   {
+    "title": "/roof-quote/ is indexable with no canonical and is linked sitewide under two URL variants",
+    "url": "https://rooval-roofing.com/roof-quote/",
+    "severity": "medium",
+    "evidence": "/roof-quote/ (static instant-quote tool, title 'Rooval Roofing \u2014 What Will My Roof Cost?') has no canonical tag and no robots meta, is not in any sitemap, and every page links to BOTH https://rooval-roofing.com/roof-quote/ and https://rooval-roofing.com/roof-quote/index.html?v=3 \u2014 two 200-status URLs for the same document with no canonicalization between them.",
+    "fix": "Add <link rel=\"canonical\" href=\"https://rooval-roofing.com/roof-quote/\"> to the static page, standardize all internal links to /roof-quote/ (drop the index.html?v=3 variant from hrefs; cache-bust assets instead), and either add it to the sitemap or noindex it if it should not rank."
+   },
+   {
+    "title": "Article schema emitted on non-article pages (homepage, contact, privacy, terms, sitemap, all service/city pages)",
+    "url": "sitewide",
+    "severity": "medium",
+    "evidence": "Rank Math outputs an Article node with author 'Mike Sorensen' and #richSnippet @id on every page, including /contact-us/, /privacy-policy/, /terms-and-conditions/, /sitemap/, the homepage, and all service and city pages. Article is the wrong entity type for these; legal and utility pages should not carry authored-article markup at all.",
+    "fix": "In Rank Math per-page Schema settings, remove the Article schema from legal/utility pages and switch service and city pages to WebPage or Service type (Rank Math: Schema > None or Service). Keep Article/BlogPosting only on blog posts."
+   },
+   {
+    "title": "/category/blog/ is an indexable near-duplicate of /blog/ with placeholder meta description",
+    "url": "https://rooval-roofing.com/category/blog/",
+    "severity": "low",
+    "evidence": "category-sitemap.xml contains only /category/blog/, which self-canonicalizes, titles itself 'Blog - Rooval Roofing' (vs the real /blog/ page), and has the literal placeholder meta description 'Your blog category'. Two competing blog-index URLs are indexable.",
+    "fix": "Noindex the category archive (Rank Math > Titles & Meta > Categories > noindex) or, since there is only one category, disable the category sitemap and let /blog/ be the sole blog index."
+   }
+  ],
+  "healthScore": 62,
+  "summary": "Crawl and indexation fundamentals are solid: all 34 sitemap pages (including the 4 new service pages, already present in page-sitemap.xml) return 200 with self-referencing canonicals, zero broken internal links or redirect chains, correct https/www 301s, clean robots.txt, and no warranty-duration violations anywhere. However, three critical owner-compliance violations exist \u2014 claims-process positioning in the FAQ copy and FAQPage schema of all 12 city pages, in the hail post's meta/og/schema descriptions, and in an About Us bullet. Structured data needs consolidation: every page carries two conflicting RoofingContractor entities, the standalone one references a 404ing logo URL and a stale reviewCount of 17 (on-page copy says 31 Google reviews), and three ~3,400-word indexable posts are missing from the sitemap while a thin 2024 placeholder post remains in it."
+ },
+ "agent-aeceacd28f8572735.jsonl": {
+  "findings": [
+   {
+    "title": "Owner-rule violation: insurance-claims positioning in FAQ on all 12 city pages (visible text + FAQPage rich-result schema)",
+    "url": "sitewide (all 12 /roofing-{city}-utah/ pages)",
+    "severity": "critical",
+    "evidence": "FAQ answer on every city page, also embedded in FAQPage JSON-LD: \"Rooval Roofing works with all major insurance carriers to document damage, provide required estimates, and guide you through the claims process at no added cost.\" Confirmed present in HTML and inside JSON-LD on 12/12 city pages. Violates two banned framings ('work with your insurer', 'guide/help through the claim').",
+    "fix": "Rewrite the shared FAQ answer to the approved wording: Rooval inspects and documents storm damage with dated photos and a written report; the homeowner keeps the records and decides whether to involve their insurer. Update both the visible FAQ block and the FAQPage JSON-LD (they are eligible to surface verbatim in Google rich results)."
+   },
+   {
+    "title": "Owner-rule violation: hail-damage post meta/og/twitter/BlogPosting descriptions still carry old claims-assistance copy",
+    "url": "https://rooval-roofing.com/utah-hail-damage-roof-insurance-claim/",
+    "severity": "critical",
+    "evidence": "meta description, og:description, twitter:description, and BlogPosting schema description all read: \"Learn how to file a hail damage roof insurance claim in Utah. Rooval Roofing assists homeowners through the full process. Free storm damage inspection available.\" The body was correctly rewritten (\"we inspect your roof, document its condition\u2026 We don't file claims, we don't negotiate with insurance companies\") but the SERP snippet was not.",
+    "fix": "Update the Rank Math meta description (which propagates to og/twitter/schema) to match the approved inspect-and-document framing, e.g. \"Hail damage in Utah? We inspect and document your roof with dated photos and an honest written report \u2014 you keep the records and decide what to do next.\""
+   },
+   {
+    "title": "Owner-rule violation: About Us page says Rooval helps homeowners through the claims process",
+    "url": "https://rooval-roofing.com/about-us/",
+    "severity": "critical",
+    "evidence": "Body text: \"Get Help with Claims: A professional can assist you with understanding the damage and help you through the claims process.\"",
+    "fix": "Reword the bullet to the approved framing, e.g. \"Get It Documented: a professional inspection gives you dated photos and a written report \u2014 you keep the records and decide whether to involve your insurer.\""
+   },
+   {
+    "title": "City pages never link to the four new service pages; new money pages have only 3-4 contextual inbound links",
+    "url": "sitewide (all 12 city pages \u2192 /roof-repair-utah/, /roof-replacement-utah/, /tpo-flat-roofing-utah/, /gutter-services-utah/)",
+    "severity": "high",
+    "evidence": "Content-area link graph: every city page links only to /metal-roofing-utah/ and /roof-tune-up/ (2 service links each, 0 to the new pages). Inbound content links: /tpo-flat-roofing-utah/ = 3 (only from sibling service pages; /our-services/ does not link it), /gutter-services-utah/ = 4, /roof-repair-utah/ = 4, /roof-replacement-utah/ = 4. They are in the nav, but contextual links carry the local-relevance signal.",
+    "fix": "In each city page's services section and FAQs, link 'roof repair', 'roof replacement', 'gutters', and (where relevant) 'flat/TPO roofing' phrases to the four new service pages; add the TPO page to /our-services/ content. Service pages already link 6 city pages each \u2014 reciprocate."
+   },
+   {
+    "title": "Duplicate, conflicting RoofingContractor entities in schema; hours live on the entity with no NAP",
+    "url": "sitewide",
+    "severity": "medium",
+    "evidence": "Every page emits two LocalBusiness entities: Rank Math's @graph node (@type [RoofingContractor,Organization], @id #organization) with openingHours \"Monday,\u2026,Sunday 09:00-17:00\" but NO address/phone/geo, plus a separate hand-coded RoofingContractor block with full NAP, geo (40.3916,-111.8508), areaServed (12 cities), priceRange, aggregateRating \u2014 but NO openingHoursSpecification and no @id tying it to the first entity. Also verify: schema claims open Sundays 9-5, which likely contradicts the Google Business Profile.",
+    "fix": "Consolidate into one entity: give the hand-coded block @id https://rooval-roofing.com/#organization (or move NAP/geo/areaServed/sameAs/aggregateRating into the Rank Math Local settings), add a proper openingHoursSpecification that matches GBP hours exactly, and remove the duplicate."
+   },
+   {
+    "title": "Sitewide LocalBusiness schema logo/image URL returns 404",
+    "url": "sitewide",
+    "severity": "medium",
+    "evidence": "The hand-coded RoofingContractor block on all 34 pages sets logo and image to https://rooval-roofing.com/rooval-roofing-logo.webp \u2192 HTTP 404. The working file is https://rooval-roofing.com/wp-content/uploads/2025/10/rooval-roofing-logo.webp (200).",
+    "fix": "Point schema logo/image at the /wp-content/uploads/2025/10/rooval-roofing-logo.webp URL."
+   },
+   {
+    "title": "Sitewide self-serving AggregateRating (5.0/17) with no on-page reviews",
+    "url": "sitewide",
+    "severity": "medium",
+    "evidence": "Every page's RoofingContractor block includes aggregateRating {ratingValue 5.0, reviewCount 17} but no individual Review items and no visible reviews on most pages. Google treats LocalBusiness self-serving review markup (ratings sourced from Google/third parties, not collected and displayed on the page) as ineligible and it can trigger a structured-data manual action.",
+    "fix": "Either display the actual reviews with Review markup on a reviews section and keep aggregateRating only there, or remove aggregateRating from the sitewide block."
+   },
+   {
+    "title": "sameAs lists only Facebook \u2014 no Google Business Profile or other citations",
+    "url": "sitewide",
+    "severity": "medium",
+    "evidence": "Schema sameAs: [\"https://www.facebook.com/RoovalRoofing/\"] only. No GBP/Google Maps URL, no Instagram, Yelp, Nextdoor, Houzz, or BBB profiles \u2014 weak entity-confirmation signals for local pack ranking.",
+    "fix": "Add the Google Business Profile share URL (g.page or maps CID link) plus every live social/citation profile to sameAs in the LocalBusiness block."
+   },
+   {
+    "title": "Missing city pages for adjacent high-growth markets: American Fork, Saratoga Springs, Eagle Mountain, Bluffdale",
+    "url": "sitewide",
+    "severity": "medium",
+    "evidence": "American Fork is mentioned 9 times across 6 pages (e.g. /metal-roofing-utah/, /gutter-services-utah/) yet has no city page; Saratoga Springs, Eagle Mountain, and Bluffdale have zero mentions and no pages, and none of the four appear in the schema areaServed list. All four border the existing Lehi/Highland/Draper service area and are among Utah's fastest-growing roof-dense suburbs.",
+    "fix": "Build /roofing-american-fork-utah/, /roofing-saratoga-springs-utah/, /roofing-eagle-mountain-utah/, /roofing-bluffdale-utah/ to the same template quality as the existing 12, add them to the /service-areas/ hub, nav, and schema areaServed."
+   },
+   {
+    "title": "Instant Quote page has no canonical, no meta description, duplicate URLs, and a 1.9 MB HTML payload",
+    "url": "https://rooval-roofing.com/roof-quote/",
+    "severity": "medium",
+    "evidence": "/roof-quote/ (linked sitewide in nav as 'Instant Quote' and twice from /service-areas/, once as /roof-quote/index.html?v=3) returns 200 with title \"Rooval Roofing \u2014 What Will My Roof Cost?\" but has no <link rel=canonical>, no meta description, no robots directive, no H1, and 1,966,199 bytes of HTML at two indexable URLs. It is absent from the XML sitemap.",
+    "fix": "Add a self-referencing canonical on /roof-quote/, change the /service-areas/ link to the clean URL (drop index.html?v=3), add a meta description + H1, and either include it in the sitemap or noindex it deliberately; slim the payload."
+   },
+   {
+    "title": "Thin duplicate blog archive /category/blog/ is indexable and in the sitemap",
+    "url": "https://rooval-roofing.com/category/blog/",
+    "severity": "low",
+    "evidence": "Title \"Blog - Rooval Roofing\", meta description \"Your blog category\", duplicates /blog/ listing, has 0 contextual inbound links, yet is index,follow and included in category-sitemap.xml.",
+    "fix": "Noindex the category archive (or redirect it to /blog/) and drop the category sitemap in Rank Math."
+   },
+   {
+    "title": "Legacy /rooval-roofing/ page with duplicated brand title and thin content competes for the brand query",
+    "url": "https://rooval-roofing.com/rooval-roofing/",
+    "severity": "low",
+    "evidence": "Title \"Rooval Roofing - Rooval Roofing\", 338 words, content overlaps homepage/about-us, only 2 inbound links (one from a blog post), indexable.",
+    "fix": "301-redirect it to / or /about-us/ (or rewrite it into a differentiated page); update the internal links pointing to it."
+   },
+   {
+    "title": "Heading defects: homepage has a stray double H1 ('Rooval Home'), contact page has no H1",
+    "url": "https://rooval-roofing.com/ and https://rooval-roofing.com/contact-us/",
+    "severity": "low",
+    "evidence": "Homepage H1s: ['Rooval Home', 'Utah's #1 Roofing Solutions'] \u2014 'Rooval Home' is a template artifact. /contact-us/ has zero H1 elements.",
+    "fix": "Demote/remove the 'Rooval Home' heading; add an H1 like \"Contact Rooval Roofing \u2014 Lehi, UT\" to the contact page."
+   },
+   {
+    "title": "No 'near me' capture in city-page copy or FAQs",
+    "url": "sitewide (city + service pages)",
+    "severity": "low",
+    "evidence": "\"near me\" appears in body copy on only 2 of 34 pages (/roof-repair-utah/, /roof-replacement-utah/) and in zero titles/FAQ questions. Title patterns are otherwise strong for city+UT intent (e.g. \"Draper, UT Roofing Company | Free Estimates | Rooval Roofing\").",
+    "fix": "Add one natural FAQ per city/service page such as \"Looking for a roofer near me in {City}?\" answered with drive-time from the Lehi shop \u2014 keeps titles clean while capturing near-me phrasing on-page."
+   },
+   {
+    "title": "Several titles exceed 60 characters and truncate in SERPs",
+    "url": "sitewide (4 blog posts + /roofing-highland-utah/ 63ch, /roofing-provo-utah/ 61ch)",
+    "severity": "low",
+    "evidence": "Examples: \"How to Tell if Your Utah Roof Needs Replacing (Before It's Too Late) - Rooval Roofing\" (85 chars), \"How to Choose a Roofing Contractor in Utah (Without Getting Burned) - Rooval Roofing\" (84), \"Highland UT Roof Repair & Roofing | 5.0\u2605 Rated | Rooval Roofing\" (63).",
+    "fix": "Trim blog titles to ~60 chars (drop the ' - Rooval Roofing' suffix on long posts via Rank Math); city-page overruns are marginal and lower priority."
+   }
+  ],
+  "healthScore": 62,
+  "summary": "Local-SEO fundamentals are strong: NAP (Rooval Roofing, 2526 N Elm Dr, Lehi UT 84043, (385) 424-8810) is perfectly consistent across all 34 pages and schema, the 12 city pages are genuinely unique (~75-80% unique content, 1,500-1,800 words, real neighborhood/landmark specifics), the service-areas hub links every city, and the four new service pages are live, indexable, and in the sitemap. However, three critical owner-compliance violations drag the score: an insurance FAQ on all 12 city pages (in visible text AND FAQPage rich-result schema) promising to \"work with all major insurance carriers\u2026and guide you through the claims process,\" the hail post's meta/og/schema descriptions still claiming Rooval \"assists homeowners through the full process,\" and an About Us bullet offering \"help through the claims process.\" Secondary gaps: city pages never link to the four new money pages, duplicate/conflicting LocalBusiness schema entities (hours on the NAP-less one, 404ing logo URL, Facebook-only sameAs, self-serving sitewide aggregateRating), and four adjacent high-growth cities (American Fork, Saratoga Springs, Eagle Mountain, Bluffdale) have no pages."
+ },
+ "agent-a3edabd14f54129f8.jsonl": {
+  "findings": [
+   {
+    "title": "Owner-rule violation: insurance-claims positioning in FAQ on all 12 city pages (visible text + FAQPage rich-result schema)",
+    "url": "sitewide (all 12 /roofing-{city}-utah/ pages)",
+    "severity": "critical",
+    "evidence": "Verified live: on 12/12 city pages the phrase appears twice \u2014 once in the visible FAQ accordion and once inside FAQPage JSON-LD. Question: \"Does homeowner's insurance cover roof storm damage in Utah?\" Answer ends: \"Rooval Roofing works with all major insurance carriers to document damage, provide required estimates, and guide you through the claims process at no added cost.\" Violates two banned framings ('work with your insurer', 'guide/help through the claim') and is eligible to surface verbatim in Google rich results.",
+    "fix": "Rewrite the shared FAQ answer to the approved wording: Rooval inspects and documents storm damage with dated photos and a written report; the homeowner keeps the records and decides whether to involve their insurer. Update both the visible FAQ block and the FAQPage JSON-LD on all 12 city pages."
+   },
+   {
+    "title": "Owner-rule violation: hail-damage post meta/og/twitter/BlogPosting descriptions still carry old claims-assistance copy",
+    "url": "https://rooval-roofing.com/utah-hail-damage-roof-insurance-claim/",
+    "severity": "critical",
+    "evidence": "Verified live: meta description, og:description, twitter:description, and BlogPosting JSON-LD description all read verbatim: \"Learn how to file a hail damage roof insurance claim in Utah. Rooval Roofing assists homeowners through the full process. Free storm damage inspection available.\" The body was correctly rewritten (contains \"we don't file claims\" and the inspect-and-document framing), so this is not covered by the educational-content exemption \u2014 the description is Rooval's own positioning claim, and it is what shows in the SERP snippet.",
+    "fix": "Update the Rank Math meta description (which propagates to og/twitter/schema) to match the approved inspect-and-document framing, e.g. \"Hail damage in Utah? We inspect and document your roof with dated photos and an honest written report \u2014 you keep the records and decide what to do next.\""
+   },
+   {
+    "title": "Owner-rule violation: About Us page says a professional will help you through the claims process",
+    "url": "https://rooval-roofing.com/about-us/",
+    "severity": "critical",
+    "evidence": "Verified live in an Elementor icon-list bullet: \"Get Help with Claims: A professional can assist you with understanding the damage and help you through the claims process.\" Although phrased as 'a professional', on Rooval's own About page it positions Rooval as claims-process help, contradicting the approved inspect-and-document framing.",
+    "fix": "Reword the bullet to the approved framing, e.g. \"Get It Documented: a professional inspection gives you dated photos and a written report \u2014 you keep the records and decide whether to involve your insurer.\""
+   },
+   {
+    "title": "City pages never link to the four new service pages; new money pages have only 3-4 contextual inbound links",
+    "url": "sitewide (all 12 city pages \u2192 /roof-repair-utah/, /roof-replacement-utah/, /tpo-flat-roofing-utah/, /gutter-services-utah/)",
+    "severity": "high",
+    "evidence": "Verified live via full content-area link-graph sweep (header/footer/nav stripped): every one of the 12 city pages links only to /metal-roofing-utah/ and /roof-tune-up/ \u2014 0 links to the four new pages. Inbound content links: /tpo-flat-roofing-utah/ = 3 (only sibling service pages; /our-services/ does not link it), /roof-repair-utah/ = 4, /roof-replacement-utah/ = 4, /gutter-services-utah/ = 4 (each: siblings + /our-services/). All four new pages are in the header nav and each already links out to the same 6 city pages (Lehi, Draper, Highland, Orem, Provo, Sandy), but city pages do not reciprocate.",
+    "fix": "In each city page's services section and FAQs, link 'roof repair', 'roof replacement', 'gutters', and (where relevant) 'flat/TPO roofing' phrases to the four new service pages; add the TPO page to /our-services/ content. Service pages already link 6 city pages each \u2014 reciprocate."
+   }
+  ],
+  "healthScore": 62,
+  "summary": "Adversarial re-fetch of all 34 sitemap pages plus the 4 new service pages refuted nothing: all four findings were confirmed verbatim on the live site. The city-page insurance FAQ appears in both visible HTML and FAQPage JSON-LD on 12/12 pages; the hail post's meta/og/twitter/BlogPosting descriptions still carry the old claims-assistance copy while the body is correctly rewritten; the About Us claims bullet is present word-for-word; and the link-graph counts (0 city-to-new-page links, 3-4 inbound content links per new page, TPO missing from /our-services/) reproduced exactly."
+ },
+ "agent-a9d29c823ae1a5829.jsonl": {
+  "findings": [
+   {
+    "title": "4 new service pages get almost no contextual inbound links \u2014 zero from city pages, blog posts, or homepage body",
+    "url": "https://rooval-roofing.com/tpo-flat-roofing-utah/",
+    "severity": "high",
+    "evidence": "Full 37-page sweep of content-area links (nav/footer excluded): /tpo-flat-roofing-utah/ has 3 inbound content links (all from the other 3 new pages), /roof-repair-utah/ has 4, vs /metal-roofing-utah/ 31 and /roof-tune-up/ 26. All 12 city pages content-link only 'Metal roofing' -> /metal-roofing-utah/ and 'Roof tune-up' -> /roof-tune-up/ \u2014 none link roof-repair/roof-replacement/TPO/gutter-services. None of the 9 blog posts link them either, despite exact-match topics: /signs-roof-needs-replacing-utah/ does not link /roof-replacement-utah/; /utah-gutters-before-winter/ does not link /gutter-services-utah/; /utah-hail-damage-roof-checklist/ does not link /roof-repair-utah/. Homepage body's only internal content link is 'Explore Roofing Solutions' -> /our-services/ (all service links on home are class ct-menu-link nav items).",
+    "fix": "Add contextual links to the 4 new pages from (1) each city page's services list (they already link metal + tune-up, so add repair/replacement/TPO/gutters there), (2) the topically matching blog posts (signs-roof-needs-replacing -> roof-replacement; utah-gutters-before-winter -> gutter-services; hail checklist + hail insurance post -> roof-repair), and (3) a homepage services section with direct links to each service page."
+   },
+   {
+    "title": "/our-services/ hub is incomplete: no Roof Repair, TPO & Flat Roofing, or Roof Tune-Up sections",
+    "url": "https://rooval-roofing.com/our-services/",
+    "severity": "high",
+    "evidence": "Page body has only three service sections (h2: 'Roofing Services', 'Gutter Services', 'Metal Roofing Services'). Zero body links to /tpo-flat-roofing-utah/ or /roof-tune-up/ \u2014 their only occurrences on the page are class=\"ct-menu-link\" (header/footer nav). The 'Roofing Services' card's 7 buttons all point to /roof-replacement-utah/; the sole body link to /roof-repair-utah/ is a mis-labeled gutter button (see next finding).",
+    "fix": "Add three more service cards to /our-services/ \u2014 Roof Repair -> /roof-repair-utah/, TPO & Flat Roofing -> /tpo-flat-roofing-utah/, Roof Tune-Up -> /roof-tune-up/ \u2014 so the hub links every service page with descriptive anchors."
+   },
+   {
+    "title": "Mis-targeted link: 'Downspout repair and replacement' button in the Gutter Services card links to /roof-repair-utah/",
+    "url": "https://rooval-roofing.com/our-services/",
+    "severity": "medium",
+    "evidence": "In the Gutter Services card: <a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"/roof-repair-utah/\"><span class=\"elementor-button-text\">Downspout repair and replacement</span></a> \u2014 sits between 'Seamless gutter setup' and 'Gutter repair and maintenance' buttons that correctly link /gutter-services-utah/. It is also the page's only relative href (all others are absolute).",
+    "fix": "Point the 'Downspout repair and replacement' button to https://rooval-roofing.com/gutter-services-utah/ (and use an absolute URL for consistency)."
+   },
+   {
+    "title": "Three live blog posts are missing from post-sitemap.xml",
+    "url": "https://rooval-roofing.com/post-sitemap.xml",
+    "severity": "medium",
+    "evidence": "post-sitemap.xml lists 6 posts, but 9 are live: /how-long-does-a-roof-last-in-utah/, /metal-roof-vs-asphalt-shingles-utah/, and /utah-hail-damage-roof-checklist/ all return HTTP 200 with <meta name=\"robots\" content=\"index, follow, ...\"> and are linked from /blog/ and other posts, yet none appear in any sub-sitemap.",
+    "fix": "Flush the Rank Math sitemap cache (Rank Math > Sitemap Settings, or resave permalinks) and confirm the 3 posts appear in post-sitemap.xml; check they aren't individually excluded from the sitemap in Rank Math's post settings."
+   },
+   {
+    "title": "Sitewide CTA links a duplicate quote URL (/roof-quote/index.html?v=3) while other links use /roof-quote/, which has no canonical and is absent from the sitemap",
+    "url": "sitewide",
+    "severity": "medium",
+    "evidence": "Every one of the 37 pages carries a '\ud83c\udfe0 Get Your Instant Roof Quote' banner linking href=\"https://rooval-roofing.com/roof-quote/index.html?v=3\", while contextual links use https://rooval-roofing.com/roof-quote/ ('get an instant quote', 'instant roof quote tool'). /roof-quote/ is the most-linked internal target on the site (inbound from all 37 pages) but returns no <link rel=canonical>, no robots meta, and is in no sitemap.",
+    "fix": "Change the sitewide banner href to https://rooval-roofing.com/roof-quote/ (drop index.html?v=3), add a self-referencing canonical to the static /roof-quote/ page, and include it in the sitemap if it should rank."
+   },
+   {
+    "title": "/category/blog/ is a complete orphan (zero inbound links) yet is submitted in the sitemap and duplicates /blog/",
+    "url": "https://rooval-roofing.com/category/blog/",
+    "severity": "medium",
+    "evidence": "Link-graph sweep found 0 inbound internal links to /category/blog/ from any of the 37 pages (nav, footer, or content) \u2014 it is unreachable by crawling from home \u2014 yet category-sitemap.xml submits it. Its post listing duplicates /blog/, and it contains the site's only empty-text anchor (bare image link to /rooval-roofing/).",
+    "fix": "Either noindex the category archive and remove category-sitemap.xml in Rank Math (simplest, since /blog/ already serves as the listing), or link it from post breadcrumbs/category labels so it is reachable."
+   },
+   {
+    "title": "Thin placeholder post /rooval-roofing/ is indexed, in the sitemap, and is the deepest page on the site",
+    "url": "https://rooval-roofing.com/rooval-roofing/",
+    "severity": "low",
+    "evidence": "Title 'Rooval Roofing - Rooval Roofing', h1 'Rooval Roofing', ~338 visible words including page chrome; only inbound links are the /blog/ listing and an adjacent post's Prev/Next pagination, making it 3 clicks from home (deepest reachable page). It adds no service or city relevance.",
+    "fix": "Delete and 301-redirect it to /about-us/ (or expand it into a real About-the-company post); remove it from the post sitemap."
+   },
+   {
+    "title": "/blog/ index and body CTAs on home + /roof-tune-up/ have minor link-consistency gaps",
+    "url": "https://rooval-roofing.com/blog/",
+    "severity": "low",
+    "evidence": "/blog/ receives only nav links \u2014 no service or city page contextually links any guide hub ('see our roofing guides'). Separately, body CTAs on the homepage ('Get a Free Estimate') and 3 on /roof-tune-up/ link https://estimate.rooval-roofing.com/quote while other pages' body CTAs use the Railway CRM URL \u2014 both endpoints serve the same app (HTTP 200, identical payload), so this is consistency only and may fall under the known deferred estimate-subdomain cleanup.",
+    "fix": "Add 1-2 contextual links to relevant blog guides from service pages (e.g. roof-replacement -> signs-roof-needs-replacing post), and when the deferred estimate-subdomain cleanup happens, normalize the home/roof-tune-up body CTAs to the same quote URL used elsewhere."
+   }
+  ],
+  "healthScore": 58,
+  "summary": "The site's structural plumbing is solid \u2014 all 37 crawled pages return 200 with no broken internal links, every page sits within 3 nav clicks of home, anchor text is uniformly descriptive (zero generic anchors), the /service-areas/ hub links all 12 city pages, and the owner compliance rules are fully clean (no warranty durations, no insurance-claims positioning outside the permitted educational post). The core weakness is contextual linking into the 4 new service pages: they receive essentially no body links beyond nav (TPO has 3, roof-repair 4, versus 31 for metal roofing and 26 for tune-up), because all 12 city pages, all 9 blog posts, and the homepage body link only to the two older services, and the /our-services/ hub omits Roof Repair, TPO, and Tune-Up cards entirely (plus one mis-targeted 'Downspout repair' button pointing at roof-repair). Secondary hygiene issues \u2014 3 live posts missing from the post-sitemap, a fully orphaned /category/blog/, and a duplicated /roof-quote/index.html?v=3 CTA URL with no canonical \u2014 are quick fixes that would meaningfully lift crawl and equity flow."
+ }
+}
