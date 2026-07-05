@@ -51,11 +51,44 @@ taglines correct, **no insurance-claims language**, no mojibake.
   then double-encodes on save). Keep snippet code **ASCII-only** (use `-` not `—`), or decode
   with `new TextDecoder().decode(Uint8Array.from(atob(b64),c=>c.charCodeAt(0)))`.
 
-## Remaining (next waves)
-12 cities still need photos sourced/vetted/uploaded + a row added to the snippet-2880 map:
-Salt Lake City, Sandy, Murray, Draper, Highland, Pleasant Grove, Springville, Lindon,
-American Fork, Saratoga Springs, Eagle Mountain, Bluffdale. (Candidates already scouted for
-Lindon; Wikimedia landmark search terms known for the rest.)
+## Wave 2 — LIVE & verified (12 cities) — completes all 16
+Uploaded 24 images (12 hero + 12 body), attachment ids **2882-2905** (sequential, paired
+hero/body per city). Added 12 rows to the snippet-2880 map; re-saved 2880 via the WPCode
+React editor (CodeMirror.setValue of the ASCII body, then Update). Verified live: all 12
+render `rrhero-img` + reading badge + booking CTA + roofing figure; spot-checked Draper
+(hero 1024x768, `complete:true`) and American Fork visually.
+
+| City | Hero | License | Hero id / body id |
+|---|---|---|---|
+| Draper | Draper Utah Temple | CC BY-SA 3.0 (Leon7) | 2882 / 2883 |
+| Lindon | Wasatch Front valley vista | CC BY-SA 2.0 (Don LaVange) | 2884 / 2885 |
+| Pleasant Grove | historic Main Street | CC BY-SA 2.0 (2MP) | 2886 / 2887 |
+| Eagle Mountain | Pony Express Pkwy residential | Public domain | 2888 / 2889 |
+| Salt Lake City | Utah State Capitol | CC BY-SA 4.0 (Acroterion) | 2890 / 2891 |
+| Saratoga Springs | Central Bank building | CC0 (SKO80) | 2892 / 2893 |
+| Murray | brick ranch home (Pexels) | Pexels License | 2894 / 2895 |
+| Highland | craftsman home (Pexels) | Pexels License | 2896 / 2897 |
+| Sandy | blue-gray two-story (Pexels) | Pexels License | 2898 / 2899 |
+| Bluffdale | tan stucco home (Pexels) | Pexels License | 2900 / 2901 |
+| American Fork | Utah blue craftsman (Pexels) | Pexels License | 2902 / 2903 |
+| Springville | stone two-story, foothills (Pexels) | Pexels License | 2904 / 2905 |
+
+**Home-hero cities (6):** Murray/Highland/Sandy/Bluffdale/American Fork/Springville use a clean
+Utah-style home exterior (their Wikimedia landmark candidates were snowy city-hall / signage /
+vintage shots — rejected per the no-snow, clean-professional rule). AF + Springville got the two
+most distinctly Mountain-West homes (stone-accent craftsman + dry-foothills backdrop).
+
+⚠️ **Commons search ordering is non-deterministic** — a re-query returned differently-ordered
+candidates than the first run, so the picked images did not match the ones first viewed. Fix:
+re-downloaded the *actual* manifest candidates and re-vetted the exact image that would upload
+(Draper Temple, Lindon Wasatch vista, PG Main Street, Eagle Mtn residential, SLC Capitol,
+Saratoga Central Bank). Lesson reinforced: **view the file you will actually upload, not a re-query.**
+
+## Deploy note — WPCode stores PHP snippets WITHOUT the `<?php` tag
+The live CodeMirror value starts at `/**` (no `<?php`). The repo file keeps `<?php` as the
+restore-reference convention; when pushing to the editor, strip the leading `<?php\n` first.
+Base64 > ~8KB: transfer in <=4KB chunks via `window.B += "..."`, then `setValue(atob(window.B))`
+(ASCII-only code, so atob is safe here).
 
 ## Repo-sync TODO (pre-existing, unrelated to this change)
 `snippets/city-pages-faq-faqpage-schema-2621.php` in the repo is **stale** — it still contains
