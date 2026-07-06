@@ -94,3 +94,13 @@ Base64 > ~8KB: transfer in <=4KB chunks via `window.B += "..."`, then `setValue(
 `snippets/city-pages-faq-faqpage-schema-2621.php` in the repo is **stale** — it still contains
 banned insurance-claims phrasing that was already fixed on the LIVE snippet (live Orem/Provo/etc.
 FAQ verified clean this session). Re-pull the live 2621 code and overwrite the repo copy.
+
+## Post-script (2026-07-05) — WPCode slot 2774 repurposed
+The run-once slot **2774** (previously held the deactivated "Fix Chaty email to info@"
+code as documentation) was reused for the CRM lead-intake diagnostic (renamed
+"Diag: locate rooval_send_lead (run once)", now **deactivated** again). The Chaty fix
+itself is unaffected — it persists as the changed `cht_social_Email` option + the
+`rooval_email_fix_done` flag option in the DB; only the snippet's code text was replaced.
+Current 2774 contents: diagnostic v2 (post-123 identity + snippet-2636 guard check),
+booleans-only output via an `RRLEADCHK2` admin_footer comment. Full findings:
+`research/crm-lead-intake-fix-handoff-2026-07-04.md`.
