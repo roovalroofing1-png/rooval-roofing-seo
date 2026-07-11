@@ -1,0 +1,52 @@
+{
+  "description": "Manual AI-engine citation observations collected by Matthew (via Grok consumer UI) on/before 2026-07-10. Seed data for the GEO intelligence system: these are the URLs/domains AI engines actually cited for Utah roofing queries. Schema matches the planned citations table.",
+  "collected_by": "manual (Grok web UI + Gemini side panel experiments)",
+  "collected_date": "2026-07-10",
+  "observations": [
+    {
+      "engine": "grok",
+      "prompt": "Utah hail damage repair",
+      "rooval_named": false,
+      "cited_urls": [
+        "https://roofingutah.com/roof-repair/hail-damage/",
+        "https://www.infinityroofer.com/utah/hail-damage/",
+        "https://mwroofingutah.com/hail-damage-roof-repair-utah/",
+        "https://www.aaroofsutah.com/emergency-roof-repair",
+        "https://www.topgraderoofingutah.com/services/roof-repairing",
+        "https://vertexroofingslc.com",
+        "https://usasuperior.com/hail-damage-roof-repair-cost/"
+      ]
+    },
+    {
+      "engine": "grok",
+      "prompt": "Roofing wind damage, Utah",
+      "rooval_named": false,
+      "cited_urls": [
+        "https://skyridgeco.com/wind-damage-roof-repair",
+        "https://www.skabelundroofingut.com/services/roof-storm-damage/wind-damage/",
+        "https://builtbynorthridge.com/storm-damage-restoration-utah/",
+        "https://vertexroofingslc.com",
+        "https://insurance.utah.gov/consumers/home-insurance/home-claims-info/",
+        "https://skyridgeco.com/solutions/storm-damage"
+      ]
+    },
+    {
+      "engine": "unspecified",
+      "prompt": "(context URLs collected during the same research session)",
+      "rooval_named": false,
+      "cited_urls": [
+        "https://whitakerroofing.com",
+        "https://a1roofingutah.com",
+        "https://www.amcoroof.com",
+        "https://www.gaf.com/en-us/roofing-contractors/residential/usa/ut/salt-lake-city?distance=25"
+      ]
+    }
+  ],
+  "early_insights": [
+    "Vertex Roofing (vertexroofingslc.com) cited in BOTH hail and wind queries — cross-query authority; study their page structure.",
+    "Sky Ridge cited twice within the wind query (two different URLs) — dedicated per-storm-type landing pages win (Rooval has combined coverage on the repair page; consider dedicated /hail-damage/ and /wind-damage/ pages).",
+    "insurance.utah.gov cited for wind query — engines pull the neutral .gov claims-info resource. Content-pillar opportunity: the definitive Utah storm-damage DOCUMENTATION guide (inspect+document lane, links to the .gov resource).",
+    "gaf.com contractor locator surfaces in research — confirms manufacturer-directory profiles are a priority off-site surface.",
+    "Every cited competitor URL for hail is a DEDICATED hail-damage page with city/state in slug — exact-match landing pages get cited, not homepages (except vertex)."
+  ]
+}
