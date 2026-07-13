@@ -1,0 +1,141 @@
+{
+ "source": "NOAA NCEI Storm Events Database",
+ "pulled": "2026-07-13",
+ "scope": "Salt Lake County + Utah County, UT; 2016-2025 complete + 2026 YTD",
+ "thresholds": "Hail >= 1.0 inch; Thunderstorm Wind >= 58 mph (50.4 kt)",
+ "totals": {
+  "hail_ge1in_SL": 14,
+  "hail_ge1in_Utah": 7,
+  "wind_ge58_SL": 124,
+  "wind_ge58_Utah": 66
+ },
+ "by_year": [
+  {
+   "year": "2016",
+   "hail_SL": 3,
+   "hail_Utah": 1,
+   "wind_SL": 9,
+   "wind_Utah": 4
+  },
+  {
+   "year": "2017",
+   "hail_SL": 1,
+   "hail_Utah": 0,
+   "wind_SL": 1,
+   "wind_Utah": 2
+  },
+  {
+   "year": "2018",
+   "hail_SL": 2,
+   "hail_Utah": 0,
+   "wind_SL": 0,
+   "wind_Utah": 2
+  },
+  {
+   "year": "2019",
+   "hail_SL": 0,
+   "hail_Utah": 0,
+   "wind_SL": 11,
+   "wind_Utah": 1
+  },
+  {
+   "year": "2020",
+   "hail_SL": 0,
+   "hail_Utah": 0,
+   "wind_SL": 10,
+   "wind_Utah": 4
+  },
+  {
+   "year": "2021",
+   "hail_SL": 2,
+   "hail_Utah": 0,
+   "wind_SL": 17,
+   "wind_Utah": 5
+  },
+  {
+   "year": "2022",
+   "hail_SL": 0,
+   "hail_Utah": 0,
+   "wind_SL": 25,
+   "wind_Utah": 11
+  },
+  {
+   "year": "2023",
+   "hail_SL": 4,
+   "hail_Utah": 0,
+   "wind_SL": 28,
+   "wind_Utah": 22
+  },
+  {
+   "year": "2024",
+   "hail_SL": 2,
+   "hail_Utah": 6,
+   "wind_SL": 9,
+   "wind_Utah": 11
+  },
+  {
+   "year": "2025",
+   "hail_SL": 0,
+   "hail_Utah": 0,
+   "wind_SL": 14,
+   "wind_Utah": 4
+  },
+  {
+   "year": "2026",
+   "hail_SL": 0,
+   "hail_Utah": 0,
+   "wind_SL": 0,
+   "wind_Utah": 0
+  }
+ ],
+ "biggest_hail": [
+  {
+   "in": "1.75",
+   "county": "SALT LAKE",
+   "date": "13-JUN-16"
+  },
+  {
+   "in": "1.75",
+   "county": "UTAH",
+   "date": "13-AUG-24"
+  },
+  {
+   "in": "1.50",
+   "county": "UTAH",
+   "date": "13-AUG-24"
+  }
+ ],
+ "strongest_wind": [
+  {
+   "mph": 96,
+   "county": "SALT LAKE",
+   "date": "13-JUL-24"
+  },
+  {
+   "mph": 90,
+   "county": "SALT LAKE",
+   "date": "03-JUL-23"
+  },
+  {
+   "mph": 87,
+   "county": "UTAH",
+   "date": "01-JUL-25"
+  }
+ ],
+ "hail_by_month": {
+  "APR": 1,
+  "MAY": 1,
+  "JUN": 9,
+  "AUG": 9,
+  "SEP": 1
+ },
+ "wind_by_month": {
+  "APR": 1,
+  "MAY": 24,
+  "JUN": 31,
+  "JUL": 58,
+  "AUG": 47,
+  "SEP": 19,
+  "OCT": 4
+ }
+}
