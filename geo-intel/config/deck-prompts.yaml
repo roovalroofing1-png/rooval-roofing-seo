@@ -1,0 +1,53 @@
+# Rooval Deck & Beam Builders — GEO citation tracker prompts
+# Companion to the roofing prompt matrix; deck is priority-2 track.
+# Source: deck GEO baseline 2026-07-12 (brief: roovaldeckbuilders-site/docs/geo-track-brief-2026-07-12.md)
+# Beams cluster deliberately over-weighted — verified wide-open niche in Utah County.
+
+- id: deck-01
+  cluster: local-pick
+  city: Lehi
+  prompt: "best deck builder in Lehi Utah"
+- id: deck-02
+  cluster: local-pick
+  city: Utah County
+  prompt: "who builds custom decks in Utah County"
+- id: deck-03
+  cluster: local-pick
+  city: Saratoga Springs
+  prompt: "custom deck builder near Saratoga Springs Utah"
+- id: deck-04
+  cluster: cost
+  city: Utah County
+  prompt: "how much does a deck cost in Utah County"
+- id: deck-05
+  cluster: cost
+  city: Utah County
+  prompt: "composite deck cost Utah County"
+- id: deck-06
+  cluster: materials-howto
+  city: Utah
+  prompt: "Trex vs TimberTech for Utah's climate"
+- id: deck-07
+  cluster: materials-howto
+  city: Utah County
+  prompt: "do I need a permit to build a deck in Utah County"
+- id: deck-08
+  cluster: niche-beams
+  city: Utah County
+  prompt: "who installs interior wood beams in Utah County"
+- id: deck-09
+  cluster: niche-beams
+  city: Utah
+  prompt: "how much do interior wood beams cost in Utah"
+- id: deck-10
+  cluster: niche-beams
+  city: Lehi
+  prompt: "faux vs real wood ceiling beams cost"
+- id: deck-11
+  cluster: pergola
+  city: Lehi
+  prompt: "best pergola builder in Lehi Utah"
+- id: deck-12
+  cluster: pergola
+  city: Utah County
+  prompt: "how much does a pergola cost in Utah County"
