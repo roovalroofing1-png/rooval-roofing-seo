@@ -51,7 +51,7 @@ The live site is **split-brain**: code-like artifacts vs. database content. Use 
 - **Address**: 2526 N Elm Dr, Lehi, UT 84043
 - **Phone**: (385) 424-8810 / +13854248810 — keep consistent **everywhere** (matches the Google Business Profile; required for local-SEO NAP). *Changed from the old (801) 471-4062 on 2026-06-01.*
 - **Email**: info@rooval-roofing.com
-- **Hours**: Mon–Fri 8am–6pm, Sat 8am–4pm
+- **Hours**: GBP shows **Open 24 hours, all 7 days** (owner's choice, set 2026-07-13, for storm/emergency searches). Lead-callback working hours per the storm kit: 8am–8pm. Site pages may still show older hour blocks — sync opportunistically.
 - **Key differentiator**: workmanship warranty + financing ("Use our money to build your roof"). **Say "workmanship warranty" — never state a specific term like "15-year."**
 - **Service areas**: Lehi, Provo, Orem, Salt Lake City, Sandy, Murray, Draper, American Fork, Pleasant Grove, Springville (and growing)
 - **Services**: Roof Installation, Repair, Replacement, Inspection, Maintenance, Gutters, Metal Roofing
