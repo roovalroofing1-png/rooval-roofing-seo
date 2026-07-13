@@ -38,8 +38,15 @@ The doc's price research read the **repo** copy of WPCode snippet 2621 (which ha
 
 **DECISION NEEDED:** which prices are current? If the repo (new) ones, sync the LIVE 2621 snippet to them (careful edit — 2621 is the one PHP snippet that can white-screen the site; back up first). If the live (old) ones are right, update the repo 2621 to match and everything's already consistent.
 
-## ⏭️ NOT YET DONE (next chunk of WS2)
-- **Internal-link insertions** (~17 net-new contextual links + the /roof-repair-utah/ & /roof-replacement-utah/ anchor sentences) — the doc's linking map. Higher error-risk (precise sentence placement); deferred to a focused follow-up.
-- **Homepage global meta description** (Rank Math → Titles & Meta → Homepage).
-- **Homepage body link insertions** (3 sentences across 3 sections).
-- 14/28-day GSC checks on the prize queries + the 4 retitled pages (revert triggers per the deployment doc).
+## ✅ Homepage net-new links — DONE (added 2026-07-13, verified live)
+The homepage (highest-authority page) linked NONE of the city/service pages. Added 4 net-new contextual links in 3 topically-matched sections (H1 unchanged = 1):
+- Roofing-services block → "roof repair in Sandy, Utah" (/roofing-sandy-utah/) + "Provo roof repair and replacement" (/roofing-provo-utah/)
+- Why-choose block → "free roof inspections in Lehi" (/roofing-lehi-utah/)
+- Roof-replacement block → "roof repair services across Utah" (/roof-repair-utah/)
+
+## ⏭️ DELIBERATELY NOT DONE — city-to-city link map (recommend SKIP)
+The doc's remaining ~20 city↔city insertions are **redundant**: every city page already cross-links its neighbors via the "Nearby Cities We Serve" block AND already links /roof-repair-utah/ + /roof-replacement-utah/ from its services/Nearby blocks (verified in prior sessions). Forcing 20+ more "we also serve X" sentences risks the exact over-optimization / template-stink the review panel flagged, for near-zero net-new SEO value. Recommendation: leave as-is. The genuine net-new link value (homepage → 4 pages) is captured.
+
+## ⏭️ Optional / deferred
+- **Homepage global meta description** (Rank Math → Titles & Meta → Homepage) — current homepage description is fine/compliant; the doc's swap only adds a "5.0★" CTR hook. Marginal; left for a quick manual toggle if desired.
+- 14/28-day GSC checks on the prize queries ("roof repair sandy ut", "roof inspection lehi") + the 4 retitled pages (revert triggers per the deployment doc).
