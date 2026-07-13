@@ -1,5 +1,8 @@
 # ROOVAL ROOFING — WS1 STORM-RESPONSE KIT
-*File home: `docs/storm-response-kit.md` (Rooval repo). Version 1.1 — July 13, 2026.*
+*File home: `docs/storm-response-kit.md` (Rooval repo). Version 1.2 — July 13, 2026 (organic-only).*
+> **OWNER DIRECTIVE (Matthew, July 13, 2026): ORGANIC ONLY - NO PAID ADS.**
+> S5 (Facebook lead-form ad + geo-fenced test) is SHELVED until Matthew explicitly reopens it, along with the ad-specific S1 items (budget cap #1, special-ad-category check #3, Leads Center parts of #4) and the "cost per booked inspection" metric. Everything else in this kit - GBP posts/photos/Q&A/reviews, Reels, community-group posts, the storm runbook's organic steps - is unaffected and runs as written.
+
 
 ## START HERE — Augustina, read this first (30 seconds)
 

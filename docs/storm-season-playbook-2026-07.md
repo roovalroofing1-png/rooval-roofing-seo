@@ -8,6 +8,9 @@
 
 ## The 60-second read
 
+> **UPDATE (July 13, 2026 — owner directive): ORGANIC ONLY.** No paid ads anywhere in this plan. WS1's "proposed paid test" is shelved (no budget decision needed), and "Facebook/Instagram cost per booked inspection" comes off Scoreboard A. All organic channels run as written.
+
+
 We are running **two engines at once**, and they run on **two different clocks**.
 
 **Engine 1 — the Lead Engine.** Books roof inspections from the rest of the 2026 storm season. Works in *days*. Lives on Google Business Profile, Facebook/Instagram, and how fast we call a new lead back. Augustina owns most of it. **This is where the money is this year.**
