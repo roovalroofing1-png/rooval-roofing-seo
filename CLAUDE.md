@@ -2,6 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## ⭐ Git workflow — MANDATORY (owner directive, 2026-07-13)
+
+**After every meaningful change, commit to this repo and push to GitHub — no exceptions.** The owner relies on Git/GitHub as the saved history and revert net, so work must never sit uncommitted or unpushed.
+
+- **Canonical repo:** `git@github.com:roovalroofing1-png/rooval-roofing-seo.git`, branch `main`. This is the ONE repo for the Rooval Roofing GEO/SEO project — **do NOT create a second/duplicate repo** (standing owner rule).
+- **Routine, every change:** stage the touched files → commit with a clean message → `git push origin main` → confirm the push landed. Never end a step with `git status` showing uncommitted work.
+- **Clean commit messages:** imperative, specific, ~72-char summary saying *what changed and why* (e.g. `WS9: add sitewide tap-to-call + /roof-quote/ canonical; footer DOPL license`). One logical unit of work per commit; don't batch unrelated changes.
+- **What Git holds:** the diffable artifacts (WPCode snippet code, schema/meta text, content drafts, changelogs, deployment records, data). It is the *readable history*, NOT a live-DB restore — see the two-track model below and `RESTORE.md`.
+- **Commit trailer:** `Co-Authored-By: Claude <noreply@anthropic.com>`.
+
 ## Project Overview
 
 This is the SEO and digital growth asset repository for **Rooval Roofing** (rooval-roofing.com) — a Utah-based roofing contractor. The repo stores code that gets deployed to a WordPress site hosted on Hostinger. There is no local build process; files are deployed directly to the live site via browser automation (Claude Chrome Extension) or the WordPress REST API.
