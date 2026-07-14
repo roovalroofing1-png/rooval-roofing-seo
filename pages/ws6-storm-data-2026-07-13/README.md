@@ -11,3 +11,10 @@
 2. Upload 2 real jobsite photos to replace [UPLOAD: ...] placeholders (hail-on-shingle hero; wind-lifted shingles).
 3. Add to "Our Services" or a "Resources" nav location, and add hub-and-spoke links FROM the storm pages + city pages back to this one.
 4. Run the full Fable adversarial panel later if desired (skipped now — Fable at 82% weekly / credit cap).
+
+## UPDATE — PUBLISHED LIVE 2026-07-13
+- Page 2991 is now **status: publish** → https://rooval-roofing.com/storm-damage-roof-history-utah/ (HTTP 200, single H1, 2 tables, FAQPage schema, no banned terms).
+- Photos: 2 REAL CompanyCam job photos (9087 Renaissance Dr / Cedar Hills), EXIF/GPS stripped for privacy, honest alt text (real Utah roofs, NOT labeled as hail/wind damage). Media ids 2992, 2993. The 3rd "inspector documenting damage" figure was REMOVED (no genuine photo; refused to mislabel).
+- WS3 storm pages were found already LIVE (hail id 2979, wind id 2980, both published & in nav, no leftover placeholders) — so the data page links both (hub-and-spoke restored).
+- IndexNow submitted (roof key) for all 3 storm URLs → Bing/ChatGPT/Copilot. HTTP 200.
+- Owner did the WS3 publish + price fills himself.
