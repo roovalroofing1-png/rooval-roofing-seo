@@ -1,0 +1,58 @@
+# Rooval Roofing — GEO citation tracker prompts (WS8 measurement spine)
+# The FIXED question set. Re-run the SAME list monthly and compare month-over-month.
+# Method today: web-search proxy ($0). Upgrade path: paid engine APIs for true ChatGPT/
+# Perplexity/Gemini/Grok citations (see geo-intel/README + the Intelligence blueprint).
+# Companion set: deck-prompts.yaml. Baselines land in geo-intel/data/geo-baseline-*.md
+
+- id: roof-01
+  cluster: local-pick
+  city: Lehi
+  prompt: "best roofer in Lehi Utah"
+- id: roof-02
+  cluster: local-pick
+  city: Utah County
+  prompt: "who should I call for a new roof in Utah County"
+- id: roof-03
+  cluster: local-pick
+  city: Lehi
+  prompt: "top rated roofing company near me Lehi Utah"
+- id: roof-04
+  cluster: storm
+  city: Utah
+  prompt: "Utah hail damage roof repair who to call"
+- id: roof-05
+  cluster: storm
+  city: Utah County
+  prompt: "wind damage roof repair Utah County"
+- id: roof-06
+  cluster: storm
+  city: Utah
+  prompt: "emergency roof repair near me Utah storm"
+- id: roof-07
+  cluster: cost
+  city: Utah
+  prompt: "roof replacement cost Utah"
+- id: roof-08
+  cluster: cost
+  city: Utah County
+  prompt: "roof repair cost Utah County"
+- id: roof-09
+  cluster: howto-trust
+  city: Utah
+  prompt: "how to tell if my roof has hail damage"
+- id: roof-10
+  cluster: howto-trust
+  city: Utah
+  prompt: "how do I document storm damage on my roof"
+- id: roof-11
+  cluster: howto-trust
+  city: Utah
+  prompt: "how to choose a roofing contractor in Utah"
+- id: roof-12
+  cluster: materials
+  city: Utah
+  prompt: "metal roofing vs asphalt shingles Utah"
+- id: roof-13
+  cluster: materials
+  city: Utah
+  prompt: "TPO roofing Utah cost"
