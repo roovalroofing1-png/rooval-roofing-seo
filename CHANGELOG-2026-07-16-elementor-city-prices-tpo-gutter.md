@@ -59,3 +59,11 @@ Anon, cache-busted sweep of 16 URLs (12 city + TPO + gutters + /roof-replacement
 ## Also verified this session (done earlier in commit c69dffd, not redone)
 - CertainTeed annotated photo removed from post 2924 (zero references sitewide).
 - Header search restyled to compact corner card (CSS serving live).
+
+## Addendum — adversarial-panel revise pass (same day)
+A 5-agent adversarial panel (sweep / coherence / schema / regression / synthesis) re-verified everything above: **zero rule violations survived**. Four secondary findings were fixed and live-verified:
+1. **Cost page 2950**: FAQPage JSON-LD answers synced word-for-word to the visible FAQ copy (3 of 5 were paraphrases) — 5/5 now verbatim, JSON-LD valid.
+2. **TPO 2780**: intro "what it costs in Utah" → "what drives the price in Utah"; H2 "What TPO Roofing Costs in Utah" → "What Drives TPO Roofing Cost in Utah" (the section intentionally quotes no number; the promise now matches the delivery).
+3. **Highland 2298**: "land toward the higher end of Utah County pricing" → "take more labor and staging than a simpler roof" (cross-city comparison no longer held once all cities show the same range). Via run-once WPCode PHP #2 (Admin Only, now DEACTIVATED; mirrored at snippets/run-once-coherence-fix-2026-07-16.php; backups in options rooval_bak2_elementor_{2298,2296}). Report: 2298:REPLACED_1|PC_SYNCED, 2296:REPLACED_1|PC_SYNCED.
+4. **Alpine 2296**: "usually run higher than a standard valley home" → "usually take more time and staging than a simpler roof" (same mechanism).
+Panel false-positives documented as non-issues: TPO "$9.50" survivor is SVG path data; "Steeper foothill" contains "per foot" as a benign substring.
