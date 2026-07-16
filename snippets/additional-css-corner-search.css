@@ -1,0 +1,36 @@
+/*
+ * Rooval corner search — restyle the Blocksy header search modal (#search-modal)
+ * from a full-screen dark overlay into a compact top-right corner card.
+ *
+ * WHERE THIS LIVES ON THE LIVE SITE:
+ *   Appended to Customizer > Additional CSS  (setting `custom_css[blocksy]`),
+ *   between the markers:  "=== Rooval compact corner search ==="  ...  "=== end Rooval corner search ==="
+ *   Deployed via  wp.customize('custom_css[blocksy]').set(existing + thisCSS)  then  previewer.save().
+ *   This file is the source-controlled copy — edit here, then re-sync to Additional CSS.
+ *
+ * WHY: owner disliked the full-screen dark search overlay ("when you search everything, it's all dark").
+ *   Wanted the search to open as a small box in the corner and let you type. Blocksy's search element
+ *   opens #search-modal (.ct-panel[data-behaviour="modal"]) which is fixed inset:0 with a
+ *   rgba(18,21,25,.98) dark background. We keep the element + its live "thumbs" results and only restyle it.
+ *   Closes via the × button, Escape, or re-clicking the header search icon.
+ */
+
+/* === Rooval compact corner search (added 2026-07-15) === */
+#search-modal.ct-panel{ top:92px !important; right:22px !important; left:auto !important; bottom:auto !important; width:min(460px,calc(100vw - 24px)) !important; height:auto !important; max-height:76vh !important; background:#ffffff !important; border-radius:14px !important; box-shadow:0 16px 48px rgba(0,0,0,.28), 0 0 0 1px rgba(0,0,0,.06) !important; overflow-y:auto !important; padding:14px 16px 16px !important; }
+body.admin-bar #search-modal.ct-panel{ top:124px !important; }
+#search-modal.ct-panel.active{ display:block !important; }
+#search-modal .ct-panel-actions{ position:absolute !important; top:10px !important; right:12px !important; width:auto !important; padding:0 !important; margin:0 !important; min-height:0 !important; z-index:3 !important; display:block !important; }
+#search-modal .ct-panel-actions .ct-toggle-close{ color:#555 !important; width:24px !important; height:24px !important; }
+#search-modal .ct-panel-content{ padding:22px 0 0 !important; max-width:none !important; width:100% !important; margin:0 !important; }
+#search-modal .ct-search-form{ margin:0 !important; }
+#search-modal .ct-search-form-inner{ border:2px solid #e3e3e3 !important; border-radius:10px !important; background:#fff !important; display:flex !important; align-items:center !important; min-height:0 !important; height:auto !important; padding:0 !important; margin:0 !important; }
+#search-modal input.modal-field{ font-size:16px !important; color:#1a1a1a !important; background:transparent !important; border:none !important; box-shadow:none !important; padding:11px 14px !important; flex:1 1 auto !important; min-height:0 !important; height:auto !important; width:auto !important; }
+#search-modal input.modal-field::placeholder{ color:#9a9a9a !important; }
+#search-modal .ct-search-form-inner button{ background:#f0b52a !important; color:#1a1a1a !important; border:none !important; border-radius:8px !important; width:42px !important; height:42px !important; min-height:0 !important; margin:3px !important; flex:0 0 auto !important; display:flex !important; align-items:center !important; justify-content:center !important; }
+#search-modal .ct-search-form-inner button svg{ fill:#1a1a1a !important; }
+#search-modal, #search-modal .ct-search-form, #search-modal .ct-live-results-nonce{ color:#1a1a1a !important; }
+#search-modal .ct-live-results-nonce a{ color:#1a1a1a !important; }
+#search-modal .ct-live-results-nonce a:hover{ color:#cc0000 !important; }
+#search-modal .ct-live-results-nonce{ margin-top:12px !important; }
+@media (max-width:600px){ #search-modal.ct-panel{ top:70px !important; right:10px !important; left:10px !important; width:auto !important; max-width:none !important; max-height:80vh !important; } body.admin-bar #search-modal.ct-panel{ top:102px !important; } }
+/* === end Rooval corner search === */
