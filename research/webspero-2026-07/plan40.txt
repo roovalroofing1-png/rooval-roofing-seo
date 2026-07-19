@@ -1,0 +1,334 @@
+﻿Website URL - https://rooval-roofing.com/ 
+
+
+Summary of the Tasks for the First Month
+
+
+On Page & Technical Tasks
+	Task Name
+	Count/Notes
+	Detailed Competitor Analysis
+	-
+	Audience Persona Development
+	-
+	Fan-Out Query Analysis (Ongoing)
+	-
+	Query Clustering
+	6 to 8 Queries (Per Cluster)
+	Work on Additional Assets (Based on Persona Findings)
+	-
+	Create the Structure for Location Pages (Ongoing)
+	1 Pages
+	Create Service Page Recommendations (Ongoing)
+	2 Pages
+	Create Homepage Recommendations
+	-
+	Internal Linking Recommendations
+	-
+	Create Schema Markup Strategy
+	-
+	Create LLM.txt File
+	-
+	Google Business Profile (GBP) Optimization
+	-
+	Blog Topic Research (Ongoing)
+	2
+	Blog Query Research (Ongoing)
+	2
+	Update Blog Posts 
+	1
+	Content Tasks 
+	Task Name
+	Count/Notes
+	Write Content for Location Pages (Ongoing)
+	1 Pages
+	Write Content for Service Pages (Ongoing)
+	2 Pages
+	Write Homepage Content
+	-
+	Write Meta Titles & Meta Descriptions (Ongoing)
+	Short Title, Duplicate Meta Description, Long Description, Short Description, Missing H1, Missing Images Alt Text
+	Create Content for Link-Building Activities
+	-
+	Write & Create Outlines for Existing Blog Posts (Ongoing)
+	1 Pages
+	Write & Create Outlines for New Blog Posts (Ongoing)
+	2 Pages
+	Dev Tasks 
+	Task Name
+	Count/Notes
+	Fix Technical Audit Issues (Ongoing)
+	-
+	Implement LLM.txt File
+	-
+	Implement Service Page Recommendations (Ongoing)
+	2 Pages
+	Implement Location Page Recommendations (Ongoing)
+	1 Pages
+	Implement Homepage Recommendations
+	-
+	Schema Markup Implementation
+	-
+	Update Copyright Year to 2026
+	-
+	Off-Page Tasks
+	Task Name
+	Count/Notes
+	Brand Mention Analysis Across AI Platforms (Ongoing)
+	40
+	Competitor Backlink Gap Analysis
+	4
+	Niche-Specific Business Listings
+	6
+	Guest Posts
+	4-6
+	Article Submissions
+	4-6
+	Blog Posts 
+	4-6
+	
+
+
+
+Summary of the Tasks for the Second Month
+
+
+On Page & Technical Tasks
+	Count/Notes
+	Create the Structure for Location Pages (Ongoing)
+	1 Pages
+	Create Service Page Recommendations (Ongoing)
+	2 Pages
+	Create Header & Footer Recommendations
+	-
+	Create the Structure for a Custom 404 Page
+	-
+	Configure GTM Events to Track Leads
+	-
+	Blog Topic Research (Ongoing)
+	2
+	Blog Query Research (Ongoing)
+	2
+	Update Blog Posts 
+	1
+	Fix Google Search Console Issues
+	-
+	Prompt Engineering Across AI Platforms (Ongoing)
+	40 (Query)
+	Thin Content Analysis
+	-
+	Semantic Similarity Analysis
+	-
+	Backlink audit and disavow toxic backlinks
+	-
+	Create GBP Local Map funeral (GBP)
+	-
+	GEO Query Tracking
+	-
+	Create and Update GBP Post 
+	-
+	Content Tasks
+	Count/Notes
+	Task Name
+	
+
+	Create Outlines for New Blog Posts (Ongoing)
+	2
+	Create Outlines for Existing Blog Posts (Ongoing)
+	1
+	Create Content for Link-Building Activities
+	
+
+	Write Content for Location Pages (Ongoing)
+	1 Pages
+	Write Content for Service Pages (Ongoing)
+	2 Pages
+	Write content for GBP Post 
+	6 posts
+	Dev Tasks
+	Count/Notes
+	Task Name
+	
+
+	Implement Service Page Recommendations (Ongoing)
+	2 Pages
+	Implement Location Page Recommendations (Ongoing)
+	1 Pages
+	Implement Header & Footer Recommendations (Ongoing)
+	-
+	Implement Custom 404 Page Recommendations
+	-
+	Improve Website Speed (Mobile & Desktop)
+	-
+	Fix Technical Audit Issues (Ongoing)
+	-
+	OFF Page Tasks
+	Count/Notes
+	Task Name
+	
+
+	Brand Mention Analysis Across AI Platforms (Ongoing)
+	40
+	Guest Posts 
+	4
+	Article Posts 
+	4
+	Blog Posts 
+	4-6
+	Profile Creation
+	8
+	Niche-Specific Business Listings
+	8
+	Competitor Backlink Gap Analysis
+	6
+	Reddit & Community Authority Building
+	6
+	
+
+Summary of the Tasks for the Third Month
+
+
+On Page & Technical Tasks
+	Count/Notes
+	Microsoft Clarity Analysis & Recommendations
+	-
+	Create the Structure for Location Pages (Ongoing)
+	3 Pages
+	Create Service Page Recommendations (Ongoing)
+	2 Pages
+	Hallucinated URL Analysis
+	
+
+	Blog Topic Research (Ongoing)
+	2
+	Blog Query Research (Ongoing)
+	2
+	Update Blog Posts 
+	2
+	GEO Query Tracking
+	
+
+	Conduct a Mobile SEO Audit
+	-
+	Conduct a SEMrush Site Audit
+	-
+	Analyze Google Search Console & GA4 Performance
+	-
+	Conduct Website Enhancement Suggestions
+	-
+	Perform CRO audit
+	-
+	Create GBP Post and Publish
+	-
+	Optimize for Local Citation
+	-
+	Analysis website heatmap
+	-
+	check and Analysis low performing page
+	-
+	Analysis Outdated Content Flagging (blog)
+	-
+	SERP Feature Optimization
+	-
+	Trust Signal Optimization
+	-
+	Orphan Page Analysis 
+	-
+	Content Gap Analysis
+	-
+	Anchor Text Optimization
+	-
+	Internal Link Analysis
+	-
+	Fan-Out Query Analysis (Ongoing)
+	-
+	Content Tasks
+	
+
+	Task Name
+	
+
+	Create Outlines for New Blog Posts (Ongoing)
+	2
+	Create Outlines for Existing Blog Posts (Ongoing)
+	2
+	Create Content for Link-Building Activities
+	-
+	Write Content for Location Pages (Ongoing)
+	3 Pages
+	Write Content for Service Pages (Ongoing)
+	2 Pages
+	Write content for GBP Post 
+	8 posts
+	Dev Tasks
+	
+
+	Task Name
+	
+
+	Implement Service Page Recommendations (Ongoing)
+	2 Pages
+	Implement Location Page Recommendations (Ongoing)
+	3 Pages
+	Fix Mobile Audit Issues
+	-
+	Fix SEMrush Audit Issues
+	-
+	Implement Website Enhancement Suggestions
+	-
+	OFF Page Tasks
+	
+
+	Task Name
+	
+
+	Competitor Backlink Gap Analysis
+	6
+	Brand Mention Analysis Across AI Platforms (Ongoing)
+	60
+	Niche Specific Business Listings
+	6
+	Guest Posts 
+	6
+	Article Posts 
+	6
+	Blog Posts 
+	6
+	Profile Creation
+	4
+	Reddit & Community Authority Building
+	2
+	
+
+Summary of the Tasks
+
+
+On Page and Technical Tasks: 
+
+* Competitor Analysis: We will analyze competitors to identify keyword gaps, content opportunities, and strategies that can strengthen website positioning.
+* Persona Development: We will define the target audience personas to better understand user intent, improve messaging, and align content with the right audience.
+* Fan-Out Query Analysis: We will research related search queries and topic clusters to expand keyword targeting and improve topical authority.
+* Target Page Structure Suggestions: We will create SEO-friendly page structure recommendations, including headings, layout, content flow, and CTA placement.
+* Internal Linking Suggestions: We will recommend strategic internal links between pages to improve navigation, crawlability, and SEO authority distribution. 
+* Work on Other Assets (Based on Persona Insights): We will identify content opportunities based on the target audience personas and develop supporting assets, such as blog topics, guides, and educational resources, to address user needs, strengthen topical authority, and improve organic visibility.
+* Old Blogs Audit: We will review existing blog content to identify optimization opportunities, update keyword targeting, and improve structure.
+* Google Search Console Issues Fixation: We will identify and resolve issues reported in Google Search Console, including indexing errors, crawl anomalies, Core Web Vitals concerns, sitemap issues, and other technical SEO problems to improve search visibility and website performance.
+* Prompt Engineering Across All LLMs: We will continuously optimize prompts and content structures to improve how the brand, services, and key information are interpreted, referenced, and surfaced across major AI platforms, including ChatGPT, Gemini, Claude, Copilot, and Perplexity.
+* Thin Pages Analysis: We will audit the website to identify pages with insufficient, duplicate, or low-value content and provide recommendations to enhance content depth, relevance, user value, and search performance.
+
+
+Content Tasks: 
+* Content Writing for Target Pages: We will create content for service pages using target keywords and conversion-focused messaging.
+* Meta Tags Writing: We will create optimized meta titles and descriptions to improve search visibility and click-through rates.
+* Backlink Content Writing: We will create supporting content for guest posts, business listings, and other off-page SEO activities.
+Development Tasks:
+* Implementation of Target Page Suggestions: We will develop and implement all recommended page structure and SEO improvements across target pages.
+* Schema Creation & Implementation: We will create and implement structured data markup to improve search engine understanding and rich result visibility.
+* Website Speed Optimization: We will improve website speed for both mobile and desktop to enhance user experience and Core Web Vitals performance.
+* Ongoing Website Issue Fixes: We will continuously resolve technical and SEO issues identified during audits.
+Backlink Tasks:
+* AI Citation Analysis: We will analyze opportunities for AI-driven citations in AI tools (Chat GPT, Claude, Perplexity) etc and authority mentions to improve online visibility.
+* Business Listings: We will create and optimize business profile listings.
+* Guest Posts, Blog Posts and Article Posts: We will build high-quality backlinks through guest posting, blog and article posting on relevant and authoritative websites.
+* Niche-Specific Directories: We will submit the website to industry-related directories to improve authority and referral traffic.
+Note: The above tasks may vary depending on client approval, backend functionality, CMS limitations, and the time required for each task. During the initial phase, we will focus more on fixing high-priority technical and on-page SEO issues that need immediate attention. Task priorities and timelines may be adjusted based on the website's needs and findings

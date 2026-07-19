@@ -1,0 +1,26 @@
+Category,Issue Identified,Recommended Action
+Other On-Page Issues,"Long H1, Missing H1, duplicate description, long description, short description, Missing description, long title, short title and missing canonicals.",Resolve Onpage issues.
+Internal Links,Some pages lack a proper internal linking structure.,Improve internal linking to strengthen page authority and enhance user navigation.
+Semantic & Descriptive Filenames,Image filenames do not describe the image.,"Use descriptive, keyword-rich filenames."
+LLM.txt File,LLM.txt file is missing.,Implement the LLM.txt file correctly to guide AI crawlers on how content can be accessed and used.
+Schema Markup,"Breadcrumb, FAQ schema is missing.","Implement appropriate schema types (Breadcrumb, FAQ) and validate using Google’s Structured Data Testing Tool."
+Mobile Page Speed,Slow loading on mobile devices.,"Optimize images, enable caching, and minimize JavaScript."
+"Core Web Vitals (LCP, FID, CLS)",Poor LCP and FID scores impacting rankings.,Optimize overall page speed and improve Core Web Vitals.
+CAPTCHA & Validation,CAPTCHA is missing.,Implement mobile-friendly CAPTCHA and proper validation methods.
+Brand Name Variants & Misspellings,Most brand misspellings are not recognized across AI models.,Ensure consistent brand naming and map common misspellings to improve AI recognition.
+Missing AI Recognition,Non-branded queries are not recognized or addressed by AI platforms.,"Create AI-optimized content such as FAQs, how-to guides, and snippet-ready answers for niche queries to ensure AI platforms recognize and prioritize the brand."
+Lack of Contextual Matching,AI platforms fail to associate queries with relevant product or service context.,Improve semantic signals and content relevance so AI platforms correctly match queries with services and improve visibility.
+Weak Authority Signals,Brand presence is limited due to a lack of external citations.,Acquire more backlinks and brand mentions from trusted websites so AI platforms can easily discover and display the brand.
+Platform Inconsistencies,All AI platforms missed the query completely.,Identify what worked on responsive platforms and replicate those patterns to close visibility gaps across all AI platforms.
+UTM Parameters Added,No tracking implemented,Add UTM tags to GBP links for GA tracking
+GEO Sitemap,GEO sitemap is not Present,Create GEO sitemap.
+Apple Business Profile,No Apple Business Profile Setup found,Need to set up an Apple Business Profile to enhance local visibility.
+Bing Business Profile,No Bing Business Profile Setup found,Need to set up an Bing Business Profile to enhance local visibility.
+Trust Badges,No trust signals present	,Add trust badges.
+FAQ Page,FAQ Page page is not available on the website.,Create and add FAQ page
+Other Issue,"Currently, the header section scrolls away with the page.",Make the header remain fixed at the top while scrolling to improve navigation and keep the menu easily accessible.
+Other Issue,The heading uses a different font style,It should be consistent across the page.
+Other Issue,Currently Copyright year 2025,Update copyright year to reflect 2026.
+Other Issue,it's taking up too much space,Optimize the footer section
+Other Issue,Email and Address text in the footer is barely visible,"it should be white like the other footer text, and currently only shows up on hover."
+Other Issue,Heading text overlaps the nav bar ,Need proper positioning.

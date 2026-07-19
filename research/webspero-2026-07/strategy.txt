@@ -1,0 +1,578 @@
+﻿Website URL: https://rooval-roofing.com/ 
+
+
+Target location - Lehi, UT & Utah County (surrounding service areas)
+
+Objective:
+* Increase visibility across Google Search and Google Maps for high-intent keywords such as "roof replacement Lehi UT," "roof repair Lehi," "roofing contractor Utah County," and "gutter installation Lehi."
+* Improve the performance of core service pages, including Roof Repair, Roof Replacement, Metal Roofing, and Gutter Services.
+* Create an SEO-friendly blog template and content structure
+* Improve visibility across AI platforms such as ChatGPT, Google Gemini, Claude, Perplexity, and Google AI Overviews through GEO (Generative Engine Optimization).
+* Increase visibility across Google Search and Google Maps for local roofing searches.
+* Drive a measurable increase in qualified leads, phone calls, and quote requests through organic search and local map pack rankings.
+
+Current Website Analysis:
+Before we dive into our strategy, we assess the current state of the website’s performance to guide our efforts:
+
+
+Current Stats : 
+
+
+Current Website Performance Overview
+	Organic Traffic
+	Ranking Keywords
+	Branded Traffic
+	Non-Branded Traffic
+	Backlink
+	Referring Domains
+	14
+	54
+	0
+	14
+	208
+	114
+	
+
+AI Overview Stats :
+
+
+Current Website Performance in AI Overview
+	Ranking Keywords in AI Overview
+	Traffic from AI Overview
+	2
+	1
+	
+
+Observation : 
+
+
+   * We are currently receiving 14 monthly organic visitors, all from non-branded searches, which indicates there is a significant opportunity to improve visibility for high-intent roofing keywords and increase qualified organic traffic.
+   * 208 backlinks and 114 referring domains are pointing to the site.
+   * Current AI Overview visibility is limited to 2 keywords. By optimizing content for AI search, we can increase the website's presence across Google AI Overviews and other AI-powered search platforms.
+   * We will enhance the core service pages—including Roofing Services, Gutter Services, and Metal Roof Services—by adding more comprehensive content, FAQs, internal linking, structured data, and stronger local optimization to improve their search performance.
+
+Key Opportunities 
+
+This will help boost search performance, AI visibility, and content authority across platforms.
+
+
+      * Core Service Pages: The Roofing Services, Gutter Services, and Metal Roof Services pages currently have limited content depth and can be further strengthened with better keyword targeting, localized content, improved page structure, service-specific FAQs, internal linking, and schema markup. Enhancing these pages will help them rank for high-intent searches and increase conversions. 
+
+      * GEO (Generative Engine Optimization): The website currently has limited optimization for AI-powered search platforms. We will implement Generative Engine Optimization (GEO) best practices by strengthening content quality, expanding FAQs, adding structured data, improving E-E-A-T signals, and optimizing pages to increase visibility across ChatGPT, Google Gemini, Claude, Perplexity, and Google AI Overviews.
+
+Note: We will initially focus on optimizing the homepage and the core service pages (Roofing Services, Gutter Services, Metal Roof Services, and more). Once these are optimized, we will move on to additional service pages, location pages, blog optimization, and ongoing technical SEO improvements to steadily increase organic traffic, local search visibility, and AI search presence.
+
+
+GEO/SEO Strategy
+
+
+To Appear in LLM Tools and Enhance Search Engine Visibility, We Will Work as Follows:
+
+
+(A) Foundation & Intelligence
+
+
+1. Fix Technical Issues: Initially, we will work on fixing all technical issues. 
+Audit link: Website Audit - SEO + GEO: Rooval-roofing.com
+To-do Sheet Link: To Do List:  rooval-roofing.com
+
+
+2. Audience Persona Development: We will develop content that connects with Rooval Roofing's target audience by understanding homeowners' needs, concerns, and search behavior when they need roofing or gutter services.
+
+
+By identifying who their ideal customers are and how they search online, we can align the website, service pages, blog content, and local SEO strategy with every stage of their decision-making journey. This will help attract more qualified leads and improve visibility in both traditional search engines and AI-powered search platforms.
+
+
+The table below outlines the primary customer personas, their goals, common search behavior, and expected outcomes.
+
+
+Persona
+	Goals & Pain Points
+	Typical Search
+	Funnel Stage
+	Prospective Outcomes
+	Homeowner Looking for Roof Repair
+	Needs a trusted roofing contractor to fix leaks, missing shingles, or storm damage quickly and at a fair price.
+	"roof repair Lehi UT", "roof leak repair near me", "roof repair Utah County"
+	Consideration
+	Request a roof inspection or repair estimate.
+	Homeowner Needing a Roof Replacement
+	Roof is old, damaged, or beyond repair. Looking for a reliable contractor with quality materials and warranty.
+	"roof replacement Lehi UT", "roofing contractor Utah County", "new roof cost Utah"
+	Decision
+	Request a quote and schedule a roof replacement.
+	Customer Interested in Metal Roofing
+	Looking for a durable, energy-efficient, and long-lasting roofing solution for a new or existing home.
+	"metal roofing Lehi UT", "metal roof installation Utah", "best metal roofing contractor"
+	Consideration
+	Compare roofing options and request a consultation.
+	Homeowner Looking for a Local Roofing Contractor
+	Wants a licensed, experienced, and trustworthy roofing company serving their local area.
+	"roofing contractor Lehi UT", "roofing company near me", "best roofing company Utah County"
+	Decision
+	Contact Rooval Roofing for a free estimate or inspection.
+	Homeowner Searching by Roofing Material
+	Wants to compare roofing materials based on durability, cost, and appearance before choosing the right option.
+	"asphalt shingle roofing Utah", "metal roofing vs shingles", "best roofing material for Utah weather"
+	Awareness
+	Read educational content, compare options, and request a consultation.
+	
+
+
+
+This persona mapping is a quick reference example. Once the project begins, we will:
+
+
+         * Do detailed persona research with real data.
+         * Add more customer types and funnel stages based on Lehi, Utah County, and the surrounding service areas
+         * Align everything with the specific business goals of Rooval-Roofing
+
+
+	
+
+3. Outrank Competitor Analysis: We will analyze competitors to understand how similar brands rank and position themselves in Google search results (SERPs) and LLM tools. This will help us not only match but outrank them in both traditional search and AI-driven platforms.
+
+
+         * Identify top competitors in the business formation and compliance niche.
+         * Analyze keywords, content formats, and backlink strategies driving their visibility.
+         * Evaluate how competitors are referenced and represented in LLM-generated responses.
+         * Uncover content gaps and opportunities to strengthen our online and AI visibility.
+         * Benchmark domain authority, topical depth, and semantic coverage to guide our SEO roadmap.
+         * Use these insights to create high-performing, data-informed content optimized for both search engines and AI tools.
+
+
+Here is an overview of how our competitors rank in Google SERPs : 
+
+
+Website 
+	Organic Traffic
+	Ranking Keywords
+	Backlinks
+	Referring Domains
+	Branded
+Traffic
+	Non-Branded Traffic
+	ensignroofingutah.com  
+	31
+	39
+	108
+	53
+	31
+	0
+	a1roofingutah.com 
+	3.4K
+	906
+	466
+	222
+	112
+	3.3K
+	cascaderoofing.net 
+	91
+	387
+	669
+	347
+	0
+	91
+	
+
+AI overview:
+
+
+Website 
+	AI Ranking Keywords
+	AI Traffic
+	ensignroofingutah.com 
+	0
+	0
+	a1roofingutah.com 
+	14
+	7
+	cascaderoofing.net 
+	1
+	0
+	
+
+
+
+Below are the data sheets containing our stats and those of our competitors:
+         * Organic Keywords: Ranking Keywords
+         * SERP Keywords: SERP Features Keywords
+         * AI Overview: AI Overview
+         * Top Landing Pages:  Top Landing Pages
+
+
+Insights from Competitors
+	         * Flux Roofing gets the organic traffic (522 visits) even though it ranks for only 50 keywords. This means it ranks well for several important roofing keywords.
+	         * None of the competitors currently appear in Google AI Overviews, which gives Rooval Roofing an opportunity to gain visibility early by optimizing for AI search platforms such as ChatGPT, Google Gemini, Perplexity, Claude, and Google AI Overviews.
+	         * Several competitors have stronger backlink profiles than Rooval Roofing. Building high-quality local backlinks will help improve domain authority and search rankings.
+	
+
+3. Query Research & Clustering: Our query research will be organized into different search intent clusters to ensure Rooval Roofing is visible across Google Search, Google Maps, AI Overviews, ChatGPT, Google Gemini, Perplexity, Claude, and other AI-powered search platforms.
+
+ Cluster
+	Focus
+	Query Example
+	Top-of-Funnel Keywords
+	Informational searches from homeowners researching roofing, roof maintenance, and gutter solutions.
+	         * How do I know if my roof needs replacing?
+         * How long does a roof last in Utah?
+         * What are the signs of roof damage?
+	AEO & Conversational Queries
+	Natural language questions designed to improve visibility in AI search and featured answers.
+	         * Should I repair or replace my roof?
+         * How much does a roof replacement cost?
+         * What is the best roofing material for Utah weather?
+	AI-Optimized Keywords
+	Answer-first content optimized for AI platforms and Google AI Overviews.
+	         * Roof replacement guide Utah
+         * Metal roofing vs asphalt shingles
+         * Roof maintenance checklist for homeowners
+	Transactional / Commercial
+	High-intent searches from users looking to hire a roofing contractor.
+	         * Roofing contractor Lehi UT
+         * Roof repair Lehi UT
+         * Roof replacement Utah County
+         * Gutter installation Lehi
+	Service-Specific Keywords
+	Keywords focused on the core services offered by Rooval Roofing
+	         * Roof repair services
+         * Metal roofing installation
+         * Gutter repair near me
+         * Roof inspection Lehi
+	Geo-Specific Keywords
+	Location-based searches targeting the areas served by Rooval Roofing.
+	         * Roofing contractor Provo UT
+         * Roof replacement Orem UT
+         * Roof repair Sandy UT
+         * Gutter installation American Fork
+	Emergency & Seasonal Keywords
+	Searches related to urgent roofing issues and seasonal weather conditions.
+	         * Storm damage roof repair Utah
+         * Hail damage roof repair
+         * Roof leak repair after storm
+	Cost & Comparison Keywords
+	Searches from homeowners comparing roofing options and costs before making a decision.
+	         * Roof replacement cost Utah
+         * Metal roof vs asphalt shingles
+         * How much does a new roof cost?
+         * Best roofing company in Lehi
+	Brand-Specific Keywords
+	Branded searches from users already familiar with the business.
+	         * Rooval Roofing reviews
+         * Rooval Roofing Lehi
+         * Rooval Roofing phone number
+         * Rooval Roofing free estimate
+	
+
+(B): Page Optimization and Audit Fixation
+
+
+1. Page Optimization - We will optimize the website's most important pages to improve search rankings, user experience, and lead generation. Our initial focus will be on the Homepage, Roofing Services, Gutter Services, Metal Roof Services, About Us, and Location Pages (such as Lehi, Provo, Orem, Sandy, and other key service areas).
+         * Creating Page Suggestions: It includes :
+
+            * Content structure aligned with target keywords and user intent
+            * Optimizing Title Tags, Meta Descriptions, H1, H2, and H3 headings.
+            * Identifying primary and secondary keywords for each page.
+            * Keyword density recommendations
+            * Strategic internal linking for better indexing and prioritising high-value pages
+
+               * Content Creation & Optimization: After client approval of the Target Page Suggestions, we will write/modify content according to the approved structure.
+
+               * Implementation: It includes
+                  * Update meta tags, headings, and content
+                  * Optimize internal linking to improve indexing and enhance page priority
+                  * Implementation of any suggested section on the live page
+Once the core pages are optimized and technical audit issues are resolved, we will move to Content Authority and AI Optimization, focusing on building Rooval Roofing's topical authority, improving visibility across AI-powered search platforms, and strengthening the brand's online presence.
+Below is an example of the page optimization process:
+2. Roof Replacement Page suggestion: We analyzed the Roof Replacement Utah page and identified the following optimization opportunities to improve its SEO performance, local visibility, lead generation, and AI search presence:
+                  * Optimize the page for the primary query "Roof Replacement Utah" along with relevant secondary and local roofing replacement keywords.
+                  * Strengthen local SEO by naturally mentioning the cities and service areas served throughout Utah.
+                  * Improve the heading structure (H1, H2, and H3) with clear, keyword-focused headings.
+                  * Add dedicated sections covering common roof replacement scenarios such as aging roofs, storm damage, hail damage, wind damage, insurance-related replacements, and when repair is no longer the best option.
+                  * Highlight free roof inspections as a key service and make it a prominent conversion point throughout the page.
+                  * Add a dedicated section explaining the insurance claim assistance process, including storm damage documentation, inspection reports, and homeowner support throughout the claim process.
+                  * Enhance trust by showcasing warranties, licensing, workmanship guarantees, certifications, and customer reviews.
+                  * Add stronger Call-to-Action (CTA) sections throughout the page to encourage users to request a free inspection or estimate.
+                  * Implement Service Schema, Breadcrumb Schema, and LocalBusiness Schema to improve search engine understanding and visibility.
+                  * Showcase before-and-after project photos and recent roof replacement projects to build credibility and trust.
+                  * Improve internal linking by connecting the page to roof repair, storm damage, insurance claim assistance, gutter services, location pages, and relevant blog content.
+                  * Structure the content with clear, answer-first sections and FAQs to improve visibility in Google AI Overviews, ChatGPT, Google Gemini, Claude, and Perplexity.
+Note: Once the project is onboarded, we will perform the same level of optimization for all priority service pages, location pages, and other key pages across the website.
+(C)   SEO-Optimized Blog Layout: 
+                  1. Optimized Blog Layout: We will create an SEO and GEO-optimized blog layout that is optimized for both traditional search engines and LLM’s. The layout will be designed to improve readability, user experience, internal linking, and organic visibility, while making it easy for your team to create future blog content.
+Our Blog Layout Will Include:
+                  * SEO-optimized page title and meta description.
+                  * Clear heading structure (H1, H2, H3, and H4).
+                  * Table of Contents for better navigation.
+                  * Introduction targeting the primary keyword and user intent.
+                  * Well-structured content sections with clear, informative headings.
+                  * Answer-first content blocks to improve visibility in Google AI Overviews, ChatGPT, Google Gemini, Claude, and Perplexity.
+Here is the Ref blog Layout: Can Extreme Utah Heat Damage Asphalt Shingles?
+(D) SEMrush Monitoring, Website Monitoring & AI Citation Tracking
+Our SEMrush Monitoring Will Include:
+                  * Perform regular technical SEO audits to identify and fix website issues.
+                  * Monitor backlinks and referring domains to strengthen domain authority.
+                  * Track competitors' keyword rankings and SEO performance.
+                  * Identify new keyword opportunities for service pages, location pages, and blogs.
+                  * Monitor page performance and recommend improvements based on ranking data.
+                  * Identify content gaps and recommend new pages or blog topics.
+                  * Monitor website health, crawl errors, broken links, and indexing issues.
+                  * Recommend improvements for service pages, location pages, and blog content based on SEMrush insights.
+                  * Provide ongoing SEO recommendations based on performance trends and industry best practices.
+AI Citation & GEO Monitoring
+                  * Monitor Rooval Roofing's visibility across AI-powered search platforms, including ChatGPT, Google Gemini, Perplexity, and Google AI Overviews.
+                  * Track where the brand is being cited or referenced in AI-generated responses.
+                  * Identify opportunities to improve AI visibility through better content, structured data, FAQs, and E-E-A-T signals.
+                  * Provide ongoing recommendations to strengthen the website's Generative Engine Optimization (GEO) strategy.
+Here is the sample sheet for AI Citation & GEO Monitoring: Prompt Engineering: Sample
+(E): GBP/Local SEO Optimization
+
+
+Objective: Boost visibility in local search results and strengthen Rooval-Roofing's presence in Google’s local ecosystem to attract high-intent, geographically relevant customers across San Bernardino County and nearby service areas.
+
+
+3.1 Google Business Profile (GBP) Optimization -
+
+                  * GBP Audit: Website Audit - SEO + GEO: Rooval-roofing.com
+
+
+3.2 Location Page Optimization (Roofing Lehi Utah): We need to optimize the Roofing Lehi Utah page, as it is currently underperforming in the target location and lacks strong local and conversion-focused signals.
+
+
+Key Improvements:
+                  * Optimize the page for the primary keyword and long-tail queries "Roofing Contractor Lehi UT" along with related local keywords and queries such as "Roof Repair Lehi," "Roof Replacement Lehi," and "Roofing Company Lehi."
+                  * Add a stronger H1 and improve the H2/H3 heading hierarchy using keyword-focused headings.
+                  * Add a Why Choose Rooval Roofing in the Lehi section near the top with trust badges and key benefits.
+                  * Add customer testimonials specifically from Lehi homeowners to strengthen local trust signals.
+                  * Embed a Google Map showing your Lehi location to improve local relevance.
+                  * Add E-E-A-T signals by highlighting the experience, licenses, insurance, workmanship warranty, certifications, and years of serving Lehi homeowners.
+                  * Place stronger Call-to-Action (CTA) buttons throughout the page instead of only at the top and bottom.
+                  * Reduce keyword stuffing and use natural, intent-based variations to improve readability and AI (AEO) visibility
+
+
+Note: As of now, we have reviewed and optimized one location page (Roofing Lehi, Utah). Once the project is onboarded, we will optimize all priority service pages, location pages, and other key pages across the website following the same SEO, Local SEO, and GEO optimization strategy.
+
+
+3.3 Local Link Building and Citation Management  -
+                  * Local Link Acquisition:
+                  * Build Rooval Roofing's local authority by listing the business on trusted local and industry-specific directories such as Google Business Profile, Yelp, Angi, BBB, HomeAdvisor, Thumbtack, Nextdoor, and other relevant roofing and local business directories. Consistent local listings will help improve Google Maps rankings, local search visibility, and AI search presence.
+                  * Citation Management:
+                  * Audit and update all existing business listings to ensure the Name, Address, Phone Number (NAP), Website, and Business Information are accurate and consistent across all platforms. Consistent citations improve trust with search engines and support stronger local rankings.
+                  * Review and update existing citations to ensure the recently updated business phone number ((385) 424-8810) is consistent across all directories and local listings.
+
+3.4 Review  Management
+                     * Develop a strategy to request Google reviews from satisfied customers after completed roofing projects.
+                     * Encourage customers to mention the specific service they received, such as Roof Repair, Roof Replacement, Metal Roofing, or Gutter Services, along with the city where the work was completed.
+                     * Respond to all reviews (positive and negative) professionally
+                     * Showcase customer testimonials and Google reviews across key service pages, location pages, and the homepage to build trust and improve conversions.
+
+3.5 Local Structured Data & Technical SEO
+                        * Implement LocalBusiness schema across all key pages
+                        * Add geo-coordinates to improve local relevance
+                        * Ensure fast loading speed and mobile optimization for local users
+
+3.6 Voice Search Optimization for Local Queries
+                           * Use conversational, location-based keywords and queries with concise answers for voice search.
+
+
+3.7 Local Content Marketing
+                           * Publish informative blog articles about roof maintenance, roof replacement, storm damage, gutter care, and roofing materials.
+                           * Create location-specific content targeting the cities and communities served by Rooval Roofing.
+                           * Publish project showcases, customer success stories, and before-and-after roofing projects.
+                           * Create seasonal roofing guides and homeowner resources relevant to Utah's climate.
+                           * Add location-specific FAQs to support local search intent and improve visibility in Google Search and AI platforms.
+
+Once the local SEO strategy is in place, we will focus on Conversion Rate Optimization (CRO) to improve user experience, increase quote requests and phone calls, and maximize leads generated from organic search, Google Maps, and AI-powered search platforms.
+(F): Content Authority & AI Optimization
+Create comprehensive guides using parent-child clusters, where broad topics (parent) are divided into specific sub-topics (children), boosting topical depth and SEO relevance.
+1. Topical Authority Development - We will build topical authority by creating content around roofing, roof repair, roof replacement, metal roofing, gutters, storm damage, and roof maintenance. This will help establish Rooval Roofing as a trusted roofing resource while improving rankings across Google Search, Google Maps, Google AI Overviews, ChatGPT, Gemini and Perplexity.
+We will develop content that addresses the following:
+                              * Top-of-the-funnel informational queries: Educational content for homeowners researching roofing topics (e.g., How do I know if my roof needs replacing?, How long does a roof last in Utah?)
+                              * Customer pain points: Answering common concerns such as roof leaks, storm damage, aging roofs, insurance claims, maintenance, and repair costs (e.g., What causes roof leaks?, Should I repair or replace my roof?)
+                              * Step-by-step guides: Easy-to-follow content that helps homeowners understand the roofing process (e.g., How a roof replacement works, How to prepare your home for a new roof installation)
+                              * Trust-building and decision-making content: Helping users compare options and build confidence before purchase.
+                              * Local and geo-specific content: Content focused on the cities and communities served by Rooval Roofing to strengthen local SEO 
+                              * (e.g., Roof Repair in Lehi, Roof Replacement in Provo, Metal Roofing in Orem, Roofing Contractor in Utah County)
+                              * High-intent and conversion-focused content: Targeting homeowners who are ready to hire a roofing contractor 
+                              * (e.g., Best Roofing Contractor in Lehi, Free Roof Inspection in Utah County, Affordable Roof Replacement in Utah)
+Suggested Topics:
+Suggested Topics
+	Roof Repair vs. Roof Replacement: Which Is Right for Your Home?
+	How to Prevent Roof Leaks and Water Damage
+	1.2 Answer Engine Optimization (AEO) Strategy
+To improve Rooval Roofing's visibility in Google AI Overviews, Featured Snippets, voice search, and AI-powered search platforms, we will implement the following strategies:
+                              * Structured Content for AEO: Create well-structured content using clear H1–H3 headings, bullet points, numbered lists, FAQs, and schema markup. This will help search engines and AI platforms better understand the content and increase the chances of appearing in featured snippets and AI-generated answers for roofing-related searches.
+
+                              * Conversational Content for Voice Search: Optimize content for natural, spoken-style queries to match how users search using voice assistants like Siri, Google Assistant, or AI tools when exploring cabinets, countertops, and flooring options.
+
+                              * Long-Tail Queries Optimization: Target specific, high-intent long-tail queries aligned with informational and decision-based search behavior, such as "Best roofing contractor in Lehi, Utah, Roof replacement cost in Utah"
+
+                              * Question-Based Content (Featured Snippet Focus): Create FAQ-driven and question-answer content to directly target Google snippets and AI answers.
+1.3. Generative Engine Optimization
+To improve Rooval Roofing's visibility across ChatGPT, Google Gemini, Claude, Perplexity, and Google AI Overviews, we will focus on the following strategies:
+                                 * Content Formatting for LLMs: Structure content using clear headings, concise explanations, bullet points, FAQs, and answer-first content so it is easy for AI platforms and Large Language Models (LLMs) to understand and reference..
+
+                                 * Community Participation: Build Rooval Roofing's online authority by participating in relevant home improvement and roofing communities, including Reddit, Quora, and homeowner forums, to:
+                                    * Increase brand mentions and awareness
+                                    * Build topical authority and off-page credibility
+                                    * Drive referral traffic and trust signals
+
+                                       * List-Based Content: Develop structured, easy-to-read list articles that AI platforms frequently reference.
+                                       * Example: Top Roof Maintenance Tips for Homeowners
+
+                                          * Multimodal Content Optimization: We will enhance AI accessibility by optimizing all media content (images, videos, and project visuals) to be AI-optimized by: 
+                                          * Optimizing images and media for faster page loading and better indexing.
+                                          * Showcasing before-and-after roofing projects to improve user engagement and AI understanding.
+                                          * Using descriptive alt text for roofing, gutter, and metal roofing project images.
+
+
+                                          * User-Generated Content (Reviews and Testimonials): Encourage customers to leave detailed Google reviews and testimonials about their roofing experience. This will:
+                                          * Strengthen trust and credibility
+                                          * Improve local SEO and Google Maps visibility
+                                          * Increase conversion rates and customer confidence.
+                                          * Strengthen AI citations by providing authentic customer experiences.
+
+                                             * Brand Authority Content: Publish content highlighting Rooval Roofing's expertise, completed roofing projects, workmanship warranties, customer success stories, and industry knowledge to strengthen E-E-A-T signals and improve the likelihood of being referenced by AI-generated responses (e.g., project showcases, roofing guides, customer testimonials, and educational content).
+
+                                             * Location-Based Content Signals (Additional): Strengthen geo-relevance by optimizing content around the key cities and communities served by Rooval Roofing, including Lehi, Provo, Orem, American Fork, Highland, Draper, Sandy, and other service areas. This will improve visibility in local search results, Google Maps, and AI-powered search platforms.
+
+
+2. Fanout Query Expansion: 
+Capturing more AI & search opportunities with related roofing topics
+                                                * Identify related long-tail and emerging queries connected to our core roofing services.
+                                                * Integrate them naturally into content to expand AI coverage, improve topical authority, and increase the likelihood of being cited by AI platforms.
+
+Example — Core Topic: Roof Repair Utah
+
+Fanout Queries
+                                                   * How do I know if my roof needs repair or replacement?
+                                                   * What are the most common causes of roof leaks in Utah?
+                                                   * How much does roof repair cost in Utah?
+
+3. Content Creation & Fanout Integration
+
+After finalizing the content topics and formats, we will begin creating high-quality content that naturally incorporates fanout queries. This approach will help maximize visibility across Google Search, Google AI Overviews, ChatGPT, Google Gemini, Claude, and Perplexity while covering the complete customer journey.
+
+
+Note: We will follow E-E-A-T best practices by creating accurate, well-researched, and experience-driven content focused on roofing services, roof maintenance, storm damage, and homeowner education to build trust, authority, and long-term search visibility for Rooval Roofing.
+4. Content Publishing & Optimization: Once the content is created, we will focus on publishing and optimizing it to ensure maximum visibility and effectiveness across both AI platforms and traditional search engines. While publishing, we will ensure the following elements are optimized:
+                                                      * Meta Tags
+                                                      * Content Structure
+                                                      * Schema Markup
+                                                      * Internal Linking
+                                                      * External Linking
+                                                      * Alt Tags
+                                                      * Multimedia Optimization
+                                                      * Mobile Optimization
+Once we have established strong topical authority and optimized the content for AI platforms, we will shift our focus to brand authority, strategic link building, AI citation growth, and ongoing GEO optimization to further strengthen Rooval Roofing's online visibility.
+
+
+(G): Brand Perception Intelligence
+
+
+Brand Mention Analysis: Brand Perception Intelligence is the process of using AI and data analysis to understand how LLM Models perceive our brand. We will analyze the brand mentions and visibility across AI platforms like ChatGPT, Perplexity, and Gemini to track how LLM models perceive our brand.
+
+
+Example For Branded Terms -
+
+
+Queries/LLM Models
+	ChatGPT (Y/N)
+	Perplexity (Y/N)
+	Gemini ((Y/N)
+	Rooval Roofing Utah
+	Y (https://prnt.sc/VzTSMyugyfwV   )
+	Y (https://prnt.sc/wps3YNaStohG   )
+	Y (https://prnt.sc/FAg41s47VrUL  )
+	Rooval Roofing Roof Repair
+	Y (https://prnt.sc/1PFfGtVlDfz2 )
+	Y (https://prnt.sc/6cwhznJEmj2_   )
+	Y (https://prnt.sc/BZdXVvcPvVgC  )
+	Rooval Roofing Reviews
+	N (https://prnt.sc/o_8-OJKQS4i9    )
+	Y (https://prnt.sc/Mkz4Un0JmMDV  ) 
+	 Y (https://prnt.sc/SxLsKUjSYrg9 )
+	
+
+For Non-Branded Terms - 
+
+
+Queries/LLM Models
+	ChatGPT (Y/N)
+	Perplexity (Y/N)
+	Gemini (Y/N)
+	residential roof replacement
+	N (https://prnt.sc/t1VCqNP5bYCS   )
+	Y (https://prnt.sc/95puqoj_zMY0 )
+	N (https://prnt.sc/8_bogUocdf8U )
+	Affordable roof replacement
+	N (https://prnt.sc/bk62aTEjjmLq  )
+	 N (https://prnt.sc/QSWi6u0Op-O7 )
+	N (https://prnt.sc/mKX36og_TrfV  )
+	
+
+Observations : 
+
+
+                                                      * Rooval Roofing has good visibility for most branded searches, appearing across ChatGPT, Perplexity, and Gemini for terms like "Rooval Roofing Utah" and "Rooval Roofing Roof Repair."
+                                                      * For non-branded, high-intent searches, visibility is currently limited. The brand appears only in Perplexity for queries such as "Residential Roof Replacement" and "Affordable Roof Replacement," while ChatGPT and Gemini do not currently reference the brand.
+                                                      * Expanding topical content, strengthening local SEO signals, and improving structured content will help increase visibility across AI platforms for these non-branded searches.        
+
+
+Competitor Benchmarking: Compare brand perception with key competitors on all the AI platforms
+Action Steps:
+                                                      * Competitors are likely gaining higher visibility for non-branded and product-driven queries, especially on platforms like Perplexity and Gemini, due to stronger topical coverage and structured content.
+                                                      * Optimize content using clear headings, FAQs, and concise answers to align with how LLMs extract and display information.
+                                                      * Increase consistent brand mentions across the website, Google Business Profile, trusted local directories, and industry websites to strengthen Rooval Roofing's online authority.
+                                                      * Build high-quality local backlinks from reputable Utah business directories, community websites, home improvement resources, and roofing-related websites.
+                                                      * Publish educational content covering roofing costs, storm damage, roof maintenance, material comparisons, and homeowner guides to improve topical authority.
+                                                      * Continuously monitor Rooval Roofing's visibility across ChatGPT, Google Gemini, Perplexity, and Google AI Overviews, and refine the content strategy based on emerging search trends and AI citation opportunities.
+(H) Authority Building & Mentions
+
+
+To gain authority and improve SEO rankings, we will focus on a combination of backlinking activities and brand mentions.
+
+
+1. Backlinking Activities: We will create high-quality backlinks through the following activities:
+
+
+  
+
+
+
+2. Community Participation & Brand Mentions: In addition to traditional link building, we will focus on community engagement to increase Rooval Roofing's brand mentions, authority, and trust.
+                                                      * Quora Answering: Participate in roofing and homeowner discussions by answering questions related to roof repairs, roof replacements, storm damage, metal roofing, gutters, roof maintenance, and roofing costs.
+                                                      * Reddit Posting: Engage in relevant communities such as r/Roofing, r/HomeImprovement, r/Homeowners, r/DIY, and other home improvement forums. We will share helpful roofing advice and educational insights while naturally building brand awareness where appropriate.
+
+3. Brand Mentions: We will actively identify opportunities to earn organic brand mentions on relevant local websites, roofing blogs, home improvement websites, community forums, and industry publications. This will help strengthen brand awareness, trust, and online authority.
+
+
+4. AI-Powered Citation Building: Secure citations and mentions from credible, roofing-related and local business sources to:
+                                                         * Strengthen Rooval Roofing's authority and credibility.
+                                                         * Improve visibility across AI platforms such as ChatGPT, Google Gemini, Claude, Perplexity, and Google AI Overviews.
+                                                         * Support off-page SEO signals for both branded and non-branded queries
+
+
+5. Competitor Citation Analysis: We will analyze competitor backlink profiles to identify high-quality backlink and citation opportunities from local, roofing, construction, and home improvement websites, then develop a strategy to acquire similar authoritative links.
+
+
+6. Anchor Text Optimization: While building backlinks, we will maintain a natural and diversified anchor text profile, including:
+                                                         * Exact Match
+                                                         * Partial-Match
+                                                         * Naked Link
+                                                         * Branded Links
+                                                         * Generic
+
+
+7. Existing Backlink Analysis: We will audit Rooval Roofing's existing backlink profile to identify toxic, spammy, or low-quality backlinks and recommend disavowing them where necessary. We will also identify opportunities to strengthen the backlink profile with high-quality, relevant links that support long-term SEO growth.
+
+
+Regular Analysis and Monitoring
+
+                                                         * Website performance via Google Analytics & Search Console.
+                                                         * Strategy adjustments based on data insights.
+                                                         * We’ll conduct regular audits to fix technical and content issues affecting rankings and user experience.
+                                                         * Review Google Business Profile (GBP) Insights for search views, calls, direction requests, website clicks, and track month-on-month changes to identify growth opportunities.
+                                                         * Monitor AI visibility and brand mentions across ChatGPT, Google Gemini, Perplexity, Claude, and Google AI Overviews.
+                                                         * Track competitor performance and identify new keyword, content, and backlink opportunities.
+                                                         * Continuously review service pages, location pages, and blog performance, and recommend improvements based on real data.
