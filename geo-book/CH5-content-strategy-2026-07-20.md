@@ -41,16 +41,32 @@ larger/steeper/complex roofs**:
 ## Staged (the one remaining Ch5 gap)
 
 ### G5 — emergency availability on city pages  ✅ DONE (2026-07-21)
-Added a passage-extractable "Emergency Roof Repair in {City}" block to all 12 Elementor city
-pages (Alpine, Highland, Lindon, Pleasant Grove, Springville, Salt Lake City, Murray, Sandy,
-Orem, Draper, Provo, Lehi), built from the roof-repair page's owner-approved wording: active
+Added a passage-extractable "Emergency Roof Repair in {City}" block to the Elementor city
+pages, built from the roof-repair page's owner-approved wording: active
 leaks -> call (385) 424-8810 (tap-to-call), same-day/next-day, tarp/temporary-seal first, then
 permanent repair. Asserts nothing new (emergency is an existing service). Mechanism: REST
 `_elementor_data` string insert before the `<h2>Nearby Cities We Serve</h2>` full-tag anchor
 (idempotency-guarded, JSON-validated) + a run-once Elementor cache-clear snippet (deactivated
 after firing). Verified live: 12/12 render the block, single H1, tap-to-call present, no fatal
-error, anchor preserved. Rollback: pre-edit `_elementor_data` per page in scratchpad
-`g5-backups/elementor-{id}.json` (full blobs not committed per repo policy).
+error, anchor preserved. **Net live: 11 city pages carry the block** — Highland was reverted in
+the stage-7 pass below (its owner intro already covered same-day). Rollback: pre-edit
+`_elementor_data` per page in scratchpad `g5-backups/elementor-{id}.json` (full blobs not
+committed per repo policy).
+
+### G5 stage-7 revise (adversarial panel finding, fixed 2026-07-21)
+The stage-6 panel caught one MINOR live finding: **Highland** (`/roofing-highland-utah/`)
+stated same-day emergency-leak availability **twice** — its owner-approved intro already reads
+"we can usually look at a leak the same week you call — sometimes the same day," and my inserted
+"Emergency Roof Repair in Highland" block repeated that. Redundant, slightly awkward for an AI
+lifting the passage. **Fix:** removed the inserted emergency block from **Highland only** (restored
+its `_elementor_data` from the pre-edit backup `g5-backups/elementor-2298.json`, then cleared
+Highland's Elementor render cache via the run-once snippet, now deactivated) — preserving the
+owner-approved intro copy verbatim. The other 11 city pages keep the block (their intros don't
+already carry same-day prose). Re-verified live (anonymous, cache-busted): Highland block gone,
+owner intro's "same week you call"/"sometimes the same day" intact, single `<h1>`, "Nearby Cities"
+anchor present, no fatal error, site CTA/tap-to-call intact; Alpine + Provo spot-checked — block
+still present, single H1. ⚙️ LESSON: before inserting a templated passage across pages, check each
+target for bespoke owner copy that already answers the same question — skip the ones that do.
 
 --- superseded staged note below ---
 ### G5 (superseded staged note)  ⏳ was NOT YET DONE
