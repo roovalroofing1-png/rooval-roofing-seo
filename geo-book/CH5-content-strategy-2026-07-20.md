@@ -40,7 +40,20 @@ larger/steeper/complex roofs**:
 
 ## Staged (the one remaining Ch5 gap)
 
-### G5 — emergency availability on city pages  ⏳ NOT YET DONE
+### G5 — emergency availability on city pages  ✅ DONE (2026-07-21)
+Added a passage-extractable "Emergency Roof Repair in {City}" block to all 12 Elementor city
+pages (Alpine, Highland, Lindon, Pleasant Grove, Springville, Salt Lake City, Murray, Sandy,
+Orem, Draper, Provo, Lehi), built from the roof-repair page's owner-approved wording: active
+leaks -> call (385) 424-8810 (tap-to-call), same-day/next-day, tarp/temporary-seal first, then
+permanent repair. Asserts nothing new (emergency is an existing service). Mechanism: REST
+`_elementor_data` string insert before the `<h2>Nearby Cities We Serve</h2>` full-tag anchor
+(idempotency-guarded, JSON-validated) + a run-once Elementor cache-clear snippet (deactivated
+after firing). Verified live: 12/12 render the block, single H1, tap-to-call present, no fatal
+error, anchor preserved. Rollback: pre-edit `_elementor_data` per page in scratchpad
+`g5-backups/elementor-{id}.json` (full blobs not committed per repo policy).
+
+--- superseded staged note below ---
+### G5 (superseded staged note)  ⏳ was NOT YET DONE
 The emergency/same-day passage lives on `/roof-repair-utah/` ("usually same day or next day…
 we tarp or temporarily seal first"), and all 16 city pages already **link** to it — so the
 capability is stated and reachable, nothing new is asserted. The gap is a self-contained,
