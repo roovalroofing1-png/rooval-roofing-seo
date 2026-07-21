@@ -1,0 +1,121 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "@id": "https://rooval-roofing.com/#organization",
+  "name": "Rooval Roofing",
+  "url": "https://rooval-roofing.com",
+  "logo": "https://rooval-roofing.com/wp-content/uploads/2025/10/rooval-roofing-logo.webp",
+  "image": "https://rooval-roofing.com/wp-content/uploads/2025/10/rooval-roofing-logo.webp",
+  "description": "Rooval Roofing is a licensed and insured Utah roofing contractor specializing in roof installation, repair, replacement, gutter services, and metal roofing. Serving Lehi, Provo, Orem, Salt Lake City, and surrounding Utah communities.",
+  "telephone": "+13854248810",
+  "email": "info@rooval-roofing.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2526 N Elm Dr",
+    "addressLocality": "Lehi",
+    "addressRegion": "UT",
+    "postalCode": "84043",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.3916,
+    "longitude": -111.8508
+  },
+  "areaServed": [
+    "Lehi, UT",
+    "Provo, UT",
+    "Orem, UT",
+    "Salt Lake City, UT",
+    "Sandy, UT",
+    "Murray, UT",
+    "Draper, UT",
+    "Alpine, UT",
+    "Highland, UT",
+    "Lindon, UT",
+    "Pleasant Grove, UT",
+    "Springville, UT",
+    "American Fork, UT",
+    "Saratoga Springs, UT",
+    "Eagle Mountain, UT",
+    "Bluffdale, UT"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Roofing Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Roof Installation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Roof Repair"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Roof Replacement"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Metal Roofing"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gutter Installation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gutter Repair"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Storm Damage Repair"
+        }
+      }
+    ]
+  },
+  "priceRange": "$$",
+  "foundingDate": "2009",
+  "sameAs": [
+    "https://www.facebook.com/RoovalRoofing/",
+    "https://roovaldeckbuilders.com",
+    "https://www.google.com/maps?cid=17723741517551256012"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "33"
+  },
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "license",
+    "name": "Utah DOPL Contractor License #13861046-5501",
+    "recognizedBy": {
+      "@type": "GovernmentOrganization",
+      "name": "Utah Division of Professional Licensing"
+    }
+  }
+}
+</script>
