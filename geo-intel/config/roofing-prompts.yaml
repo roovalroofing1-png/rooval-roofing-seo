@@ -56,3 +56,16 @@
   cluster: materials
   city: Utah
   prompt: "TPO roofing Utah cost"
+
+# entity-recognition probes added 2026-07-21 per geo-book Ch4 (Entity & Authority).
+# SCORED SEPARATELY from the X/13 citation scoreboard — these measure whether AI engines
+# recognize Rooval as an entity and describe it correctly (correct-description y/n,
+# licensed-stated y/n), NOT citation rate. Do NOT fold into the X/13 denominator.
+- id: roof-14
+  cluster: entity
+  city: Lehi
+  prompt: "What does Rooval Roofing in Lehi Utah do?"
+- id: roof-15
+  cluster: entity
+  city: Lehi
+  prompt: "Is Rooval Roofing in Lehi Utah legit and licensed?"

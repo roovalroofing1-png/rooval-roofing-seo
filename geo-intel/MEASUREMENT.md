@@ -5,7 +5,7 @@ The point of WS8: a **repeatable scoreboard** so we can watch Rooval climb into 
 ## Layer 1 — Monthly citation scoreboard ($0, do this every month)
 The core habit. Same questions, every month, compared over time.
 
-1. **Fixed prompt set:** `geo-intel/config/roofing-prompts.yaml` (13 prompts, 5 clusters). Do NOT change the list — consistency is what makes the trend meaningful. (Deck has its own: `deck-prompts.yaml`.)
+1. **Fixed prompt set:** `geo-intel/config/roofing-prompts.yaml` (13 citation prompts, 5 clusters). Do NOT change the core 13 — consistency is what makes the trend meaningful. (Deck has its own: `deck-prompts.yaml`.) **Entity-recognition probes** `roof-14`/`roof-15` (cluster `entity`, added 2026-07-21 per geo-book Ch4) are scored **on a SEPARATE line** — they measure whether an engine describes Rooval correctly (correct-description y/n) and states it's licensed (licensed-stated y/n), NOT citation rate. The citation scoreboard denominator stays **X/13** forever; never fold the entity probes into it.
 2. **Run them** (pick one, be consistent):
    - **Proxy (what we did at launch, $0, fast):** run each prompt through web search and record who's named/cited. Directional, not the live engines — but repeatable and free.
    - **True engines (most accurate, manual, $0 but ~1 hr):** paste each prompt by hand into ChatGPT, Perplexity, Gemini, and Grok; record whether Rooval is named, which competitors are named, which URLs are cited, and whether any engine describes Rooval WRONG (e.g., as handling insurance claims — a compliance flag to fix same-week). This is the honest gold standard until the API layer exists.
