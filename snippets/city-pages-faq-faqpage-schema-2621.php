@@ -6,7 +6,7 @@ function _rrq_city_faq_data() {
     $qR = "How do I know if I need a repair or a full roof replacement?";
     $aR = "Repairs work for isolated damage: a few missing shingles, minor flashing leaks, or limited granule loss. A full replacement makes more sense when your roof is over 20 years old, damage is widespread, or leaks keep recurring. We offer free inspections and always give you an honest recommendation.";
     $qT = "How long does a roof replacement take?";
-    $aT = "Most single-family homes in Utah are completed in a single day. Larger homes or complex designs may take two days. Our crew arrives early, works efficiently, and does a thorough cleanup before leaving.";
+    $aT = "Most single-family homes in Utah are completed in 1-2 days: tear-off and dry-in the first day, finish work the same or next day. Larger, steeper, or complex roofs can take longer. Our crew arrives early, works efficiently, and does a thorough cleanup before leaving.";
     return [
         'roofing-lehi-utah' => ['city'=>'Lehi','faqs'=>[
             ['q'=>"How much does a roof replacement cost in Lehi, Utah?",'a'=>"Most Lehi homeowners invest between $20,000 and $30,000 for a full roof replacement depending on home size, pitch, and materials. Newer Lehi subdivisions often have larger footprints and steeper pitches. We provide free on-site estimates with transparent, itemized pricing."],
