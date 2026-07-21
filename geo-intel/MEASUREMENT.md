@@ -16,7 +16,7 @@ The core habit. Same questions, every month, compared over time.
 
 ## Layer 2 — GA4 AI-referral tracking (FREE, real traffic — set up once)
 Layer 1 measures *citations*; this measures *actual clicks* from AI engines to the site.
-- In GA4 → Explore → build a Free-form exploration filtered to session source / referrer containing: `chatgpt.com`, `perplexity.ai`, `gemini.google.com`, `copilot.microsoft`, `grok` / `x.ai`.
+- Quick ad-hoc look (illustrative): GA4 → Explore → Free-form exploration filtered to session source / referrer containing e.g. `chatgpt.com`, `perplexity.ai`, `gemini.google.com`, `copilot.microsoft`. **The authoritative live definition is the channel group in the Status line below** — use its exact 8-domain regex, not this example list, so both stay in sync.
 - Tie it to the `generate_lead` / form-start events to see if AI visitors actually book inspections.
 - **Caveat:** this UNDERCOUNTS — a lot of AI traffic arrives as "direct" (no referrer). Treat it as directional, floor-not-ceiling.
 - Status: **LIVE as of 2026-07-21** (geo-book Ch6) — custom channel group **"Channels incl. AI Assistants"** on the roofing property (confirmed by Measurement ID **G-7D5VK6JDVE** on the data stream, not a hardcoded property id), one channel **"AI Assistants" at position 1**, condition `Source` **partially matches regex** `chatgpt\.com|chat\.openai\.com|perplexity\.ai|copilot\.microsoft\.com|gemini\.google\.com|claude\.ai|you\.com|poe\.com`. Read monthly at **Reports → Acquisition → Traffic acquisition** (switch the channel-group selector to "Channels incl. AI Assistants", read the "AI Assistants" sessions row). Still undercounts — direct-attributed AI traffic is invisible; floor-not-ceiling.
