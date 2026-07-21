@@ -19,7 +19,7 @@ Layer 1 measures *citations*; this measures *actual clicks* from AI engines to t
 - In GA4 → Explore → build a Free-form exploration filtered to session source / referrer containing: `chatgpt.com`, `perplexity.ai`, `gemini.google.com`, `copilot.microsoft`, `grok` / `x.ai`.
 - Tie it to the `generate_lead` / form-start events to see if AI visitors actually book inspections.
 - **Caveat:** this UNDERCOUNTS — a lot of AI traffic arrives as "direct" (no referrer). Treat it as directional, floor-not-ceiling.
-- Status: NOT set up yet — offered as the next real-measurement step (browser work in GA4, property G-7D5VK6JDVE).
+- Status: **LIVE as of 2026-07-21** (geo-book Ch6) — custom channel group **"Channels incl. AI Assistants"** on the roofing property (confirmed by Measurement ID **G-7D5VK6JDVE** on the data stream, not a hardcoded property id), one channel **"AI Assistants" at position 1**, condition `Source` **partially matches regex** `chatgpt\.com|chat\.openai\.com|perplexity\.ai|copilot\.microsoft\.com|gemini\.google\.com|claude\.ai|you\.com|poe\.com`. Read monthly at **Reports → Acquisition → Traffic acquisition** (switch the channel-group selector to "Channels incl. AI Assistants", read the "AI Assistants" sessions row). Still undercounts — direct-attributed AI traffic is invisible; floor-not-ceiling.
 
 ## Layer 3 — Automated API tracker (PAID, true engine citations — when owner opts in)
 The real, automated version. Blueprint already exists (the GEO Intelligence System doc).
@@ -27,6 +27,9 @@ The real, automated version. Blueprint already exists (the GEO Intelligence Syst
 - Realistic cost: **~$10–30/month** for the 13 roofing + 12 deck prompts across engines.
 - Then: prompt matrix → per-engine adapters (extract each engine's native citation field) → SQLite → monthly scorecard, auto-committed here.
 - Status: NOT built — owner has not created keys and chose not to spend. Build when ready.
+
+## Diagnostic + reporting (added Ch6, 2026-07-21)
+The monthly run now also: (a) fills the owner-readable **`geo-book/GEO-MONTHLY-REPORT-TEMPLATE.md`** (headline X/13, cluster + share-of-citation table, entity-probe line, GA4 AI-Assistants sessions, four-failure status); and (b) **re-scans the four-failure diagnostic** in `geo-book/CH6-measurement-2026-07-20.md` §6.2 (Access / Structure / Authority / Coverage, in that order) whenever the score stalls, to decide which lever to work next. Cadence unchanged — **first Monday monthly; next run Aug 3, 2026.** The roof-14/15 entity probes stay on their SEPARATE scored line (never in the /13), as above.
 
 ---
 **Owner's standing rule:** organic only, no paid ads. This measurement stack is all $0 except Layer 3 (opt-in). Keep every re-run's prompt list identical to `roofing-prompts.yaml`.
