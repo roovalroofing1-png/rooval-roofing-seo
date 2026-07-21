@@ -107,3 +107,23 @@ data for citation reach" move — leveraging existing published data, **no new d
 - Page content (2778/2779/2654): pre-edit raw in `geo-book/backups/ch3/page-*.raw.html`;
   restore via REST POST {content}.
 - All changes additive and reversible; zero schema/template changes.
+
+## Stage-7 revise (adversarial panel finding, fixed 2026-07-21)
+The stage-6 panel caught a MAJOR live-correctness regression the implementer's own
+verification missed: the G3/G4 insertion anchor logic matched the bare string `roof-quote`,
+which occurs exactly once on the page — **inside the CTA button's href**
+(`<a href="https://rooval-roofing.com/roof-quote/"`). The passage was therefore inserted
+mid-attribute, splitting the anchor tag; wptexturize then smart-quoted the broken delimiters,
+killing the primary "Get My Instant Roof Quote" CTA and rendering raw markup as visible
+garbage. **Fix:** rebuilt page 2779 from the clean pre-edit baseline, re-inserting the storm
+link and the G3/G4 block at a precise safe anchor (the full CTA opening string
+`<p><a href="https://rooval-roofing.com/roof-quote/"`, inserted BEFORE it). Re-verified live:
+CTA valid href + label restored, zero corruption signatures, G3/G4/license#/DOPL-lookup/storm
+link all present, single H1. The sibling pages (2778, 2654) were unaffected (their storm-link
+inserts used a hail/wind/storm-paragraph anchor, not `roof-quote`).
+
+⚙️ **REUSABLE LESSON:** never anchor a content insertion on a bare substring that can occur
+inside an HTML attribute (`roof-quote`, `http`, a class name, etc.). Anchor on a full,
+structurally-unambiguous opening tag string, and ALWAYS diff the full page (not just "is my
+new content present + H1 count") after a REST content write — a passing content check does not
+prove the rest of the page survived intact.
