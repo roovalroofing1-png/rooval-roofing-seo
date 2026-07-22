@@ -1,0 +1,9 @@
+# Legacy links: the tool used to be served as index.html (pre-2026-07);
+# production is index.php now. 301 old direct-file links to the directory URL.
+RewriteEngine On
+RewriteRule ^index\.html$ https://rooval-roofing.com/roof-quote/ [R=301,L]
+<IfModule mod_headers.c>
+<Files "index.html">
+Header set Cache-Control "no-cache, must-revalidate"
+</Files>
+</IfModule>

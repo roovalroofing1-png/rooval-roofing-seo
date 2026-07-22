@@ -1,0 +1,66 @@
+# URL-LIST.txt — every URL crawled in this BEFORE-state capture
+# Run date: 2026-07-21 (captured 2026-07-22T01:1x UTC), anonymous GET/HEAD, no cookies/auth
+# Format: URL <TAB> saved-file <TAB> HTTP-status <TAB> bytes-saved
+#
+# --- Sitemap member URLs (post-sitemap.xml + page-sitemap.xml), full HTML saved ---
+https://rooval-roofing.com/	home.html	200	197413
+https://rooval-roofing.com/about-us/	about-us.html	200	148573
+https://rooval-roofing.com/blog/	blog.html	200	135255
+https://rooval-roofing.com/contact-us/	contact-us.html	200	119571
+https://rooval-roofing.com/emergency-roof-repair-utah-storm/	emergency-roof-repair-utah-storm.html	200	141013
+https://rooval-roofing.com/free-roof-inspection-utah/	free-roof-inspection-utah.html	200	125063
+https://rooval-roofing.com/gutter-services-utah/	gutter-services-utah.html	200	128200
+https://rooval-roofing.com/hail-damage-repair-utah/	hail-damage-repair-utah.html	200	128141
+https://rooval-roofing.com/how-long-does-a-roof-last-in-utah/	how-long-does-a-roof-last-in-utah.html	200	150345
+https://rooval-roofing.com/how-to-choose-roofing-contractor-utah/	how-to-choose-roofing-contractor-utah.html	200	141933
+https://rooval-roofing.com/metal-roof-vs-asphalt-shingles-utah/	metal-roof-vs-asphalt-shingles-utah.html	200	149683
+https://rooval-roofing.com/metal-roofing-utah-worth-it/	metal-roofing-utah-worth-it.html	200	146542
+https://rooval-roofing.com/metal-roofing-utah/	metal-roofing-utah.html	200	124102
+https://rooval-roofing.com/our-services/	our-services.html	200	157454
+https://rooval-roofing.com/privacy-policy/	privacy-policy.html	200	116906
+https://rooval-roofing.com/roof-financing-utah/	roof-financing-utah.html	200	145974
+https://rooval-roofing.com/roof-leak-detection-utah/	roof-leak-detection-utah.html	200	141579
+https://rooval-roofing.com/roof-permits-payson-spanish-fork-mapleton/	roof-permits-payson-spanish-fork-mapleton.html	200	141253
+https://rooval-roofing.com/roof-repair-utah/	roof-repair-utah.html	200	128528
+https://rooval-roofing.com/roof-replacement-cost-utah/	roof-replacement-cost-utah.html	200	129624
+https://rooval-roofing.com/roof-replacement-utah/	roof-replacement-utah.html	200	130910
+https://rooval-roofing.com/roof-tune-up/	roof-tune-up.html	200	121141
+https://rooval-roofing.com/roofing-alpine-utah/	roofing-alpine-utah.html	200	133994
+https://rooval-roofing.com/roofing-american-fork-utah/	roofing-american-fork-utah.html	200	134013
+https://rooval-roofing.com/roofing-bluffdale-utah/	roofing-bluffdale-utah.html	200	133882
+https://rooval-roofing.com/roofing-draper-utah/	roofing-draper-utah.html	200	133980
+https://rooval-roofing.com/roofing-eagle-mountain-utah/	roofing-eagle-mountain-utah.html	200	133837
+https://rooval-roofing.com/roofing-highland-utah/	roofing-highland-utah.html	200	134171
+https://rooval-roofing.com/roofing-lehi-utah/	roofing-lehi-utah.html	200	135288
+https://rooval-roofing.com/roofing-lindon-utah/	roofing-lindon-utah.html	200	133929
+https://rooval-roofing.com/roofing-murray-utah/	roofing-murray-utah.html	200	134210
+https://rooval-roofing.com/roofing-orem-utah/	roofing-orem-utah.html	200	135161
+https://rooval-roofing.com/roofing-pleasant-grove-utah/	roofing-pleasant-grove-utah.html	200	135036
+https://rooval-roofing.com/roofing-provo-utah/	roofing-provo-utah.html	200	134496
+https://rooval-roofing.com/roofing-salt-lake-city-utah/	roofing-salt-lake-city-utah.html	200	134374
+https://rooval-roofing.com/roofing-sandy-utah/	roofing-sandy-utah.html	200	134821
+https://rooval-roofing.com/roofing-saratoga-springs-utah/	roofing-saratoga-springs-utah.html	200	134244
+https://rooval-roofing.com/roofing-springville-utah/	roofing-springville-utah.html	200	134430
+https://rooval-roofing.com/rooval-roofing/	rooval-roofing.html	301	0
+https://rooval-roofing.com/service-areas/	service-areas.html	200	120960
+https://rooval-roofing.com/signs-roof-needs-replacing-utah/	signs-roof-needs-replacing-utah.html	200	142513
+https://rooval-roofing.com/sitemap/	sitemap.html	200	114842
+https://rooval-roofing.com/storm-chaser-roofers-utah/	storm-chaser-roofers-utah.html	200	142817
+https://rooval-roofing.com/storm-damage-checklist-payson-spanish-fork/	storm-damage-checklist-payson-spanish-fork.html	200	140312
+https://rooval-roofing.com/storm-damage-roof-documentation-utah/	storm-damage-roof-documentation-utah.html	200	129526
+https://rooval-roofing.com/storm-damage-roof-history-utah/	storm-damage-roof-history-utah.html	200	126606
+https://rooval-roofing.com/terms-and-conditions/	terms-and-conditions.html	200	117181
+https://rooval-roofing.com/tpo-flat-roofing-utah/	tpo-flat-roofing-utah.html	200	130112
+https://rooval-roofing.com/utah-gutters-before-winter/	utah-gutters-before-winter.html	200	141616
+https://rooval-roofing.com/utah-hail-damage-roof-checklist/	utah-hail-damage-roof-checklist.html	200	150561
+https://rooval-roofing.com/utah-hail-damage-roof-insurance-claim/	utah-hail-damage-roof-insurance-claim.html	200	145002
+https://rooval-roofing.com/utah-heat-damage-asphalt-shingles/	utah-heat-damage-asphalt-shingles.html	200	142217
+https://rooval-roofing.com/utah-roof-maintenance-schedule/	utah-roof-maintenance-schedule.html	200	140155
+https://rooval-roofing.com/wind-damage-roof-repair-utah/	wind-damage-roof-repair-utah.html	200	127903
+https://rooval-roofing.com/wind-damage-utah-county-roofs/	wind-damage-utah-county-roofs.html	200	141324
+#
+# --- Non-sitemap touchpoints (per task instructions) ---
+https://rooval-roofing.com/llms.txt	llms.txt	200	1012
+https://rooval-roofing.com/roof-quote/	(headers only, see HEADERS.txt — body NOT saved)	200	1435057(streamed,discarded)
+https://rooval-roofing.com/roof-quote/index.html.bak	(HEAD only, see HEADERS.txt — not fetched/saved)	200	1928237(Content-Length,HEAD-only)
+https://rooval-roofing.com/roof-quote/index.html.off-2026-07-16	(HEAD only, see HEADERS.txt — not fetched/saved)	200	1967044(Content-Length,HEAD-only)

@@ -1,0 +1,12 @@
+# Instant-quote tool retired 2026-07-21 -> free inspection (overrides stale LiteSpeed-cached 301)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^roof-quote(/|$) https://rooval-roofing.com/free-roof-inspection-utah/ [R=301,L]
+</IfModule>
+
+# BEGIN LSCACHE
+# END LSCACHE
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
+# BEGIN WordPress
+# ... (unchanged WP + LiteSpeed dynamic blocks; see htaccess-root.BEFORE) ...

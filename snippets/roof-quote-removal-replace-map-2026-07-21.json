@@ -1,0 +1,1759 @@
+{
+  "generated": "2026-07-21",
+  "method": "authenticated REST GET reads only (wp-json/wp/v2), no writes",
+  "entries": [
+    {
+      "post_id": 2391,
+      "post_type": "page",
+      "element_or_context": "city:roofing-lehi-utah:content",
+      "stored_old": "hits, we inspect and document the damage so you can file with your insurer. Schedule online anytime or get an <a href=\"/roof-quote/\">instant quote</a>.</p><h2>Roofers in Lehi, Utah Who Actually Live Here</h2><p>Rooval Roofing works out of Lehi, right",
+      "human_gloss": "'roof-quote' found in post_content at char 322",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2391,
+      "post_type": "page",
+      "element_or_context": "city:roofing-lehi-utah:content",
+      "stored_old": "</li></ul><p>You can also skip the phone tag and get a ballpark in minutes with our <a href=\"https://rooval-roofing.com/roof-quote/\">instant quote tool</a>, then have us confirm it in person.</p><h2>Lehi Roofing Questions We Hear a Lot</h2><h3>What d",
+      "human_gloss": "'roof-quote' found in post_content at char 6255",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2391,
+      "post_type": "page",
+      "element_or_context": "city:roofing-lehi-utah:meta._elementor_data",
+      "stored_old": "ts, we inspect and document the damage so you can file with your insurer. Schedule online anytime or get an <a href=\\\"\\/roof-quote\\/\\\">instant quote<\\/a>.<\\/p><h2>Roofers in Lehi, Utah Who Actually Live Here<\\/h2><p>Rooval Roofing works out of Lehi, ",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 451",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2391,
+      "post_type": "page",
+      "element_or_context": "city:roofing-lehi-utah:meta._elementor_data",
+      "stored_old": "<\\/ul><p>You can also skip the phone tag and get a ballpark in minutes with our <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">instant quote tool<\\/a>, then have us confirm it in person.<\\/p><h2>Lehi Roofing Questions We Hear a Lot<\\/h2><h3>W",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6467",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2310,
+      "post_type": "page",
+      "element_or_context": "city:roofing-provo-utah:content",
+      "stored_old": "e inspections, a 5.0★ Google rating, and a workmanship warranty behind the work. Financing available — get an <a href=\"/roof-quote/\">instant quote</a> in minutes or call <a href=\"tel:+13854248810\">(385) 424-8810</a>.</p><h2>A Roofing Crew That Actual",
+      "human_gloss": "'roof-quote' found in post_content at char 299",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2310,
+      "post_type": "page",
+      "element_or_context": "city:roofing-provo-utah:content",
+      "stored_old": " you guessing on price. If you want a number before anyone knocks on your door, our <a href=\"https://rooval-roofing.com/roof-quote/\">instant quote tool</a> uses satellite measurements of your actual roof to give you a real estimate in about a minute.",
+      "human_gloss": "'roof-quote' found in post_content at char 5228",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2310,
+      "post_type": "page",
+      "element_or_context": "city:roofing-provo-utah:content",
+      "stored_old": "ayers can run higher; a simple single-story ranch can come in under that range. The <a href=\"https://rooval-roofing.com/roof-quote/\">instant quote tool</a> will get you close, and a free in-person inspection turns that into a firm number.</p>\n<h3>My ",
+      "human_gloss": "'roof-quote' found in post_content at char 5858",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2310,
+      "post_type": "page",
+      "element_or_context": "city:roofing-provo-utah:meta._elementor_data",
+      "stored_old": "s, a 5.0\\u2605 Google rating, and a workmanship warranty behind the work. Financing available \\u2014 get an <a href=\\\"\\/roof-quote\\/\\\">instant quote<\\/a> in minutes or call <a href=\\\"tel:+13854248810\\\">(385) 424-8810<\\/a>.<\\/p><h2>A Roofing Crew That",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 443",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2310,
+      "post_type": "page",
+      "element_or_context": "city:roofing-provo-utah:meta._elementor_data",
+      "stored_old": " guessing on price. If you want a number before anyone knocks on your door, our <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">instant quote tool<\\/a> uses satellite measurements of your actual roof to give you a real estimate in about a minu",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 5514",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2310,
+      "post_type": "page",
+      "element_or_context": "city:roofing-provo-utah:meta._elementor_data",
+      "stored_old": "s can run higher; a simple single-story ranch can come in under that range. The <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">instant quote tool<\\/a> will get you close, and a free in-person inspection turns that into a firm number.<\\/p>\\n<h",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6157",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2306,
+      "post_type": "page",
+      "element_or_context": "city:roofing-orem-utah:content",
+      "stored_old": "larger projects. Schedule a free inspection at <a href=\"tel:+13854248810\">(385) 424-8810</a> or start with an <a href=\"/roof-quote/\">instant quote</a>.</p><h2>Roofing in Orem That Accounts for the Bench and the Flats</h2>\n<p>Orem stretches across the",
+      "human_gloss": "'roof-quote' found in post_content at char 368",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2306,
+      "post_type": "page",
+      "element_or_context": "city:roofing-orem-utah:content",
+      "stored_old": "eaner than we found it.</p>\n<p>If you just want a number, our instant quote tool at <a href=\"https://rooval-roofing.com/roof-quote/\">rooval-roofing.com/roof-quote</a> measures your roof from your address and gives you a real ballpark in about a minut",
+      "human_gloss": "'roof-quote' found in post_content at char 1096",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2306,
+      "post_type": "page",
+      "element_or_context": "city:roofing-orem-utah:content",
+      "stored_old": "f you just want a number, our instant quote tool at <a href=\"https://rooval-roofing.com/roof-quote/\">rooval-roofing.com/roof-quote</a> measures your roof from your address and gives you a real ballpark in about a minute — no salesperson on your porch",
+      "human_gloss": "'roof-quote' found in post_content at char 1128",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2306,
+      "post_type": "page",
+      "element_or_context": "city:roofing-orem-utah:content",
+      "stored_old": "replace, backed by photos from your own roof</li>\n<li>An instant online estimate at <a href=\"https://rooval-roofing.com/roof-quote/\">our roof quote tool</a> if you'd rather start with a number than a conversation</li>\n</ul>\n<h2>Questions Orem Homeown",
+      "human_gloss": "'roof-quote' found in post_content at char 5823",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2306,
+      "post_type": "page",
+      "element_or_context": "city:roofing-orem-utah:content",
+      "stored_old": "test way to narrow that range for your exact house is the address-based estimate at <a href=\"https://rooval-roofing.com/roof-quote/\">rooval-roofing.com/roof-quote</a>.</p>\n<h3>I live near the canyon mouth and lose shingles in every big wind. Is there",
+      "human_gloss": "'roof-quote' found in post_content at char 6483",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2306,
+      "post_type": "page",
+      "element_or_context": "city:roofing-orem-utah:content",
+      "stored_old": "r your exact house is the address-based estimate at <a href=\"https://rooval-roofing.com/roof-quote/\">rooval-roofing.com/roof-quote</a>.</p>\n<h3>I live near the canyon mouth and lose shingles in every big wind. Is there an actual fix, or do I just kee",
+      "human_gloss": "'roof-quote' found in post_content at char 6515",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2306,
+      "post_type": "page",
+      "element_or_context": "city:roofing-orem-utah:meta._elementor_data",
+      "stored_old": "r projects. Schedule a free inspection at <a href=\\\"tel:+13854248810\\\">(385) 424-8810<\\/a> or start with an <a href=\\\"\\/roof-quote\\/\\\">instant quote<\\/a>.<\\/p><h2>Roofing in Orem That Accounts for the Bench and the Flats<\\/h2>\\n<p>Orem stretches acro",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 510",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2306,
+      "post_type": "page",
+      "element_or_context": "city:roofing-orem-utah:meta._elementor_data",
+      "stored_old": "than we found it.<\\/p>\\n<p>If you just want a number, our instant quote tool at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">rooval-roofing.com\\/roof-quote<\\/a> measures your roof from your address and gives you a real ballpark in about a m",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 1255",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2306,
+      "post_type": "page",
+      "element_or_context": "city:roofing-orem-utah:meta._elementor_data",
+      "stored_old": "ust want a number, our instant quote tool at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">rooval-roofing.com\\/roof-quote<\\/a> measures your roof from your address and gives you a real ballpark in about a minute \\u2014 no salesperson on your",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 1290",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2306,
+      "post_type": "page",
+      "element_or_context": "city:roofing-orem-utah:meta._elementor_data",
+      "stored_old": "e, backed by photos from your own roof<\\/li>\\n<li>An instant online estimate at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">our roof quote tool<\\/a> if you'd rather start with a number than a conversation<\\/li>\\n<\\/ul>\\n\\n<h2>Questions Ore",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6173",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2306,
+      "post_type": "page",
+      "element_or_context": "city:roofing-orem-utah:meta._elementor_data",
+      "stored_old": " way to narrow that range for your exact house is the address-based estimate at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">rooval-roofing.com\\/roof-quote<\\/a>.<\\/p>\\n<h3>I live near the canyon mouth and lose shingles in every big wind. Is",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6850",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2306,
+      "post_type": "page",
+      "element_or_context": "city:roofing-orem-utah:meta._elementor_data",
+      "stored_old": "exact house is the address-based estimate at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">rooval-roofing.com\\/roof-quote<\\/a>.<\\/p>\\n<h3>I live near the canyon mouth and lose shingles in every big wind. Is there an actual fix, or do I just ",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6885",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2302,
+      "post_type": "page",
+      "element_or_context": "city:roofing-salt-lake-city-utah:content",
+      "stored_old": "stead of pooling along the eaves.</li></ul><p>Not sure which of those you need? Our <a href=\"https://rooval-roofing.com/roof-quote/\">instant quote tool</a> gives you a ballpark in a couple of minutes, and a real inspection nails down the rest.</p><h2",
+      "human_gloss": "'roof-quote' found in post_content at char 2542",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2302,
+      "post_type": "page",
+      "element_or_context": "city:roofing-salt-lake-city-utah:content",
+      "stored_old": ".</li></ul><p>You can reach us at <strong>(385) 424-8810</strong> or start with the <a href=\"https://rooval-roofing.com/roof-quote/\">instant quote tool</a> whenever you are ready.</p><h2>Salt Lake City Roofing Questions We Hear a Lot</h2><h3>What doe",
+      "human_gloss": "'roof-quote' found in post_content at char 5414",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2302,
+      "post_type": "page",
+      "element_or_context": "city:roofing-salt-lake-city-utah:meta._elementor_data",
+      "stored_old": "of pooling along the eaves.<\\/li><\\/ul><p>Not sure which of those you need? Our <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">instant quote tool<\\/a> gives you a ballpark in a couple of minutes, and a real inspection nails down the rest.<\\/p",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 2718",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2302,
+      "post_type": "page",
+      "element_or_context": "city:roofing-salt-lake-city-utah:meta._elementor_data",
+      "stored_old": "<\\/ul><p>You can reach us at <strong>(385) 424-8810<\\/strong> or start with the <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">instant quote tool<\\/a> whenever you are ready.<\\/p><h2>Salt Lake City Roofing Questions We Hear a Lot<\\/h2><h3>Wha",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 5620",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2296,
+      "post_type": "page",
+      "element_or_context": "city:roofing-alpine-utah:content",
+      "stored_old": " what it takes to keep them tight.</p>\n<p>When you are ready for a real number, our <a href=\"https://rooval-roofing.com/roof-quote/\">instant quote tool</a> gives you a fast starting estimate, and a free on-site inspection sharpens it into a firm pric",
+      "human_gloss": "'roof-quote' found in post_content at char 873",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2296,
+      "post_type": "page",
+      "element_or_context": "city:roofing-alpine-utah:meta._elementor_data",
+      "stored_old": "it takes to keep them tight.<\\/p>\\n<p>When you are ready for a real number, our <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">instant quote tool<\\/a> gives you a fast starting estimate, and a free on-site inspection sharpens it into a firm p",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 1003",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2298,
+      "post_type": "page",
+      "element_or_context": "city:roofing-highland-utah:content",
+      "stored_old": "And if you just want a ballpark before talking to anyone, our instant quote tool at <a href=\"https://rooval-roofing.com/roof-quote/\">rooval-roofing.com/roof-quote</a> measures your roof from aerial imagery and gives you a real number in about a minut",
+      "human_gloss": "'roof-quote' found in post_content at char 5209",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2298,
+      "post_type": "page",
+      "element_or_context": "city:roofing-highland-utah:content",
+      "stored_old": "before talking to anyone, our instant quote tool at <a href=\"https://rooval-roofing.com/roof-quote/\">rooval-roofing.com/roof-quote</a> measures your roof from aerial imagery and gives you a real number in about a minute.</p><h2>Straight Answers for H",
+      "human_gloss": "'roof-quote' found in post_content at char 5241",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2298,
+      "post_type": "page",
+      "element_or_context": "city:roofing-highland-utah:content",
+      "stored_old": "l systems priced higher than asphalt. For a number tied to your actual address, the <a href=\"https://rooval-roofing.com/roof-quote/\">instant quote tool</a> takes about a minute and doesn't require a phone call.</p><h3>The canyon wind hit us hard this",
+      "human_gloss": "'roof-quote' found in post_content at char 5840",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2298,
+      "post_type": "page",
+      "element_or_context": "city:roofing-highland-utah:meta._elementor_data",
+      "stored_old": "if you just want a ballpark before talking to anyone, our instant quote tool at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">rooval-roofing.com\\/roof-quote<\\/a> measures your roof from aerial imagery and gives you a real number in about a m",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 5456",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2298,
+      "post_type": "page",
+      "element_or_context": "city:roofing-highland-utah:meta._elementor_data",
+      "stored_old": "talking to anyone, our instant quote tool at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">rooval-roofing.com\\/roof-quote<\\/a> measures your roof from aerial imagery and gives you a real number in about a minute.<\\/p><h2>Straight Answers for",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 5491",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2298,
+      "post_type": "page",
+      "element_or_context": "city:roofing-highland-utah:meta._elementor_data",
+      "stored_old": "stems priced higher than asphalt. For a number tied to your actual address, the <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">instant quote tool<\\/a> takes about a minute and doesn't require a phone call.<\\/p><h3>The canyon wind hit us hard ",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6098",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2299,
+      "post_type": "page",
+      "element_or_context": "city:roofing-lindon-utah:content",
+      "stored_old": "pection is for. You can also pull a ballpark number in a couple of minutes with our <a href=\"https://rooval-roofing.com/roof-quote/\">instant quote tool</a> before anyone ever comes out.</p><h2>What Lindon Weather Asks of a Roof</h2><p>Lindon's spot o",
+      "human_gloss": "'roof-quote' found in post_content at char 2465",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2299,
+      "post_type": "page",
+      "element_or_context": "city:roofing-lindon-utah:meta._elementor_data",
+      "stored_old": "ion is for. You can also pull a ballpark number in a couple of minutes with our <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">instant quote tool<\\/a> before anyone ever comes out.<\\/p><h2>What Lindon Weather Asks of a Roof<\\/h2><p>Lindon's s",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 2668",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2300,
+      "post_type": "page",
+      "element_or_context": "city:roofing-pleasant-grove-utah:content",
+      "stored_old": " a full replacement.</li>\n<li><strong>Free, no-pressure inspections</strong> and an <a href=\"https://rooval-roofing.com/roof-quote/\">instant online quote tool</a> if you would rather start with a number before anyone visits.</li>\n</ul>\n<h2>Pleasant G",
+      "human_gloss": "'roof-quote' found in post_content at char 5853",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2300,
+      "post_type": "page",
+      "element_or_context": "city:roofing-pleasant-grove-utah:meta._elementor_data",
+      "stored_old": " replacement.<\\/li>\\n<li><strong>Free, no-pressure inspections<\\/strong> and an <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">instant online quote tool<\\/a> if you would rather start with a number before anyone visits.<\\/li>\\n<\\/ul>\\n\\n<h2>P",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6119",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2301,
+      "post_type": "page",
+      "element_or_context": "city:roofing-springville-utah:content",
+      "stored_old": "it through an in-home presentation just to learn a price. Our instant quote tool at <a href=\"https://rooval-roofing.com/roof-quote/\">rooval-roofing.com/roof-quote</a> gives you a real ballpark for your address in about a minute, and a call to (385) 4",
+      "human_gloss": "'roof-quote' found in post_content at char 5449",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2301,
+      "post_type": "page",
+      "element_or_context": "city:roofing-springville-utah:content",
+      "stored_old": "on just to learn a price. Our instant quote tool at <a href=\"https://rooval-roofing.com/roof-quote/\">rooval-roofing.com/roof-quote</a> gives you a real ballpark for your address in about a minute, and a call to (385) 424-8810 gets you a person, not a",
+      "human_gloss": "'roof-quote' found in post_content at char 5481",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2301,
+      "post_type": "page",
+      "element_or_context": "city:roofing-springville-utah:content",
+      "stored_old": "ts own conversation. For a number specific to your house, the instant quote tool at <a href=\"https://rooval-roofing.com/roof-quote/\">rooval-roofing.com/roof-quote</a> takes about a minute.</p>\n<h3>Our east-bench house grows ice at the roof edge every",
+      "human_gloss": "'roof-quote' found in post_content at char 6163",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2301,
+      "post_type": "page",
+      "element_or_context": "city:roofing-springville-utah:content",
+      "stored_old": "r specific to your house, the instant quote tool at <a href=\"https://rooval-roofing.com/roof-quote/\">rooval-roofing.com/roof-quote</a> takes about a minute.</p>\n<h3>Our east-bench house grows ice at the roof edge every January. Is that fixable, or ju",
+      "human_gloss": "'roof-quote' found in post_content at char 6195",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2301,
+      "post_type": "page",
+      "element_or_context": "city:roofing-springville-utah:meta._elementor_data",
+      "stored_old": "hrough an in-home presentation just to learn a price. Our instant quote tool at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">rooval-roofing.com\\/roof-quote<\\/a> gives you a real ballpark for your address in about a minute, and a call to (38",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 5660",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2301,
+      "post_type": "page",
+      "element_or_context": "city:roofing-springville-utah:meta._elementor_data",
+      "stored_old": " to learn a price. Our instant quote tool at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">rooval-roofing.com\\/roof-quote<\\/a> gives you a real ballpark for your address in about a minute, and a call to (385) 424-8810 gets you a person, not ",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 5695",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2301,
+      "post_type": "page",
+      "element_or_context": "city:roofing-springville-utah:meta._elementor_data",
+      "stored_old": "wn conversation. For a number specific to your house, the instant quote tool at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">rooval-roofing.com\\/roof-quote<\\/a> takes about a minute.<\\/p>\\n<h3>Our east-bench house grows ice at the roof edge",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6388",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2301,
+      "post_type": "page",
+      "element_or_context": "city:roofing-springville-utah:meta._elementor_data",
+      "stored_old": "fic to your house, the instant quote tool at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">rooval-roofing.com\\/roof-quote<\\/a> takes about a minute.<\\/p>\\n<h3>Our east-bench house grows ice at the roof edge every January. Is that fixable, or",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6423",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2303,
+      "post_type": "page",
+      "element_or_context": "city:roofing-murray-utah:content",
+      "stored_old": "warranty. Book a free inspection at <a href=\"tel:+13854248810\">(385) 424-8810</a> or price your roof with our <a href=\"/roof-quote/\">instant quote</a> tool.</p><h2>Roof Work Done Right in Murray, Utah</h2>\n<p>Murray sits near the center of Salt Lake ",
+      "human_gloss": "'roof-quote' found in post_content at char 403",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2303,
+      "post_type": "page",
+      "element_or_context": "city:roofing-murray-utah:content",
+      "stored_old": "<p>Curious what your project might run before anyone sets foot on the property? Our <a href=\"https://rooval-roofing.com/roof-quote/\">instant quote tool</a> gives you a ballpark in a couple of minutes, or you can reach us directly at <strong>(385) 424",
+      "human_gloss": "'roof-quote' found in post_content at char 5828",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2303,
+      "post_type": "page",
+      "element_or_context": "city:roofing-murray-utah:meta._elementor_data",
+      "stored_old": "nty. Book a free inspection at <a href=\\\"tel:+13854248810\\\">(385) 424-8810<\\/a> or price your roof with our <a href=\\\"\\/roof-quote\\/\\\">instant quote<\\/a> tool.<\\/p><h2>Roof Work Done Right in Murray, Utah<\\/h2>\\n<p>Murray sits near the center of Salt",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 540",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2303,
+      "post_type": "page",
+      "element_or_context": "city:roofing-murray-utah:meta._elementor_data",
+      "stored_old": "urious what your project might run before anyone sets foot on the property? Our <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">instant quote tool<\\/a> gives you a ballpark in a couple of minutes, or you can reach us directly at <strong>(385) ",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6074",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2304,
+      "post_type": "page",
+      "element_or_context": "city:roofing-sandy-utah:content",
+      "stored_old": "rating, and a workmanship warranty on every job. Call <a href=\"tel:+13854248810\">(385) 424-8810</a> or get an <a href=\"/roof-quote/\">instant quote</a> online.</p><h2>Sandy Roofing Built for the Foot of the Wasatch</h2><p>Sandy sits on the southeast e",
+      "human_gloss": "'roof-quote' found in post_content at char 313",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2304,
+      "post_type": "page",
+      "element_or_context": "city:roofing-sandy-utah:content",
+      "stored_old": "ushing a replacement.</li><li><strong>Free, no-pressure inspections</strong> and an <a href=\"https://rooval-roofing.com/roof-quote/\">instant online quote tool</a> if you want a ballpark before we ever set foot on the property.</li></ul><p>If a storm ",
+      "human_gloss": "'roof-quote' found in post_content at char 5833",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2304,
+      "post_type": "page",
+      "element_or_context": "city:roofing-sandy-utah:meta._elementor_data",
+      "stored_old": "g, and a workmanship warranty on every job. Call <a href=\\\"tel:+13854248810\\\">(385) 424-8810<\\/a> or get an <a href=\\\"\\/roof-quote\\/\\\">instant quote<\\/a> online.<\\/p><h2>Sandy Roofing Built for the Foot of the Wasatch<\\/h2><p>Sandy sits on the southe",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 460",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2304,
+      "post_type": "page",
+      "element_or_context": "city:roofing-sandy-utah:meta._elementor_data",
+      "stored_old": " a replacement.<\\/li><li><strong>Free, no-pressure inspections<\\/strong> and an <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">instant online quote tool<\\/a> if you want a ballpark before we ever set foot on the property.<\\/li><\\/ul><p>If a s",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6100",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2308,
+      "post_type": "page",
+      "element_or_context": "city:roofing-draper-utah:content",
+      "stored_old": "Suncrest and Corner Canyon. Free inspections citywide — call <a href=\"tel:+13854248810\">(385) 424-8810</a> or <a href=\"/roof-quote/\">price it online</a> in minutes.</p><h2>Draper Roofing Done by Neighbors, Not Strangers</h2>\n<p>Draper sits in the far",
+      "human_gloss": "'roof-quote' found in post_content at char 325",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2308,
+      "post_type": "page",
+      "element_or_context": "city:roofing-draper-utah:content",
+      "stored_old": "ur specific roof — you can get a ballpark in minutes with our instant quote tool at <a href=\"https://rooval-roofing.com/roof-quote/\">rooval-roofing.com/roof-quote</a>.</p>\n<h3>My house was built when SunCrest and South Mountain were going up — is my ",
+      "human_gloss": "'roof-quote' found in post_content at char 6022",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2308,
+      "post_type": "page",
+      "element_or_context": "city:roofing-draper-utah:content",
+      "stored_old": " ballpark in minutes with our instant quote tool at <a href=\"https://rooval-roofing.com/roof-quote/\">rooval-roofing.com/roof-quote</a>.</p>\n<h3>My house was built when SunCrest and South Mountain were going up — is my roof due?</h3>\n<p>Quite possibly",
+      "human_gloss": "'roof-quote' found in post_content at char 6054",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2308,
+      "post_type": "page",
+      "element_or_context": "city:roofing-draper-utah:meta._elementor_data",
+      "stored_old": "nd Corner Canyon. Free inspections citywide \\u2014 call <a href=\\\"tel:+13854248810\\\">(385) 424-8810<\\/a> or <a href=\\\"\\/roof-quote\\/\\\">price it online<\\/a> in minutes.<\\/p><h2>Draper Roofing Done by Neighbors, Not Strangers<\\/h2>\\n<p>Draper sits in t",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 467",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2308,
+      "post_type": "page",
+      "element_or_context": "city:roofing-draper-utah:meta._elementor_data",
+      "stored_old": "ic roof \\u2014 you can get a ballpark in minutes with our instant quote tool at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">rooval-roofing.com\\/roof-quote<\\/a>.<\\/p>\\n<h3>My house was built when SunCrest and South Mountain were going up \\u",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6322",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2308,
+      "post_type": "page",
+      "element_or_context": "city:roofing-draper-utah:meta._elementor_data",
+      "stored_old": "rk in minutes with our instant quote tool at <a href=\\\"https:\\/\\/rooval-roofing.com\\/roof-quote\\/\\\">rooval-roofing.com\\/roof-quote<\\/a>.<\\/p>\\n<h3>My house was built when SunCrest and South Mountain were going up \\u2014 is my roof due?<\\/h3>\\n<p>Quit",
+      "human_gloss": "'roof-quote' found in meta._elementor_data (Elementor JSON blob) at char 6357",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2534,
+      "post_type": "page",
+      "element_or_context": "service-areas-hub:content",
+      "stored_old": "ius:8px;font-weight:700;text-decoration:none;background:#cc0000;color:#fff;margin:6px\" href=\"https://rooval-roofing.com/roof-quote/\">Get My Instant Roof Quote</a> &nbsp; <a style=\"display:inline-block;padding:14px 26px;border-radius:8px;font-weight:7",
+      "human_gloss": "'roof-quote' found in post_content at char 749",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2950,
+      "post_type": "page",
+      "element_or_context": "cost-page:content",
+      "stored_old": "pecific home? Get an instant estimate for your address in about 60 seconds with our <a href=\"https://rooval-roofing.com/roof-quote/\">online quote tool</a>.</strong> Enter your address, we measure your roof from satellite imagery, and you get a fast b",
+      "human_gloss": "'roof-quote' found in post_content at char 846",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2950,
+      "post_type": "page",
+      "element_or_context": "cost-page:content",
+      "stored_old": "ium-material roofs run higher. The fastest way to get a number for your home is our <a href=\"https://rooval-roofing.com/roof-quote/\">instant online quote</a>.</p>\n<h3>Why do roof prices vary so much between homes?</h3>\n<p>Two homes with the same squa",
+      "human_gloss": "'roof-quote' found in post_content at char 7877",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2950,
+      "post_type": "page",
+      "element_or_context": "cost-page:content",
+      "stored_old": "range. Get an instant estimate for your actual address in about 60 seconds with our <a href=\"https://rooval-roofing.com/roof-quote/\">instant roof quote tool</a>, then we'll confirm your firm price when we look at the roof. No pressure, no waiting thr",
+      "human_gloss": "'roof-quote' found in post_content at char 9758",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2950,
+      "post_type": "page",
+      "element_or_context": "cost-page:content",
+      "stored_old": ", steep, or premium-material roofs run higher. Rooval Roofing's instant online quote tool at https://rooval-roofing.com/roof-quote/ gives an estimate for your address in about 60 seconds.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\":",
+      "human_gloss": "'roof-quote' found in post_content at char 12229",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2358,
+      "post_type": "post",
+      "element_or_context": "post:2358:content",
+      "stored_old": "ee storm-damage inspections. Questions about your roof? Call <a href=\"tel:+13854248810\">(385) 424-8810</a> or <a href=\"/roof-quote/\">get an instant quote</a>.</p></div><!--/rvauth-->",
+      "human_gloss": "'roof-quote' found in post_content at char 9926",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2359,
+      "post_type": "post",
+      "element_or_context": "post:2359:content",
+      "stored_old": "ies to your situation. The decisions stay yours — we just make sure you're making them with real information. <a href=\"/roof-quote/\">Get your instant quote</a> and ask about financing — no cost, no obligation, a straight answer.</p><!--rvfaq--><h2>Fr",
+      "human_gloss": "'roof-quote' found in post_content at char 7166",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2359,
+      "post_type": "post",
+      "element_or_context": "post:2359:content",
+      "stored_old": "ee storm-damage inspections. Questions about your roof? Call <a href=\"tel:+13854248810\">(385) 424-8810</a> or <a href=\"/roof-quote/\">get an instant quote</a>.</p></div><!--/rvauth-->\n<!--rv-cache-touch-->\n<!--rv-cache-touch3-->",
+      "human_gloss": "'roof-quote' found in post_content at char 12156",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2360,
+      "post_type": "post",
+      "element_or_context": "post:2360:content",
+      "stored_old": "we'll say so.</p><p>Call or text us at <a href=\"tel:+13854248810\">385-424-8810</a>, or start with the number: <a href=\"/roof-quote/\">get your instant metal roof quote</a> and ask about financing — no cost, no obligation, a straight answer.</p><p>Roov",
+      "human_gloss": "'roof-quote' found in post_content at char 8501",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2360,
+      "post_type": "post",
+      "element_or_context": "post:2360:content",
+      "stored_old": "tal-roof-vs-asphalt-shingles-utah/\">Metal Roof vs. Asphalt Shingles in Utah: An Honest Comparison</a></li><li><a href=\"/roof-quote/\">Get an instant roof quote — quick and straightforward</a></li></ul></div><!--/rvkr--><!--rvauth--><div class=\"rooval-",
+      "human_gloss": "'roof-quote' found in post_content at char 12892",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2360,
+      "post_type": "post",
+      "element_or_context": "post:2360:content",
+      "stored_old": "ee storm-damage inspections. Questions about your roof? Call <a href=\"tel:+13854248810\">(385) 424-8810</a> or <a href=\"/roof-quote/\">get an instant quote</a>.</p></div><!--/rvauth-->",
+      "human_gloss": "'roof-quote' found in post_content at char 13655",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2361,
+      "post_type": "post",
+      "element_or_context": "post:2361:content",
+      "stored_old": "s</a></li><li><a href=\"/signs-roof-needs-replacing-utah/\">Signs Your Roof Needs Replacing in Utah</a></li><li><a href=\"/roof-quote/\">Get an instant roof quote in about a minute</a></li></ul></div><!--/rvkr--><!--rvauth--><div class=\"rooval-author-box",
+      "human_gloss": "'roof-quote' found in post_content at char 8208",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2361,
+      "post_type": "post",
+      "element_or_context": "post:2361:content",
+      "stored_old": "ee storm-damage inspections. Questions about your roof? Call <a href=\"tel:+13854248810\">(385) 424-8810</a> or <a href=\"/roof-quote/\">get an instant quote</a>.</p></div><!--/rvauth-->",
+      "human_gloss": "'roof-quote' found in post_content at char 8961",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2362,
+      "post_type": "post",
+      "element_or_context": "post:2362:content",
+      "stored_old": "ee storm-damage inspections. Questions about your roof? Call <a href=\"tel:+13854248810\">(385) 424-8810</a> or <a href=\"/roof-quote/\">get an instant quote</a>.</p></div><!--/rvauth-->",
+      "human_gloss": "'roof-quote' found in post_content at char 9168",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2657,
+      "post_type": "post",
+      "element_or_context": "post:2657:content",
+      "stored_old": "ail far better than builder-grade shingles, and you can get an instant ballpark number for your home with our <a href=\"/roof-quote/\">online roof quote tool</a> before we ever set foot on your property.</p>\n<h2>Schedule Your Free Hail Inspection</h2>\n",
+      "human_gloss": "'roof-quote' found in post_content at char 11169",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2657,
+      "post_type": "post",
+      "element_or_context": "post:2657:content",
+      "stored_old": "ee storm-damage inspections. Questions about your roof? Call <a href=\"tel:+13854248810\">(385) 424-8810</a> or <a href=\"/roof-quote/\">get an instant quote</a>.</p></div><!--/rvauth-->",
+      "human_gloss": "'roof-quote' found in post_content at char 17432",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2658,
+      "post_type": "post",
+      "element_or_context": "post:2658:content",
+      "stored_old": "lls you metal is \"only a little more,\" get a second quote. If you want real numbers for your actual roof, our <a href=\"/roof-quote/\">instant roof quote tool</a> is quick, and we price both materials on our <a href=\"/metal-roofing-utah/\">metal roofing",
+      "human_gloss": "'roof-quote' found in post_content at char 3381",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2658,
+      "post_type": "post",
+      "element_or_context": "post:2658:content",
+      "stored_old": "homeowners we treated the way we'd want to be treated.</p>\n<p>Get a free estimate on either material: use our <a href=\"/roof-quote/\">instant roof quote tool</a> for quick ballpark numbers, <a href=\"/contact-us/\">reach out through our contact page</a>",
+      "human_gloss": "'roof-quote' found in post_content at char 11035",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2658,
+      "post_type": "post",
+      "element_or_context": "post:2658:content",
+      "stored_old": "ee storm-damage inspections. Questions about your roof? Call <a href=\"tel:+13854248810\">(385) 424-8810</a> or <a href=\"/roof-quote/\">get an instant quote</a>.</p></div><!--/rvauth-->",
+      "human_gloss": "'roof-quote' found in post_content at char 16468",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2659,
+      "post_type": "post",
+      "element_or_context": "post:2659:content",
+      "stored_old": "you honestly what your roof needs and how many years it has left. If it&#8217;s time to talk replacement, our <a href=\"/roof-quote/\">instant roof quote tool</a> gives you a real number in about a minute, and every installation is backed by our workma",
+      "human_gloss": "'roof-quote' found in post_content at char 12072",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2659,
+      "post_type": "post",
+      "element_or_context": "post:2659:content",
+      "stored_old": "ee storm-damage inspections. Questions about your roof? Call <a href=\"tel:+13854248810\">(385) 424-8810</a> or <a href=\"/roof-quote/\">get an instant quote</a>.</p></div><!--/rvauth-->",
+      "human_gloss": "'roof-quote' found in post_content at char 17316",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 1723,
+      "post_type": "page",
+      "element_or_context": "homepage:content",
+      "stored_old": "ing Solutions</h2>\t\t\t\t\n\t\t\t\t\t<h2>Rooval Roofing — Trusted Roof Repairs &amp; Replacements</h2>\t\t\t\t\n\t\t\t\t\t<a href=\"https://estimate.rooval-roofing.com/quote\">\n\t\t\t\t\t\t\t\t\tGet a Free Estimate\n\t\t\t\t\t</a>\n\t\t\t\t\t<h2>⨳ Our Services ⨳</h2>\t\t\t\t\n\t\t\t\t\t<h2>Expert Roofing &",
+      "human_gloss": "'estimate.rooval' found in post_content at char 138",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 1723,
+      "post_type": "page",
+      "element_or_context": "homepage:meta._elementor_data",
+      "stored_old": "tte_2\"},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"link\":{\"url\":\"https:\\/\\/estimate.rooval-roofing.com\\/quote\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_margin_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"rig",
+      "human_gloss": "'estimate.rooval' found in meta._elementor_data (Elementor JSON blob) at char 3413",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2229,
+      "post_type": "elementor_library",
+      "element_or_context": "template:2229:meta._elementor_data",
+      "stored_old": "}},\"elements\":[{\"id\":\"14ffcaa8\",\"elType\":\"widget\",\"settings\":{\"html\":\"<iframe id=\\\"rooval-quote-frame\\\" src=\\\"https:\\/\\/estimate.rooval-roofing.com\\/quote\\\" title=\\\"Get Your Free Roof Quote\\\" style=\\\"width:100%;height:900px;border:0;display:block;backgrou",
+      "human_gloss": "'estimate.rooval' found in meta._elementor_data (Elementor JSON blob) at char 5371",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2229,
+      "post_type": "elementor_library",
+      "element_or_context": "template:2229:meta._elementor_data",
+      "stored_old": "ed\":true},\"padding\":{\"unit\":\"px\",\"top\":\"25\",\"right\":\"25\",\"bottom\":\"25\",\"left\":\"25\",\"isLinked\":true}},\"elements\":[{\"id\":\"14ffcaa8\",\"elType\":\"widget\",\"settings\":{\"html\":\"<iframe id=\\\"rooval-quote-frame\\\" src=\\\"https:\\/\\/estimate.rooval-roofing.com\\/q",
+      "human_gloss": "'14ffcaa8' found in meta._elementor_data (Elementor JSON blob) at char 5273",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 2026,
+      "post_type": "elementor_library",
+      "element_or_context": "template:2026(footer):meta._elementor_data",
+      "stored_old": "d\":\"7a5fab4\",\"elType\":\"widget\",\"settings\":{\"html\":\"<div style=\\\"text-align:center;padding:16px 0;\\\"><a href=\\\"https:\\/\\/estimate.rooval-roofing.com\\/quote\\\" style=\\\"display:inline-block;background:#E5A823;color:#1a1a1a;font-weight:700;text-decoration:none",
+      "human_gloss": "'estimate.rooval' found in meta._elementor_data (Elementor JSON blob) at char 4600",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 1723,
+      "post_type": "page",
+      "element_or_context": "homepage:meta._elementor_data(template-widget-ref)",
+      "stored_old": "],\"elements\":[{\"id\":\"7a7dfb1\",\"elType\":\"widget\",\"settings\":{\"template_id\":\"2229\"},\"elements\":[],\"widgetType\":\"template\"}],\"isInner\":false},{",
+      "human_gloss": "Elementor 'template' widget referencing shared template 2229 by settings.template_id (NOT a page-local copy of the iframe). The actual 14ffcaa8 iframe widget lives ONLY inside template 2229's own _elementor_data. To remove/replace the instant-quote CTA on this page, edit template 2229 once (affects all 4 referencing pages) OR remove/replace this template-widget block.",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 40,
+      "post_type": "page",
+      "element_or_context": "about-us:meta._elementor_data(template-widget-ref)",
+      "stored_old": "],\"elements\":[{\"id\":\"373bc6e\",\"elType\":\"widget\",\"settings\":{\"template_id\":\"2229\"},\"elements\":[],\"widgetType\":\"template\"}],\"isInner\":false}]",
+      "human_gloss": "Elementor 'template' widget referencing shared template 2229 by settings.template_id (NOT a page-local copy of the iframe). The actual 14ffcaa8 iframe widget lives ONLY inside template 2229's own _elementor_data. To remove/replace the instant-quote CTA on this page, edit template 2229 once (affects all 4 referencing pages) OR remove/replace this template-widget block.",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 42,
+      "post_type": "page",
+      "element_or_context": "contact-us:meta._elementor_data(template-widget-ref)",
+      "stored_old": "],\"elements\":[{\"id\":\"1f68480\",\"elType\":\"widget\",\"settings\":{\"template_id\":\"2229\"},\"elements\":[],\"widgetType\":\"template\"}],\"isInner\":false}]",
+      "human_gloss": "Elementor 'template' widget referencing shared template 2229 by settings.template_id (NOT a page-local copy of the iframe). The actual 14ffcaa8 iframe widget lives ONLY inside template 2229's own _elementor_data. To remove/replace the instant-quote CTA on this page, edit template 2229 once (affects all 4 referencing pages) OR remove/replace this template-widget block.",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    },
+    {
+      "post_id": 51,
+      "post_type": "page",
+      "element_or_context": "our-services:meta._elementor_data(template-widget-ref)",
+      "stored_old": "],\"elements\":[{\"id\":\"b6d22ff\",\"elType\":\"widget\",\"settings\":{\"template_id\":\"2229\"},\"elements\":[],\"widgetType\":\"template\"}],\"isInner\":false}]",
+      "human_gloss": "Elementor 'template' widget referencing shared template 2229 by settings.template_id (NOT a page-local copy of the iframe). The actual 14ffcaa8 iframe widget lives ONLY inside template 2229's own _elementor_data. To remove/replace the instant-quote CTA on this page, edit template 2229 once (affects all 4 referencing pages) OR remove/replace this template-widget block.",
+      "proposed_new": "REPLACE_WITH:free-inspection",
+      "occurrences": 1
+    }
+  ],
+  "target_summary": {
+    "city:roofing-lehi-utah": {
+      "status": 200,
+      "hits": 4,
+      "post_id": 2391,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 10101,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "city:roofing-provo-utah": {
+      "status": 200,
+      "hits": 6,
+      "post_id": 2310,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 9499,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "city:roofing-orem-utah": {
+      "status": 200,
+      "hits": 12,
+      "post_id": 2306,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 9982,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "city:roofing-salt-lake-city-utah": {
+      "status": 200,
+      "hits": 4,
+      "post_id": 2302,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 8995,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "city:roofing-alpine-utah": {
+      "status": 200,
+      "hits": 2,
+      "post_id": 2296,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 8958,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "city:roofing-highland-utah": {
+      "status": 200,
+      "hits": 6,
+      "post_id": 2298,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 8881,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "city:roofing-lindon-utah": {
+      "status": 200,
+      "hits": 2,
+      "post_id": 2299,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 9213,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "city:roofing-pleasant-grove-utah": {
+      "status": 200,
+      "hits": 2,
+      "post_id": 2300,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 9846,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "city:roofing-springville-utah": {
+      "status": 200,
+      "hits": 8,
+      "post_id": 2301,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 9561,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "city:roofing-murray-utah": {
+      "status": 200,
+      "hits": 4,
+      "post_id": 2303,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 9311,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "city:roofing-sandy-utah": {
+      "status": 200,
+      "hits": 4,
+      "post_id": 2304,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 9997,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "city:roofing-draper-utah": {
+      "status": 200,
+      "hits": 6,
+      "post_id": 2308,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 9211,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "service-areas-hub": {
+      "status": 200,
+      "hits": 1,
+      "post_id": 2534,
+      "post_type": "page",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "our-services": {
+      "status": 200,
+      "hits": 0,
+      "post_id": 51,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 57902,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "cost-page": {
+      "status": 200,
+      "hits": 4,
+      "post_id": 2950,
+      "post_type": "page",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "post:2358": {
+      "status": 200,
+      "hits": 1,
+      "post_id": 2358,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "post:2359": {
+      "status": 200,
+      "hits": 2,
+      "post_id": 2359,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "post:2360": {
+      "status": 200,
+      "hits": 3,
+      "post_id": 2360,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "post:2361": {
+      "status": 200,
+      "hits": 2,
+      "post_id": 2361,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "post:2362": {
+      "status": 200,
+      "hits": 1,
+      "post_id": 2362,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "post:2657": {
+      "status": 200,
+      "hits": 2,
+      "post_id": 2657,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "post:2658": {
+      "status": 200,
+      "hits": 3,
+      "post_id": 2658,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "post:2659": {
+      "status": 200,
+      "hits": 2,
+      "post_id": 2659,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "newpost:utah-heat-damage-asphalt-shingles": {
+      "status": 200,
+      "hits": 0,
+      "post_id": 3116,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "newpost:roof-leak-detection-utah": {
+      "status": 200,
+      "hits": 0,
+      "post_id": 3117,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "newpost:emergency-roof-repair-utah-storm": {
+      "status": 200,
+      "hits": 0,
+      "post_id": 3118,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "newpost:utah-roof-maintenance-schedule": {
+      "status": 200,
+      "hits": 0,
+      "post_id": 3119,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "homepage": {
+      "status": 200,
+      "hits": 2,
+      "post_id": 1723,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 42086,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "about-us": {
+      "status": 200,
+      "hits": 0,
+      "post_id": 40,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 32470,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "contact-us": {
+      "status": 200,
+      "hits": 0,
+      "post_id": 42,
+      "post_type": "page",
+      "has_elementor_data": true,
+      "elementor_data_len": 2102,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "template:2229": {
+      "status": 200,
+      "hits": 2,
+      "post_id": 2229,
+      "post_type": "elementor_library",
+      "has_elementor_data": true,
+      "elementor_data_len": 6179,
+      "meta_keys": [
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "template:2026(footer)": {
+      "status": 200,
+      "hits": 1,
+      "post_id": 2026,
+      "post_type": "elementor_library",
+      "has_elementor_data": true,
+      "elementor_data_len": 9475,
+      "meta_keys": [
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "post:3116(3116-3119 range)": {
+      "status": 200,
+      "hits": 0,
+      "post_id": 3116,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "post:3117(3116-3119 range)": {
+      "status": 200,
+      "hits": 0,
+      "post_id": 3117,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "post:3118(3116-3119 range)": {
+      "status": 200,
+      "hits": 0,
+      "post_id": 3118,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    },
+    "post:3119(3116-3119 range)": {
+      "status": 200,
+      "hits": 0,
+      "post_id": 3119,
+      "post_type": "post",
+      "has_elementor_data": false,
+      "elementor_data_len": 0,
+      "meta_keys": [
+        "footnotes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_data",
+        "_elementor_page_settings",
+        "_elementor_conditions"
+      ]
+    }
+  },
+  "footer_widget_extra": [
+    {
+      "widget_id": "c70eac3",
+      "found": true,
+      "context": "widgetType\":\"heading\"},{\"id\":\"c70eac3\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>\\u00a9 2025 Rooval Roofing \\u2014 Professional Roof Installation, Repair &amp; Replacement Service"
+    },
+    {
+      "widget_id": "c70eac3",
+      "marker": "2025 Rooval Roofing",
+      "index": 9101,
+      "context": "\"editor\":\"<p>\\u00a9 2025 Rooval Roofing \\u2014 Professional Roof Installation, Repair &amp; Replacement Services.<\\/p>\",\"align\":\"center\",\"typography_typography\":\"custom\""
+    },
+    {
+      "widget_id": "c70eac3",
+      "marker": "\\u00a9",
+      "index": 9094,
+      "context": "ings\":{\"editor\":\"<p>\\u00a9 2025 Rooval Roofing \\u2014 Professional Roof Installation, Repair &amp; Replacement Services.<\\/p>\",\"align\":\"center\",\"typography_"
+    },
+    {
+      "widget_id": "c70eac3",
+      "marker": "Rooval Roofing",
+      "index": 9106,
+      "context": "or\":\"<p>\\u00a9 2025 Rooval Roofing \\u2014 Professional Roof Installation, Repair &amp; Replacement Services.<\\/p>\",\"align\":\"center\",\"typography_typography\":\"custom\""
+    },
+    {
+      "widget_id": "7a5fab4",
+      "found": true,
+      "context": "widgetType\":\"heading\"},{\"id\":\"7a5fab4\",\"elType\":\"widget\",\"settings\":{\"html\":\"<div style=\\\"text-align:center;padding:16px 0;\\\"><a href=\\\"https:\\/\\/estimate.rooval-roofing.com\\/quote"
+    }
+  ],
+  "iframe_containment": {
+    "homepage": {
+      "total_hits_this_target": 2,
+      "iframe_related_hits": 2,
+      "contains_iframe_widget_locally": false,
+      "references_template_2229": true
+    },
+    "about-us": {
+      "total_hits_this_target": 0,
+      "iframe_related_hits": 0,
+      "contains_iframe_widget_locally": false,
+      "references_template_2229": true
+    },
+    "contact-us": {
+      "total_hits_this_target": 0,
+      "iframe_related_hits": 0,
+      "contains_iframe_widget_locally": false,
+      "references_template_2229": true
+    },
+    "our-services": {
+      "total_hits_this_target": 0,
+      "iframe_related_hits": 0,
+      "contains_iframe_widget_locally": false,
+      "references_template_2229": true
+    },
+    "template:2229": {
+      "total_hits_this_target": 2,
+      "iframe_related_hits": 2
+    },
+    "_answer": "SHARED TEMPLATE, not page-local copies. Widget id 14ffcaa8 (the iframe, src=https://estimate.rooval-roofing.com/quote) exists in exactly ONE place: elementor_library post 2229's meta._elementor_data. Pages 1723 (homepage), 40 (about-us), 42 (contact-us), and 51 (our-services) each contain a short Elementor 'template' widget with settings.template_id == '2229' that pulls the template in at render time; none of the 4 pages contain widget 14ffcaa8 in their own _elementor_data. Template 2229's meta._elementor_conditions is an empty array, so it is NOT auto-injected via Elementor Theme Builder display conditions -- it is explicitly placed via the template widget on each of the 4 pages. NOTE: homepage (1723) separately contains its OWN, different, non-iframe 'Get a Free Estimate' link button (href=https://estimate.rooval-roofing.com/quote) in both post_content and its own _elementor_data -- that is a distinct CTA, not the iframe, and must be replaced separately."
+  },
+  "our_services_buttons": [
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/roof-about.webp",
+      "index": 358,
+      "context": ":\"classic\",\"background_color\":\"#FFFFFF\",\"background_image\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/roof-about.webp\",\"id\":2104,\"size\":\"\",\"alt\":\"\",\"source\":\"library\"},\"backgroun"
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/Roofing-Services.webp",
+      "index": 4028,
+      "context": "\":[]},\"background_background\":\"classic\",\"background_image\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/Roofing-Services.webp\",\"id\":1959,\"size\":\"\",\"alt\":\"\",\"source\":\"library\"},\"backgroun"
+    },
+    {
+      "href_escaped": "\\/roof-replacement-utah\\/",
+      "index": 6984,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/roof-replacement-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "\\/roof-replacement-utah\\/",
+      "index": 7713,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/roof-replacement-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "\\/roof-replacement-utah\\/",
+      "index": 8438,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/roof-replacement-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "\\/roof-replacement-utah\\/",
+      "index": 9170,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/roof-replacement-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/",
+      "index": 9897,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "\\/roof-replacement-utah\\/",
+      "index": 10658,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/roof-replacement-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "\\/roof-replacement-utah\\/",
+      "index": 11384,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/roof-replacement-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "\\/roof-replacement-utah\\/",
+      "index": 12110,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/roof-replacement-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/Gutter-Services.webp",
+      "index": 13207,
+      "context": "\":[]},\"background_background\":\"classic\",\"background_image\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/Gutter-Services.webp\",\"id\":1960,\"size\":\"\",\"alt\":\"\",\"source\":\"library\"},\"backgroun"
+    },
+    {
+      "href_escaped": "\\/gutter-services-utah\\/",
+      "index": 16072,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/gutter-services-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "\\/gutter-services-utah\\/",
+      "index": 16809,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/gutter-services-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "\\/gutter-services-utah\\/",
+      "index": 17530,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/gutter-services-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "\\/gutter-services-utah\\/",
+      "index": 18258,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/gutter-services-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "\\/gutter-services-utah\\/",
+      "index": 18982,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/gutter-services-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/gutter-services-utah\\/",
+      "index": 19717,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/gutter-services-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "\\/gutter-services-utah\\/",
+      "index": 20477,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/gutter-services-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "\\/gutter-services-utah\\/",
+      "index": 21207,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"\\/gutter-services-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/Metal-Roof.webp",
+      "index": 22304,
+      "context": "\":[]},\"background_background\":\"classic\",\"background_image\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/Metal-Roof.webp\",\"id\":1961,\"size\":\"\",\"alt\":\"\",\"source\":\"library\"},\"backgroun"
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/",
+      "index": 25169,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/",
+      "index": 25919,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/",
+      "index": 26675,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/",
+      "index": 27428,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/",
+      "index": 28182,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/",
+      "index": 28944,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/",
+      "index": 29697,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/",
+      "index": 30462,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/metal-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/Metal-Roof.webp",
+      "index": 31585,
+      "context": "\":[]},\"background_background\":\"classic\",\"background_image\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/Metal-Roof.webp\",\"id\":\"b5bfa57\",\"size\":\"\",\"alt\":\"\",\"source\":\"library\"},\"back"
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/",
+      "index": 34231,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/",
+      "index": 34976,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/",
+      "index": 35721,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/",
+      "index": 36475,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/",
+      "index": 37229,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/",
+      "index": 37977,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/",
+      "index": 38725,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/",
+      "index": 39478,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-repair-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/Metal-Roof.webp",
+      "index": 40599,
+      "context": "\":[]},\"background_background\":\"classic\",\"background_image\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/Metal-Roof.webp\",\"id\":\"a588821\",\"size\":\"\",\"alt\":\"\",\"source\":\"library\"},\"back"
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/",
+      "index": 43248,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/",
+      "index": 44001,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/",
+      "index": 44749,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/",
+      "index": 45508,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/",
+      "index": 46263,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/",
+      "index": 47020,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/",
+      "index": 47783,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/",
+      "index": 48539,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/tpo-flat-roofing-utah\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/Metal-Roof.webp",
+      "index": 49665,
+      "context": "\":[]},\"background_background\":\"classic\",\"background_image\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/wp-content\\/uploads\\/2025\\/10\\/Metal-Roof.webp\",\"id\":\"c35e7e6\",\"size\":\"\",\"alt\":\"\",\"source\":\"library\"},\"back"
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/",
+      "index": 52300,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/",
+      "index": 53052,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/",
+      "index": 53795,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/",
+      "index": 54541,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/",
+      "index": 55289,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/",
+      "index": 56035,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/",
+      "index": 56773,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    },
+    {
+      "href_escaped": "https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/",
+      "index": 57522,
+      "context": "ackground_hover_color\":\"globals\\/colors?id=accent\"},\"link\":{\"url\":\"https:\\/\\/rooval-roofing.com\\/roof-tune-up\\/\",\"is_external\":\"\",\"nofollow\":\"\"}},\"elements\":[],\"widgetType\""
+    }
+  ],
+  "cost_page_findings": [],
+  "cost_page_answer": "All 4 'roof-quote' occurrences on the cost page (2950) live INSIDE post_content (the plain page body HTML), including the one embedded inside a <script type=application/ld+json> FAQPage block that is itself written directly into post_content (not a separate schema plugin field). The REST context=edit meta object for page 2950 returned NO rank_math_* keys at all (meta keys present: footnotes, _elementor_edit_mode, _elementor_template_type, _elementor_data, _elementor_page_settings, _elementor_conditions) -- meaning Rank Math's own SEO/schema meta fields are not registered for REST and are invisible/unreachable via this API. Any JSON-LD Rank Math generates separately (if any) cannot be confirmed or edited via REST reads; only the content-embedded JSON-LD copy is visible here.",
+  "footer_year_answer": "Stored form confirmed via byte-level inspection: JSON unicode escape sequence \\u00a9 (six literal characters: backslash,u,0,0,a,9) -- NOT a decoded UTF-8 copyright glyph and NOT the HTML entity &copy;. Full stored snippet: '\"editor\":\"<p>\\\\u00a9 2025 Rooval Roofing \\\\u2014 Professional Roof Installation, Repair &amp; Replacement Services.<\\\\/p>\",\"align\":\"center\",\"typography_t' A replace key of literal '© 2025 Rooval Roofing' (decoded glyph) or '&copy; 2025 Rooval Roofing' (HTML entity) will SILENTLY NO-OP. The correct stored_old key must contain the literal 6-character escape sequence \\u00a9 followed by ' 2025 Rooval Roofing'.",
+  "new_slug_ids": {
+    "utah-heat-damage-asphalt-shingles": 3116,
+    "roof-leak-detection-utah": 3117,
+    "emergency-roof-repair-utah-storm": 3118,
+    "utah-roof-maintenance-schedule": 3119
+  },
+  "ids_3116_3119": {
+    "3116": "utah-heat-damage-asphalt-shingles",
+    "3117": "roof-leak-detection-utah",
+    "3118": "emergency-roof-repair-utah-storm",
+    "3119": "utah-roof-maintenance-schedule"
+  },
+  "city_ids": {
+    "roofing-lehi-utah": 2391,
+    "roofing-provo-utah": 2310,
+    "roofing-orem-utah": 2306,
+    "roofing-salt-lake-city-utah": 2302,
+    "roofing-alpine-utah": 2296,
+    "roofing-highland-utah": 2298,
+    "roofing-lindon-utah": 2299,
+    "roofing-pleasant-grove-utah": 2300,
+    "roofing-springville-utah": 2301,
+    "roofing-murray-utah": 2303,
+    "roofing-sandy-utah": 2304,
+    "roofing-draper-utah": 2308
+  }
+}

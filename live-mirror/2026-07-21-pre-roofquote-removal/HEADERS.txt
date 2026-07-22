@@ -1,0 +1,110 @@
+Pre-removal header capture — rooval-roofing.com
+Captured: 2026-07-22T01:13Z (run date 2026-07-21, anonymous GET/HEAD, no cookies/auth)
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36
+Purpose: BEFORE-state evidence prior to /roof-quote/ removal.
+
+================================================================
+1) https://rooval-roofing.com/roof-quote/
+================================================================
+Method: curl -sI (headers only — body NOT saved to disk per instructions)
+
+HTTP/2 200
+x-powered-by: PHP/8.2.30
+content-type: text/html; charset=UTF-8
+server: LiteSpeed
+platform: hostinger
+panel: hpanel
+content-security-policy: upgrade-insecure-requests
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+
+NOTE: The HEAD/-I response carries NO content-length header (server omits it
+on this URL — dynamic/PHP-rendered, no Content-Length sent). A Range probe
+(Range: bytes=0-0) was sent to try to get the total size from a
+Content-Range response; the server ignored the Range request and returned
+a full 200 (not 206), so no Content-Range was available either.
+
+To get an actual byte count without persisting the body to disk, the full
+response was streamed to /dev/null (discarded, never written to any file
+in this repo) and measured in-flight via curl -w:
+  curl -sS --compressed -o /dev/null -w "..." https://rooval-roofing.com/roof-quote/
+  -> HTTP:200  content-type:text/html; charset=UTF-8  size_download:1435057 bytes  size_header:450
+
+Title tag (captured via a streamed/truncated fetch — piped through `head -c 8192`
+so only the first 8KB were ever read off the wire, not saved as a file):
+  <title>Rooval Roofing — What Will My Roof Cost?</title>
+
+SUMMARY — /roof-quote/:
+  Status:         200
+  Content-Type:   text/html; charset=UTF-8
+  Content-Length: not sent by server on HEAD/Range; measured via streamed
+                   (uncompressed, --compressed negotiated) GET discarded to
+                   /dev/null = 1,435,057 bytes (~1.4 MB transferred; note the
+                   task's ~1.9MB estimate matches the on-disk .bak/.off-*
+                   file sizes below rather than the gzip/br-negotiated
+                   transfer size of the live page)
+  Title:          Rooval Roofing — What Will My Roof Cost?
+
+================================================================
+2) https://rooval-roofing.com/roof-quote/index.html.bak
+================================================================
+Method: curl -sI
+
+HTTP/2 200
+content-type: text/plain
+last-modified: Mon, 29 Jun 2026 18:08:37 GMT
+etag: "1d6c2d-6a42b4a5-ce12cc8ee859dd0c;;;"
+accept-ranges: bytes
+content-length: 1928237
+server: LiteSpeed
+platform: hostinger
+panel: hpanel
+content-security-policy: upgrade-insecure-requests
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+
+SUMMARY: Status 200 — PUBLICLY DOWNLOADABLE. text/plain, 1,928,237 bytes
+(served as raw text since .bak has no PHP handler — the backup file is
+directly fetchable by anyone with the URL).
+
+================================================================
+3) https://rooval-roofing.com/roof-quote/index.html.off-2026-07-16
+================================================================
+Method: curl -sI
+
+HTTP/2 200
+content-type: text/plain
+last-modified: Wed, 01 Jul 2026 22:12:05 GMT
+etag: "1e03c4-6a4590b5-55b97bd60aa77594;;;"
+accept-ranges: bytes
+content-length: 1967044
+server: LiteSpeed
+platform: hostinger
+panel: hpanel
+content-security-policy: upgrade-insecure-requests
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+
+SUMMARY: Status 200 — PUBLICLY DOWNLOADABLE. text/plain, 1,967,044 bytes.
+
+================================================================
+FINDING
+================================================================
+Both /roof-quote/index.html.bak and /roof-quote/index.html.off-2026-07-16
+return HTTP 200 and serve their full byte content to anonymous, unauthenticated
+requests. Neither is blocked by server config (no 403/404). This is proof
+that pre-existing backup/disabled copies of the quote page are publicly
+downloadable at predictable URLs — worth remediating (e.g. .htaccess deny,
+or moving backups outside the webroot) independent of the /roof-quote/
+removal work itself.
+
+================================================================
+4) https://rooval-roofing.com/rooval-roofing/ (bonus — sitemap member, non-200)
+================================================================
+Method: curl -sI (captured because the full-crawl pass below returned 301)
+
+HTTP/2 301
+set-cookie: _sbp=... (session cookie set on redirect response; not stored/used)
+x-redirect-by: WordPress
+location: https://rooval-roofing.com/about-us/
+
+SUMMARY: 301 permanent redirect -> /about-us/ (which was crawled at 200 in
+this same run, saved as about-us.html). This is the only non-200 among the
+55 sitemap member URLs.
