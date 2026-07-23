@@ -1,0 +1,8 @@
+/* Restore reference — appended to Blocksy Additional CSS (custom_css[blocksy]) on 2026-07-23.
+   Makes the (now non-transparent) two-row header uniformly dark with a gold nav hover.
+   See CHANGELOG-2026-07-23-header-redesign.md for the full header_placements changes. */
+
+/* Rooval solid dark header (2026-07-23) */
+#header [data-row="middle"],#header [data-row="bottom"]{background-color:#222a2f !important}
+#header [data-row="bottom"] .menu-item>a:hover,#header [data-row="bottom"] .menu-item>a:focus{color:#ffd200 !important}
+/* end Rooval header */
