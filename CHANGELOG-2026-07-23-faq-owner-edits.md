@@ -30,3 +30,6 @@ Owner reviewed the launched `/faq/` and sent a specific list of wording/behavior
 
 ## Still open (owner to confirm — unchanged from before)
 - Response-time window ("How soon can you come out?" still generic), and whether Rooval always pulls the permit. Crew-vs-subs answer stays in the safe "you'll know who's on your roof" form.
+
+## Add (2026-07-23 evening) — Owens Corning shingles
+Owner: "talk about the product that we use as well — Owens Corning shingle." Added a dedicated FAQ Q **"What brand of shingles do you install?"** as the first item in Materials & Options: we install **Owens Corning** shingles, architectural asphalt for most Utah homes, backed by the OC manufacturer warranty on materials (separate from our workmanship warranty). Included in the FAQPage JSON-LD (37 Q&As now) for GEO/rich-result citation. Did NOT claim any OC certification/Preferred-Contractor tier (owner to confirm before we position that).
