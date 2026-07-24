@@ -37,3 +37,20 @@ In Customizer (or restore from a Hostinger/UpdraftPlus backup):
 2. Restore `middle-row` to `start=[logo]`, `end=[menu,search,button]`; empty the `bottom-row`.
 3. Remove the `/* Rooval solid dark header */ … /* end Rooval header */` block from Additional CSS.
 Backups own the true DB restore; this file is the readable record.
+
+## Sticky header (2026-07-24)
+Owner: "when they scroll down… all the blogs and the service pages and all the other pages need to stay on the sticky screen throughout every single page."
+
+**Final config** (`header_placements.sections[0]`):
+- `has_sticky_header: "yes"`, **`sticky_rows: "bottom"`**
+- desktop `middle-row`: `middle:[logo]`, `end:[search,button]` — centered-logo band, scrolls away
+- desktop `bottom-row`: `middle:[menu]` — **full nav, this is the sticky row**
+
+**⚙️ KEY BLOCKSY FINDING — `sticky_rows` accepts ONE row only.** Verified empirically in the Customizer preview (no publishing): `"middle"` ✓ and `"bottom"` ✓ both produce a populated `.ct-sticky-container`; **`"middle-bottom"`, `"middle,bottom"`, `["middle","bottom"]`, `"middle:bottom"`, `"middle|bottom"` ALL yield `NO-STICKY-CONTAINER`** (Blocksy matches no row → renders an empty sticky block). An earlier live attempt with `middle-bottom` blanked the header; it was reverted within ~1 min. **Always test sticky_rows candidates in the Customizer preview iframe (`.ct-sticky-container` row check) before publishing.**
+
+**Why nav-only is the sticky row:** with `search`+`button` also in the nav row, Blocksy collapsed the menu into a "More ▾" toggle (hiding Free Inspection / Service Areas / FAQ / Blog) at ~1200px. Giving the nav the full row removes the collapse — all 8 top-level links stay visible. The header CTA isn't lost on scroll because the site already has a persistent right-edge "Get Your Free Roof Inspection" ribbon (WPCode 2611) + Chaty bubble on every page.
+
+Verified live (logged-out markup + scrolled blog post): rows `[top, middle, bottom]`, `.ct-sticky-container` contains `bottom`, all nav links present, logo visible.
+
+## Still open
+- **Deck site sticky header** — not applied; its Blocksy header has an EMPTY `settings` object and strips sticky keys written via `wp.customize.set()`, so it needs the Customizer header-builder UI toggle.
