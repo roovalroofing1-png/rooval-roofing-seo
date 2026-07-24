@@ -33,3 +33,23 @@ Owner reviewed the launched `/faq/` and sent a specific list of wording/behavior
 
 ## Add (2026-07-23 evening) — Owens Corning shingles
 Owner: "talk about the product that we use as well — Owens Corning shingle." Added a dedicated FAQ Q **"What brand of shingles do you install?"** as the first item in Materials & Options: we install **Owens Corning** shingles, architectural asphalt for most Utah homes, backed by the OC manufacturer warranty on materials (separate from our workmanship warranty). Included in the FAQPage JSON-LD (37 Q&As now) for GEO/rich-result citation. Did NOT claim any OC certification/Preferred-Contractor tier (owner to confirm before we position that).
+
+## Consolidation (2026-07-24) — 38 → 24 questions
+Owner: "there's just way too many FAQ questions on there, summarize them and optimize them." Merged redundant Q&As; **every owner-approved answer kept verbatim** (financing, inspection-charge, warranty, licensed+insured, reviews, local-company, Owens Corning, insurance-certification).
+
+**Merges:**
+- Cost: "why do quotes vary" + "what's included in a quote" folded into **How much does a new roof cost in Utah?**
+- Storm: "what to do first after a storm" + "shingles blew off" + "is it an emergency" → **What should I do right after a storm?**
+- Damage: "what does hail damage look like" + wind signs → **What does hail and wind damage look like?**
+- Repair/replace: "cheaper to repair or replace" + "can my roof be repaired" + "signs my roof needs replacing" (3) → **Do I need a repair or a full replacement?**
+- Insurance/storm: "help with storm damage claims" + "deal with my adjuster" → **Do you help with storm damage documentation?** (roof-side only, no policy talk)
+- Trust: crew-vs-subs folded into **Are you licensed and insured?**
+- Materials: "architectural vs 3-tab" + "does Utah heat damage shingles" folded into **What's the best roofing material for Utah?**
+- Process: **"How long does a roof replacement take?" REMOVED as a standalone** (it was an exact duplicate of a question on all 12 city pages) → timeline + cleanup/landscaping folded into **What's the process from first call to finished roof?**
+- "Do I need to be home?" folded into **What happens during a roof inspection?**
+- "Do you serve my city?" dropped — the local-company answer already lists all 16 cities.
+
+Result: 5 balanced categories (4/5/5/5/5). FAQPage JSON-LD regenerated (24 Qs). Verified live: 24 visible = 24 schema, 7 tap-to-call links, reviews link, no insurance-policy language.
+
+## ⚠️ STILL OPEN — city-page insurance answer (WPCode snippet 2621, 12 pages)
+The shared city FAQ answer still says: *"Most homeowner's insurance policies in Utah cover sudden storm damage… Age-related wear is not covered"* and *"documents… at no cost."* Owner 2026-07-24: insurance questions are fine to keep **as long as we're not talking about policy** — acts of God / wind / hail damage is OK. So the **policy-coverage sentence must be removed** and **"at no cost" dropped** (documentation is a paid service). Needs the WPCode editor (browser); not done yet.
